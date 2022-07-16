@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+.elementor-group-carousel .swiper-slide {
+    text-align: center;
+}
+
+.elementor-group-carousel .item-title {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.elementor-group-carousel .group-avatar img {
+    margin: auto;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 100%;
+}

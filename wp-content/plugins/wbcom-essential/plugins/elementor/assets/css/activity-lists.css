@@ -1,0 +1,384 @@
+/** common */
+.wbcom-essential-block-header {
+    margin: 0 0 22px; 
+}
+
+.wbcom-essential-block-header h3 {
+    margin: 0;
+    font-weight: 500; 
+}
+
+.wbcom-essential-block-header__extra {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.3px; 
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.align-items-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+/* widget */
+.wbcom-essential-no-data {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+
+.wbcom-essential-no-data--activity span.bp-icon {
+    display: none;
+}
+
+.wbcom-essential-no-data--activity .bp-feedback {
+    padding: 0;
+}
+
+.wbcom-essential-no-data--activity p {
+    margin-bottom: 0;
+}
+
+.wbcom-essential-no-data img.wbcom-essential-no-data__image {
+    max-width: 50%;
+    margin: 0 auto 25px;
+}
+
+.wbcom-essential-no-data .wbcom-essential-no-data__link {
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 30px;
+    margin: 10px 0 0;
+}
+
+.elementor-widget-bbp-activity,
+.elementor-widget-bbp-activity .elementor-widget-container,
+.wbcom-essential-activity {
+    height: 100%;
+}
+
+.wbcom-essential-activity {
+    border: 1px solid #e3e3e3;;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.wbcom-essential-activity .bp-list {
+    border: 0;
+}
+
+.wbcom-essential-activity .activity-header .time-since {
+    display: block;
+}
+
+.wbcom-essential-activity .activity-header .activity-date {
+    display: none;
+}
+
+.wbcom-essential-activity .activity-list.item-list {
+    padding: 0;
+}
+
+.wbcom-essential-activity .activity-list .activity-item.mini .activity-avatar,
+.wbcom-essential-activity .activity-list .activity-item div.item-avatar {
+    margin: 0;
+    margin-right: 15px;
+    text-align: left;
+    width: auto;
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-meta.action .button {
+    background: 0 0 !important;
+    color: #555 !important;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-meta.action .button:focus,
+.wbcom-essential-activity .activity-list .activity-item .activity-meta.action .button:hover {
+    background: 0 0 !important;
+    color: #555 !important;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.activity-list .activity-item .activity-header {
+    margin-bottom: 15px;
+    margin-left: 0 !important;
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-meta.action {
+    border: 0;    
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-meta.action .generic-button a {
+    margin-right: 15px !important; 
+}
+
+.wbcom-essential-activity .activity-update p {
+    margin-bottom: 0;
+}
+
+.wbcom-essential-activity .update-item {
+    color: #A3A5A9;
+    font-size: 14px;
+}
+
+.wbcom-essential-activity .update-item a {
+    color: #122B46;
+    font-weight: 500;
+}
+
+.wbcom-essential-activity .update-item .activity-time-since {
+    display: block;
+}
+
+.wbcom-essential-activity .update-item p img {
+    max-width: 15px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.wbcom-essential-activity .update-item>p {
+    line-height: 1.5;
+}
+
+.wbcom-essential-activity img.avatar {
+    border-radius: 100%;
+}
+
+.wbcom-essential-activity .bp-activity-head .activity-header a {
+    font-weight: normal;
+}
+
+.wbcom-essential-activity .bp-activity-head .activity-header>p:first-of-type>a:first-of-type {
+    font-weight: 500;
+}
+
+.wbcom-essential-activity .wbcom-essential-activity-media-wrap {
+    margin: 0;
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-content .activity-inner {
+    overflow: initial;
+}
+
+html .wbcom-essential-activity .activity-lists.item-list.elementor-activity-widget.grid {
+    display: block;
+}
+
+html .wbcom-essential-activity .activity-lists.item-list.elementor-activity-widget.grid>li {
+    width: 100%;
+    max-width: initial;
+    -webkit-box-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+}
+
+html .wbcom-essential-activity .activity-lists.item-list.elementor-activity-widget.grid>li .item-avatar img.avatar {
+    width: auto;
+}
+
+.wbcom-essential-activity--blank {
+    min-height: 300px;
+}
+
+.wbcom-essential-activity [data-bp-tooltip]:after {
+    font-style: normal;
+}
+
+.wbcom-essential-activity .activity-content {
+    padding: 0;
+    font-size: 14px;
+}
+
+.wbcom-essential-activity .activity-content.no-media .wbcom-essential-activity-media-wrap {
+    display: none;
+}
+
+.wbcom-essential-activity .activity-content .activity-read-more {
+    display: block;
+    margin: 3px 0 7px;
+}
+
+.wbcom-essential-activity .activity-content .activity-read-more a {
+    padding: 0 !important;
+}
+
+.wbcom-essential-activity .activity-list .activity-update:last-of-type .activity-content {
+    border-bottom: 0;
+}
+
+.wbcom-essential-activity .activity-list .activity-update .activity-content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.wbcom-essential-activity ul.activity-lists.bp-list {
+    margin: 0;
+    padding: 0;
+}
+
+.wbcom-essential-activity #buddypress .activity-lists.bp-list .activity-item {
+    padding: 0 0 15px;
+    border: 0;
+    border-bottom: 1px solid #e3e3e3;;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0 0 15px;
+}
+
+.wbcom-essential-activity #buddypress .activity-lists.bp-list .activity-item:last-of-type {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.wbcom-essential-activity .activity-content .activity-state a.activity-state-likes .like-text {
+    color: #A3A5A9;
+}
+
+.wbcom-essential-activity #buddypress .bp-list.bp-list .bp-generic-meta .generic-button {
+    margin-bottom: 0;
+}
+
+.wbcom-essential-activity #buddypress .activity-lists.bp-list .activity-item,
+.wbcom-essential-activity .wbcom-essential-activity-media-wrap .wbcom-essential-activity-media-elem.document-activity,
+.wbcom-essential-activity .wbcom-essential-activity-media-wrap .wbcom-essential-activity-media-elem.document-activity .document-description-wrap {
+    background-color: transparent;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions {
+    display: none;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show {
+    display: block;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show .generic-button {
+    margin: 0 !important;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show .generic-button a {
+    margin-right: 15px !important;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show .generic-button a {
+    display: none;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show.activity-actions--fav .generic-button a.fav {
+    display: inline-block;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show.activity-actions--comment .generic-button a.acomment-reply {
+    display: inline-block;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show.activity-actions--comment .generic-button a.view {
+    display: inline-block;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show.activity-actions--edit .generic-button a.edit-activity {
+    display: inline-block;
+}
+
+.wbcom-essential-activity #buddypress .activity-actions.activity-actions--show.activity-actions--delete .generic-button a.delete-activity {
+    display: inline-block;
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-content .do-state:not(.is-activity-comments) .activity-state.has-comments a.activity-state-comments {
+    display: none;
+}
+
+.wbcom-essential-activity .activity-list .activity-item .activity-content .do-state.is-activity-comments .activity-state.has-comments a.activity-state-comments {
+    display: inline-block;
+}
+
+.wbcom-essential-activity .buddypress-wrap .activity-comments ul ul .acomment-content {
+    margin-left: 51px;
+}
+
+.wbcom-essential-activity #buddypress .bp-list .comment-item .comment-item .action {
+    margin-left: 51px;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments .acomment-content p,
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments .acomment-meta {
+    font-size: 13px;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-state a {
+    color: #555;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments>ul>li>ul {
+    margin-left: 51px;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments ul li ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments ul {
+    margin: 15px 0 0;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments>ul {
+    margin: 0 -15px;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments ul li ul li {
+    padding-bottom: 0;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments .acomment-content {
+    margin-left: 51px;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments ul ul .acomment-content {
+    margin-left: 43px;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments .acomment-content p {
+    margin-bottom: 0;
+}
+
+.wbcom-essential-activity .activity-comments .acomment-meta a.activity-time-since {
+    display: block;
+}
+
+.elementor-widget-bbp-activity .wbcom-essential-media-info-section .activity-comments ul li ul li:first-child {
+    margin-top: 15px;
+}
+
+.wbcom-essential-media-privacy-wrap.wbcom-essential-media-privacy-wrap--el-activity .activity-privacy {
+    left: -70px;
+    min-width: 185px;
+}
+
+.wbcom-essential-media-privacy-wrap.wbcom-essential-media-privacy-wrap--el-activity .activity-privacy:before {
+    left: 85px;
+}

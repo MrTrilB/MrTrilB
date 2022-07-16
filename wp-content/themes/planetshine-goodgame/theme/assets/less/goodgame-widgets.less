@@ -1,0 +1,924 @@
+// Widgets
+// --------------------------------------------------
+
+.widget-default {
+
+	select {
+		outline: none !important;
+		font-size: 14px !important;
+		font-weight: 800;
+		font-family: @general-font;
+		text-transform: uppercase;
+		padding: 5px 16px !important;
+		margin: 0 5px 0 0;
+		color: @accent-color-1 !important;
+		background: @body-background-1;
+		display: inline-block !important;
+		border: 1px solid @accent-color-1;
+		border-radius: 32px;
+		transition: @transition-slow;
+		&:hover, &:active, &:focus {
+			border: 1px solid @primary-color-2;
+			color: @accent-text-color-1 !important;
+			background: @primary-color-2 !important;
+			box-shadow: none;
+		}
+		&:focus { border-radius: 0; }
+		option {
+			padding: 5px 16px !important;
+			color: @accent-text-color-1 !important;
+			background: @primary-color-2 !important;
+		}
+	}
+	
+	&.goodgame_top_reviews_by_platforms {
+		select { display: none !important; }
+	}
+
+	ul {
+		padding: 0 0 0 17px;
+		margin: 0;
+	}
+	select { width: 100% !important; }
+	p { margin-bottom: 20px; width: 100%; }
+	.social {
+		font-size: 30px;
+		text-align: center;
+		a {
+			display: inline-block;
+			margin: 0 4px;
+			position: relative;
+			top: 0;
+			transition: @transition-fast;
+			&:hover { top: -4px; }
+		}
+		.fa-facebook-square { color: #3b5998; }
+		.fa-twitter-square { color: #00aced; }
+		.fa-instagram { color: #517fa4; }
+		.fa-google-plus-square { color: #dd4b39; }
+		.fa-youtube-square { color: #bb0000; }
+		.fa-vimeo-square { color: #17b3e8; }
+
+	}
+	.about {
+		margin-bottom: 20px;
+		p:last-child { margin: 0; }
+	}
+	&.widget-gallery {
+		margin-bottom: 40px;
+		.post-featured {
+			min-height: auto;
+			&:after {
+				width: 100%;
+				height: 1px;
+				background: @primary-color-2;
+				z-index: 10000;
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: 0;
+			}
+		}
+		.row, .col-md-6 { margin: 0; padding: 0; position: relative; }
+		.col-md-6 {
+			&:after {
+				width: 1px;
+				height: 100%;
+				background: @primary-color-2;
+				z-index: 10000;
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			.row {
+				float: left;
+				&:after {
+					width: 100%;
+					height: 1px;
+					background: @primary-color-2;
+					z-index: 10000;
+					content: "";
+					position: absolute;
+					left: 0;
+					bottom: 0;
+				}
+			}
+		}
+		img { width: 100%; }
+	}
+	img { max-width: 100%; height: auto; }
+	p img { margin-bottom: 10px; margin-top: 10px; }
+}
+
+.widget-sidebar {
+
+	padding: 0;
+
+	.social {
+		margin-bottom: 20px;
+	}
+
+	.title-default {
+		margin-bottom: 25px !important;
+	}
+
+	&:hover {
+		& .title-default > div:before { background: @accent-color-1; }
+		.sorting:before { background: @accent-color-1; }
+	}
+
+	.post {
+		overflow: hidden;
+		border-bottom: 1px solid @border-color;
+		.image { margin: 25px; transition: @transition-slow; }
+		.title { margin: 25px; transition: @transition-slow; }
+		&:hover {
+			.image, .title { transform: scale(0.9); }
+			.image { transform-origin: 400% 50%; }
+			.title { transform-origin: center center; }
+		}
+	}
+
+	.post-block .row .row {
+		margin-bottom: 0;
+		&:first-child { margin-top: -25px; }
+		&:last-child { margin-bottom: -25px; .post { border: none; } }
+	}
+	.post-block .row > div { overflow: visible !important; }
+
+	.select-wrapper {
+		border-bottom: 1px solid @border-color;
+		margin: 0 15px 25px 15px;
+		padding: 0 25px 25px 25px;
+		position: relative;
+		z-index: 100000;
+		.bootstrap-select { width: 100% !important; }
+	}
+	p.empty { padding: 25px 25px 0 25px; margin: 0; }
+
+}
+
+/* BBpress Widgets restyle */
+#bbp_topics_widget-2 {
+
+	ul { background: @block-background-color; }
+	li {
+		list-style-type: none;
+		> div { display: inline-block; }
+	}
+	.bbp-forum-title{
+		display: block;
+		font-family: @title-font;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 800;
+		margin: 0;
+		color: @primary-color-2;
+		padding-bottom: 10px;
+	}
+	.topic-author {
+		margin-right: 7px;
+	}
+}
+
+.widget-archive {
+	.archive {
+		background: fade(@primary-color-1, 5%);
+		a {
+			color: @primary-color-3; font-weight: 700;
+			&:hover { color: @accent-color-1; text-decoration: none; }
+		}
+	}
+	.row, .row > div { margin: 0; padding: 0; }
+	.row > div {
+		display: table;
+		span {
+			display: table-cell;
+			text-align: right;
+			font-weight: 700;
+			color: @secondary-color-1;
+			padding: 13px 0;
+			border-bottom: @primary-color-2 1px solid;
+			&:first-child { text-align: left; padding-left: 20px; }
+			&:last-child { padding-right: 20px; }
+			&:before {
+				font-family: FontAwesome;
+				margin-right: 5px;
+				font-weight: 300;
+			}
+		}
+		> div { display: table-row; &:last-child span { border: none; } }
+	}
+	.posts {
+		font-size: 12px;
+		&:before { content: "\f15c"; }
+	}
+	.comments {
+		font-size: 12px;
+		&:before { content: "\f086"; }
+	}
+	.photos {
+		font-size: 12px;
+		&:before { content: "\f030"; }
+	}
+}
+
+//.widget_archive {
+//	ul {
+//		background: fade(@primary-color-1, 5%);
+//		padding: 0;
+//		margin: 0;
+//		li {
+//			list-style: none;
+//			padding: 13px 20px;
+//			border-bottom: @primary-color-2 1px solid;
+//			color: @secondary-color-1;
+//			font-weight: 700;
+//			font-size: 12px;
+//		}
+//		a {
+//			font-size: 14px;
+//			color: @primary-color-3;
+//			font-weight: 700;
+//			&:hover { color: @accent-color-1; text-decoration: none; }
+//		}
+//	}
+//}
+
+.calendar_wrap {
+	padding: 30px;
+	background: @block-background-color;
+	box-shadow: fade(@primary-color-1, 30%) 0 12px 15px;
+}
+.widget_calendar {
+	th, td { text-align: center; }
+	thead th { padding: 0 0 15px 0; font-weight: 400; opacity: 0.5; }
+	table { width: 100%; }
+	tfoot {
+		font-weight: 700;
+		a { text-decoration: none; color: @primary-color-2; }
+		td { border: none; padding: 25px 0 0 0; height: auto; }
+		#prev { text-align: left; }
+		#next { text-align: right; }
+	}
+	tbody {
+		td {
+			background: fade(@border-color, 15%);
+			border: 1px solid @border-color;
+			height: 43px;
+			&.pad { background: none; border: none; &:hover { background: none; } }
+			a:hover { color: @primary-color-2 !important; }
+			&:hover { background: fade(@primary-color-1, 30%); }
+		}
+		tr:last-child {
+			td.pad { border-bottom: 1px solid @block-background-color; }
+		}
+	}
+	caption {
+		font-size: 18px;
+		line-height: 24px;
+		padding: 0;
+		margin: 0 0 20px 0;
+		font-weight: 700;
+		font-family: @title-font;
+		color: @primary-color-2;
+	}
+}
+
+.widget_archive,
+.widget_categories,
+.goodgame_post_categories,
+.widget_pages,
+.widget_meta,
+.widget_recent_comments,
+.widget_recent_entries,
+.widget_rss {
+	ul {
+		box-shadow: fade(@primary-color-1, 30%) 0 12px 15px;
+		background: @block-background-color;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	li {
+		list-style: none;
+		text-align: right;
+		display: block;
+		overflow: hidden;
+		padding: 25px 30px !important;
+		border-bottom: 1px solid @border-color;
+		color: @secondary-color-1;
+		font-weight: 400 !important;
+		font-size: 14px;
+		line-height: 20px;
+		a {
+			display: inline;
+			padding: 0 !important;
+			font-weight: 800 !important;
+			float: left;
+			color: @primary-color-2;
+			font-family: @title-font;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		&:hover { background: fade(@primary-color-1, 20%); }
+		&:first-child { padding-top: 0; }
+		&:last-child { box-shadow: none; padding-bottom: 0; }
+	}
+	.children {
+		background: none;
+		box-shadow: none;
+		li {
+			padding: 15px 0 0 0 !important; border: none; box-shadow: none; background: none !important;
+			a { font-size: 14px; color: @secondary-color-1; }
+		}
+	}
+}
+
+
+.widget_recent_comments {
+	li {
+		text-align: left;
+		& > a { width: 100%; display: block; margin-top: 5px; }
+	}
+	.comment-author-link {
+		a {
+			font-size: 14px;
+			font-weight: 400 !important;
+			color: @secondary-color-1;
+			font-family: @general-font;
+			margin-right: 10px;
+		}
+	}
+
+}
+
+//.widget_recent_comments {
+//	ul, li {
+//		list-style: none;
+//		padding: 0;
+//		margin: 0;
+//	}
+//	li {
+//		margin-bottom: 5px;
+//	}
+//	.recentcomments {
+//		a { color: @primary-color-3; text-decoration: none; &:hover { color: @accent-color-1;} }
+//		> a:last-child {
+//			font: 700 16px/24px @title-font, serif;
+//		}
+//		.comment-author-link a {
+//			font-style: normal;
+//			color: @accent-color-1;
+//			&:hover { color: @primary-color-3; }
+//		}
+//		&:last-child { margin-bottom: 0; }
+//	}
+//}
+
+.widget_recent_entries {
+	ul, li {
+		text-align: left;
+	}
+}
+
+.widget_rss {
+	ul, li { text-align: left; }
+	.title-default a {
+		color: @accent-text-color-1;
+		&:hover, &:active { color: @accent-text-color-1 !important; }
+	}
+	.rss-widget-icon { float: left; margin: 10px 10px 0 0; }
+	li {
+		.rsswidget {
+			margin-bottom: 10px;
+			display: block;
+			width: 100%;
+		}
+	}
+	.rss-date {
+		display: block;
+		font-style: normal !important;
+		color: @secondary-color-1;
+		font-size: 12px !important;
+		line-height: 16px !important;
+		word-wrap: break-word;
+		font-weight: 400;
+		margin-bottom: 15px;
+		&:before {
+			content: "\f017";
+			font-family: FontAwesome;
+			margin-right: 5px;
+			font-weight: 300;
+		}
+	}
+	cite { font-style: normal !important; padding: 10px 0 0 0; display: block; font-size: 12px; opacity: 0.5; }
+}
+
+//.widget_rss {
+//	.title-default a {
+//		color: @accent-text-color-1;
+//		&:hover, &:active { color: @accent-text-color-1 !important; }
+//	}
+//	ul, li {
+//		list-style: none;
+//		padding: 0;
+//		margin: 0;
+//	}
+//	li {
+//		padding: 0 0 20px 0 !important;
+//		margin: 0 0 20px 0 !important;
+//		border-bottom: 1px solid fade(@primary-color-1, 10%);
+//		.rsswidget {
+//			font: 700 16px/24px @title-font, serif;
+//			margin-bottom: 10px;
+//			display: block;
+//		}
+//		.rss-date {
+//			display: block;
+//			font-style: normal !important;
+//			color: @secondary-color-1;
+//			font-size: 12px !important;
+//			line-height: 16px !important;
+//			word-wrap: break-word;
+//			font-weight: 700;
+//			margin-bottom: 10px;
+//			&:before {
+//				content: "\f017";
+//				font-family: FontAwesome;
+//				margin-right: 5px;
+//				font-weight: 300;
+//			}
+//		}
+//		.rssSummary { font-weight: 300; }
+//		&:last-child {
+//			padding-bottom: 0 !important;
+//			margin-bottom: 0 !important;
+//			border: none !important;
+//		}
+//	}
+//	cite { font-style: normal !important; padding: 5px 0 0 0; display: block; }
+//	a { color: @primary-color-2; text-decoration: none; &:hover { color: @accent-color-1;} }
+//}
+
+.widget_tag_cloud {
+	a:hover { color: @primary-color-3; text-decoration: none; }
+}
+
+//.goodgame_tag_cloud {
+//	.title-default { margin-bottom: 50px !important; }
+//}
+
+.widget-tags, .widget_tag_cloud {
+	background: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	border-bottom: none !important;
+	.tags, .tagcloud {
+		font-size: 0;
+		line-height: 19px !important;
+		a {
+			border: @border-color 1px solid !important;
+			background: @block-background-color !important;
+			color: @secondary-color-1 !important;
+			font-size: 16px !important;
+			font-family: @title-font;
+			line-height: 19px !important;
+			text-transform: none !important;
+			font-weight: 700;
+			padding: 4px 25px 4px 15px !important;
+			display: inline-block !important;
+			height: auto !important;
+			margin: 0 8px 0 0 !important;
+			border-radius: 28px;
+			position: relative;
+			transition: @transition-slow !important;
+			overflow: hidden;
+			&:after {
+				content: "";
+				width: 8px;
+				height: 8px;
+				border: 1px solid @border-color;
+				background: @body-background-1;
+				border-radius: 8px;
+				display: block !important;
+				position: absolute;
+				top: 9px;
+				right: 9px;
+			}
+			span {
+				display: none;
+				color: @secondary-color-1;
+				font-size: 16px;
+				margin-left: 5px;
+				&:before, &:after { display: none; }
+			}
+			&:before, &:after { display: none; }
+			&:hover {
+				background: @primary-color-2 !important;
+				border: @primary-color-2 1px solid !important;
+				color: @accent-text-color-1 !important;
+			}
+		}
+	}
+}
+
+.widget-footer {
+	.post-block .post-block {
+		div.row { margin-bottom: 20px !important; }
+	}
+	.overlay-wrapper { display: none; }
+}
+
+//.widget-footer {
+//	.logo-1 {
+//		margin-bottom: 40px;
+//		a {
+//			color: @primary-color-2;
+//			&:hover { text-decoration: none; color: @accent-color-1; }
+//		}
+//	}
+//	.about {
+//		color: @regular-text-color;
+//		margin-bottom: 25px !important;
+//	}
+//	.post-block {
+//		& > .row { margin-bottom: 30px; }
+//	}
+//	.post {
+//		.overlay-wrapper { display: none; }
+//		.title a {
+//			color: @footer-text-color !important;
+//			&:hover { color: @accent-color-1 !important; }
+//		}
+//	}
+//	.categories {
+//		ul {
+//			background: @block-background-color;
+//			border-bottom: 1px solid @border-color;
+//			box-shadow: fade(@primary-color-1, 30%) 0 12px 15px;
+//			span {
+//				display: none;
+//				font-size: 12px;
+//				float: right;
+//				font-weight: 700;
+//				color: @secondary-color-1;
+//				&:before {
+//					font-family: FontAwesome;
+//					content: "\f15c";
+//					margin-right: 5px;
+//					font-weight: 300;
+//				}
+//			}
+//			li:last-child { box-shadow: none; }
+//		}
+//	}
+//	ul, li {
+//		list-style: none;
+//		padding: 0;
+//		margin: 0;
+//		font-size: 16px;
+//		text-transform: uppercase;
+//		a {
+//			padding: 25px 30px;
+//			display: block;
+//			color: @secondary-color-1;
+//			&:hover { color: @accent-color-1; text-decoration: none; }
+//		}
+//	}
+//	li {
+//		font: 800 18px @title-font;
+//		box-shadow: @border-color 0 -1px 0 inset;
+//		padding: 0;
+//		&:hover {
+//			background: fade(@primary-color-1, 20%) !important;
+//		}
+//	}
+//}
+
+.widget_tag_cloud {
+	a:hover { color: @primary-color-2 !important; text-decoration: none; }
+}
+
+.main-content-wrapper .sidebar .constellation, .wpb_widgetised_column .constellation {
+	display: none;
+}
+
+.wpb_widgetised_column > .wpb_wrapper > .row .post-block,
+.wpb_widgetised_column .banner,
+.sidebar .banner,
+.sidebar > .row .post-block,
+.sidebar-affix-wrap > .row .post-block {
+	background: @block-background-color;
+	padding: 25px 0;
+	border-bottom: 1px solid @border-color;
+	box-shadow: fade(@primary-color-1, 30%) 0 12px 15px;
+}
+
+.wpb_widgetised_column .banner, .sidebar .banner { padding: 30px 0 !important; }
+
+.wpb_widgetised_column .post-block { overflow: visible; }
+
+.goodgame_sidebar_forum_posts, #bbp_topics_widget-2 {
+	ul, li { padding: 0; margin: 0; list-style: none; }
+	li {
+		padding: 20px 25px;
+		border-bottom: 1px solid @border-color;
+		transition: @transition-fast;
+		&:hover {
+			background: fade(@primary-color-1, 20%) !important;
+		}
+	}
+	/*ul li:first-child { margin-top: -25px; }*/
+	/*ul li:last-child { margin-bottom: -25px; border-bottom: none; }*/
+	h3 {
+		font-family: @title-font;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 800;
+		margin: 0;
+		a { color: @primary-color-2; }
+	}
+	.more { padding: 25px; text-align: center; }
+}
+
+.goodgame_sidebar_top_games, .goodgame_top_reviews_by_platforms {
+
+	.goodgame-loader {
+		margin: 20px auto 0;
+	}
+	
+	.select-wrapper {
+		margin: 0;
+		text-align: center;
+		.bootstrap-select { width: 145px !important; display: inline-block; margin: 0 5px; }
+	}
+
+	.row {
+
+		position: relative;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+
+		& > div {
+			display: table;
+			width: 100%;
+		}
+
+		&:last-child {
+			padding-top: 25px;
+			text-align: center;
+		}
+
+		.image {
+			background-size: cover;
+			background-position: center center;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: 0;
+			transform: translateZ(0) scale(1.15, 1.15);
+			transition: @transition-slow;
+			-webkit-backface-visibility: hidden;
+			z-index: 1;
+		}
+
+		.rating {
+			padding: 25px 0;
+			width: 110px;
+			text-align: center;
+			display: table-cell;
+			z-index: 1000;
+			position: relative;
+			vertical-align: middle;
+			.radial-progress { display: inline-block; }
+		}
+
+		.title {
+			padding: 25px 50px 25px 0;
+			vertical-align: middle;
+			display: table-cell;
+			position: relative;
+			h2 {
+				margin: 0;
+				font: 800 26px/32px @title-font;
+				a { color: @primary-color-2; }
+			}
+
+		}
+
+		.count {
+			position: absolute;
+			bottom: 25px;
+			right: 25px;
+			font: 26px @title-font;
+			color: @secondary-color-1;
+			z-index: 1000;
+			transition: @transition-slow;
+		}
+
+		.overlay {
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: "";
+			position: absolute;
+			.overlay-gradient-mask;
+			z-index: 10;
+		}
+
+		.overlay-hover {
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: "";
+			position: absolute;
+			.overlay-gradient-mask-hover;
+			opacity: 0;
+			transition: @transition-slow;
+			z-index: 10;
+		}
+
+		&:hover {
+			.image { transform: translateZ(0) scale(1, 1); }
+			.overlay-hover { opacity: 1; }
+			.more { bottom: 25px; }
+			.count { color: @accent-color-1; }
+		}
+
+	}
+
+}
+
+.goodgame_twitch_stream {
+	h2 {
+		margin: 0;
+		font: 800 26px/32px @title-font;
+		a { color: @primary-color-2; }
+	}
+	.legend {
+		a { white-space: normal; }
+		span { color: @primary-color-2 !important; white-space: normal; margin-right: 0; }
+	}
+	.post-block {
+		padding: 25px !important;
+	}
+	.twitch-video-wrapper {
+		margin: 25px 0 10px 0;
+		position: relative;
+		width: 100%;
+		iframe { width: 100%; height: 178px; }
+		.btn-circle {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.player-button { background: red; }
+	}
+}
+
+.wp-polls {
+	background: @block-background-color;
+	padding: 25px 0;
+	border-bottom: 1px solid @border-color;
+	box-shadow: fade(@primary-color-1, 30%) 0 12px 15px;
+	ul {
+		margin: 0;
+		padding: 0 30px;
+		font: 400 12px @general-font;
+	}
+	h2 {
+		padding: 0 30px;
+		margin: 0 0 25px 0;
+		font: 800 26px/32px @title-font;
+		color: @primary-color-2;
+		a { color: @primary-color-2; }
+	}
+	h3 {
+		padding: 0 30px;
+		margin: 0 0 25px 0;
+		font: 800 18px/24px @title-font;
+		color: @primary-color-2;
+		a { color: @primary-color-2; }
+	}
+	label { font-weight: 400; }
+	.buttons {
+		padding-left: 30px;
+		margin-top: 25px;
+		padding-top: 25px;
+		border-top: 1px solid @border-color;
+		font-size: 0;
+		text-align: left;
+		.btn { margin: 0; }
+		.btn:first-child {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		.btn:last-child {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			margin-left: -1px;
+		}
+	}
+	.vote { margin: -5px 15px 0 0; float: left; }
+	.question-wrapper {
+		margin-bottom: 25px;
+		position: relative;
+	}
+	.question {
+		margin-bottom: 10px;
+		b { font-weight: 800; color: @accent-color-1; }
+		span {
+			float: right;
+			font-weight: 900;
+		}
+	}
+	.total {
+		padding: 10px 0 0 30px;
+		margin-bottom: 2px;
+	}
+	.pollbar {
+		background: @accent-color-1;
+		height: 5px;
+		position: absolute;
+		border: none;
+		border-radius: 5px;
+	}
+	.pollbar-100 {
+		border: 1px solid @accent-color-1;
+		background: @body-background-1;
+		height: 7px;
+		border-radius: 5px;
+	}
+}
+.wp-polls-loading {
+	position: absolute;
+	margin: -52px 0 0 30px;
+}
+.widget_polls-widget {
+	.btn.archive {
+		position: absolute;
+		margin-top: -57px;
+		right: 30px;
+	}
+}
+.wp-polls-archive {
+	& > p {
+		padding: 0 30px 30px 30px;
+		border-bottom: 1px solid @body-background-1;
+		&:last-child {
+			padding: 0 30px;
+			margin: 0 0 10px 0;
+			border: none;
+		}
+	}
+}
+
+//.switchable-tabs {
+//	& > .row { margin-bottom: 0 !important; }
+//}
+
+.textwidget {
+}
+
+
+.about-social {
+	.logo-1 {
+		margin-bottom: 40px;
+		a {
+			color: @primary-color-2;
+			&:hover { text-decoration: none; color: @accent-color-1; }
+		}
+	}
+	.about {
+		color: @regular-text-color;
+		margin-bottom: 25px !important;
+	}
+}
+
+.goodgame_recent_post_list {
+	& > .post-block {
+		background: none !important;
+		border-bottom: none !important;
+		box-shadow: none !important;
+		padding: 0 !important;
+		& > .post-block {
+			padding: 0 !important;
+			border-bottom: none !important;
+			.row { margin-bottom: 0 !important; }
+			.post-block {
+				box-shadow: none !important;
+				padding: 0 !important;
+				.post { border: none !important; }
+			}
+		}
+	}
+	.tags { display: none !important; }
+}

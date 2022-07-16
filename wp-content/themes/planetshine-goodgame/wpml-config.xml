@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="goodgame_copyright" />
+		<key name="goodgame_header_info_text" />
+		<key name="goodgame_blog_title" />
+		<key name="goodgame_copyright" />
+   </admin-texts>
+</wpml-config>

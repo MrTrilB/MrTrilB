@@ -1,0 +1,1680 @@
+/****************************************************/
+/*						DESKTOP						*/
+/****************************************************/
+
+/* Added some min height to main content wrapper */
+
+.main-content-wrapper {
+
+    min-height: 300px;
+
+	.sidebar-affix-wrap {
+//		top: inherit !important;
+		& > .row {
+			margin: 0 0 50px 0;
+			&:last-child { margin: 0; }
+		}
+	}
+
+}
+
+
+.galleries .gallery-block .thumbs .thumb {
+	display: block;
+}
+
+/* Sidebar affix */
+@media only screen and (min-width: 992px) {
+
+	.sidebar-affix-wrap.affix {
+		position: fixed !important;
+		top: 45px;
+	}
+}
+
+.post-featured .overlay-wrapper {
+	transition: none !important;
+}
+
+.goodgame_post_carousel {
+	.slide .title .btn {
+		display: none !important;
+	}
+}
+
+/* featured post fadein */
+body.featured-post .post-page-title, body.featured-post .post-page-title .overlay-wrapper {
+	visibility: hidden;
+}
+
+.post-main-wrapper .post-block {
+	display: block;
+}
+
+/* Remove unneded margin */
+
+.comments-wrapper.comments {
+	margin-bottom: 0;
+}
+
+/* Dynamic more dropdown */
+
+.dynamic-more-dropdown {
+	z-index: 99999999 !important;
+	position: absolute;
+}
+
+/* Add side border to home item */
+
+.side-border {
+
+	&:after {
+		content: "";
+		width: 2px;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, 0.1);
+		display: block;
+		right: 0;
+		left: auto;
+		top: 0;
+	}
+}
+
+/* Prevent scrollbars from being visible trough lighbox blur */
+body.lightboxed-search
+{
+	> .nicescroll-rails {
+		visibility: hidden;
+	}
+}
+
+.nicescroll-rails { display: none !important; }
+
+/* Fix gallery paddings */
+.post-gallery.gallery-single {
+	padding: 0 15px !important;
+}
+
+/* Fix gallery hover bug */
+.galleries .gallery-block .thumbs img, .lightbox-gallery .gallery-block .thumbs img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Fix post block bottom margin */
+.mega-menu .post-block.post-image-90 {
+	margin-bottom: 0;
+}
+
+/* Hide mobile dropdown trigger on desktop */
+.mobile-dropdown-trigger {
+	display: none !important;
+}
+
+/* Hide rating stars in switchable tabs widget and recent post list */
+
+.goodgame_sidebar_post_tabs, .goodgame_recent_post_list, .post-columns-small {
+
+	.rating-stars {
+		display: none;
+	}
+}
+
+/* Default WP content styling */
+
+.post-main-wrapper .post-block .the-content-container {
+
+	> table {
+		width: 100%;
+		margin: 0 0 35px 0;
+
+		td {
+			border-bottom: 1px solid @primary-color-3;
+			padding: 10px;
+		}
+
+		thead {
+
+			th {
+				text-transform: uppercase;
+				font-weight: 900;
+				font-size: 15px;
+				border-bottom: 3px solid @primary-color-3;
+				padding: 10px;
+			}
+
+		}
+
+		tbody {
+
+			th {
+				border-bottom: 1px solid @primary-color-3;
+				padding: 10px;
+			}
+
+		}
+
+	}
+
+	img { max-width: 100%; height: auto; }
+    iframe { max-width: 100%; }
+	.wp-caption { max-width: 100% !important; }
+
+	> dl {
+		margin: 35px 0;
+		padding: 0 30px;
+		border-left: 3px solid @primary-color-3;
+
+		dt {
+			font-size: 15px;
+			font-weight: 900;
+		}
+
+		dd {
+			margin: 0 0 20px 0;
+		}
+	}
+
+	cite {
+		display: block;
+		color: @primary-color-2;
+		font-size: 16px;
+		line-height: 24px;
+		font-style: normal;
+		padding-top: 10px;
+	}
+
+}
+
+/* Disable mobile banners */
+
+@media only screen and (max-width: 768px) {
+	.banner.mobile_disabled {
+		display: none !important;
+	}
+}
+
+/* Gallery load hidden */
+.gallery-slideshow {
+	opacity: 0;
+}
+
+.gallery-description {
+    margin: 10px 0;
+}
+
+/* Slider load hidden */
+.goodgame-slider {
+	visibility: hidden;
+}
+
+
+/* Overlay fix */
+
+.post-block .overlay-wrapper.text-overlay .overlay
+{
+	top: -30px;
+	bottom: -30px;
+	left: -30px;
+	right: -30px;
+}
+
+/* Mega menu adjustments */
+.mega-menu .dropdown.full-width .constellation-widget ul {
+	right: auto;
+    left: auto;
+    padding: 0;
+    top: auto;
+	box-shadow: none;
+	position: relative;
+}
+
+.mega-menu .dropdown.full-width.hover .constellation-widget ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.post-block.post-image-top .tags,
+.post-block.post-image-300 .tags {
+	display: table;
+	overflow: visible;
+}
+
+.item-rating-hidden {
+	display: none;
+}
+
+/* Logo max width */
+
+.logo-1 {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/* Banner responsiveness */
+
+.banner {
+	display: block !important;
+	max-width: 100%;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+/* Header item position */
+
+.header {
+
+	.header_item {
+
+		&.left {
+			float: left;
+		}
+
+		&.right {
+			float: right;
+		}
+
+		&.middle {
+			margin-left: 50px;
+			float: left;
+		}
+
+		&.single_centered {
+			float: none;
+			text-align: center;
+			width: 100%;
+		}
+	}
+
+	.today {
+		margin-left: 0;
+	}
+}
+
+/* Loader */
+
+@animation-time: 1s;
+@size: 50px;
+
+.goodgame-loader {
+	position: relative;
+	display: block;
+	width:  25px;
+	height:  25px;
+	.box {
+		width: 45%;
+		height: 45%;
+		background: @trending-color-1;
+		opacity: 0;
+		animation: load @animation-time linear infinite;
+		&:nth-of-type(1) {
+			position: absolute;
+			top: 2.5%;
+			left: 2.5%;
+		}
+		&:nth-of-type(2) {
+			position: absolute;
+			top: 2.5%;
+			right: 2.5%;
+			animation-delay: -(@animation-time / 4 );
+		}
+		&:nth-of-type(3) {
+			position: absolute;
+			bottom: 2.5%;
+			right: 2.5%;
+			animation-delay: -(@animation-time / 4 )*2;
+		}
+		&:nth-of-type(4) {
+			position: absolute;
+			bottom: 2.5%;
+			left: 2.5%;
+			animation-delay: -(@animation-time / 4 )*3;
+		}
+	}
+}
+
+@keyframes load {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.header.header-items-2 {
+
+		.header_item {
+
+			&.left {
+				float: left;
+				width: auto;
+			}
+
+			&.right {
+				float: right;
+				width: auto;
+			}
+		}
+	}
+
+	.header.header-items-3 {
+
+		.header_item {
+
+			&.left {
+				float: left;
+				width: auto;
+			}
+
+			&.middle {
+				float: left;
+				width: auto;
+				margin: 0 20px 0 0;
+			}
+
+			&.right {
+				float: right;
+				width: auto;
+			}
+		}
+
+		.logo-1 {
+			float: none !important;
+			width: 100% !important;
+			text-align: center !important;
+		}
+
+		.today {
+			width: 205px;
+			text-align: left;
+		}
+
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	.header {
+
+		.header_item {
+
+			overflow: hidden;
+
+			&.logo-1 {
+				overflow: visible;
+			}
+
+			&.left, &.middle, &.right {
+				float: none !important;
+				width: 100% !important;
+				text-align: center !important;
+				margin: 0 0 20px 0;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+	}
+}
+
+/* Home margin fix */
+
+.post-block.post-gallery, .trending-posts.trending-posts-main-content, .post-columns, .post-exclusive .col-md-12 {
+	padding: 0;
+}
+
+
+/* Slider margin fix */
+
+.goodgame-slider {
+
+    .slide {
+        min-height: 20px;
+    }
+
+	.goodgame_sidebar_post_tabs {
+
+		.switchable-tabs > .row {
+
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Post block overflow fix */
+
+.the-content-container {
+	display: block;
+	overflow: hidden;
+}
+
+/* Review box */
+
+.reader-reviews {
+
+	.grip {
+
+		cursor: pointer;
+
+		.tooltip {
+
+			text-align: center;
+
+			.stars {
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+/* fix comment padding & reply link */
+
+.comments {
+	padding-left: 15px;
+	padding-right: 15px;
+
+	> ul {
+		padding-left: 0;
+	}
+
+	.comment-reply-link {
+		outline: none !important;
+		font-size: 14px !important;
+		font-weight: 800;
+		font-family: @title-font;
+		text-transform: uppercase;
+		padding: 5px 16px !important;
+		margin: 0 5px 0 0;
+		color: @accent-color-1 !important;
+		background: @body-background-1;
+		display: inline-block !important;
+		border: 1px solid @accent-color-1;
+		border-radius: 32px;
+		transition: @transition-slow;
+		&:hover, &:active, &:focus {
+			border: 1px solid @primary-color-2;
+			color: @accent-text-color-1 !important;
+			background: @primary-color-2 !important;
+			box-shadow: none;
+		}
+	}
+
+	.bypostauthor, .comment-author-admin {
+
+		position: relative;
+
+		&:before {
+			content: "";
+			position: absolute;
+			width: 5px;
+			background: @accent-color-1;
+			left: -50px;
+			top: -25px;
+			bottom: 0;
+		}
+
+	}
+
+
+	.comment-reply-title {
+	}
+
+	#cancel-comment-reply-link {
+		outline: none !important;
+		font-size: 14px !important;
+		font-weight: 800;
+		font-family: @title-font;
+		text-transform: uppercase;
+		padding: 5px 16px !important;
+		margin: 0 5px 0 0;
+		color: @accent-color-1 !important;
+		background: @body-background-1;
+		border: 1px solid @accent-color-1;
+		border-radius: 32px;
+		transition: @transition-slow;
+		&:hover, &:active, &:focus {
+			border: 1px solid @primary-color-2;
+			color: @accent-text-color-1 !important;
+			background: @primary-color-2 !important;
+			box-shadow: none;
+		}
+	}
+
+}
+
+/* fix comment spans */
+.legend {
+	span {
+		white-space: nowrap;
+		margin-right: 7px;
+		word-wrap: break-word;
+		color: @secondary-color-1 !important;
+		padding: 0 !important;
+		display: inline !important;
+		font-size: 12px !important;
+		text-transform: none !important;
+		&:before { font-family: FontAwesome; margin-right: 5px; font-weight: 300; }
+	}
+}
+
+
+/*  Share button */
+.post-main-wrapper .post-controls
+{
+	height: 30px;
+	overflow: visible;
+
+	.post-share-button {
+		z-index: 101;
+	}
+
+	share-button {
+
+		font-size: inherit;
+		color: inherit;
+		background: none;
+		border-radius: 0;
+		font-family: inherit;
+		font-weight: inherit;
+		text-transform: none;
+		padding: 0 0 0 18px;
+		transition: none;
+		z-index: 100;
+
+		&:hover {
+			background-color: inherit;
+			color: @accent-color-1;
+		}
+
+		&:before {
+			font-family: Fontawesome;
+			content: "\f1e0";
+			background: none;
+			width: auto;
+			height: auto;
+			left: 0;
+			line-height: inherit;
+			font-weight: normal;
+		}
+	}
+}
+
+/* Gallery top position fix */
+
+.lightbox-gallery
+{
+	.gallery-slideshow {
+		height: 100%;
+	}
+
+	.image-wrapper .image {
+		top: 50% !important;
+	}
+}
+
+.lightbox-hidden {
+	.image-wrapper .image {
+		visibility: hidden !important;
+	}
+}
+
+/* Lightbox z-index fix */
+.lightbox {
+	z-index: 1;
+}
+.lightboxed-login .lightbox-login {
+	z-index: 10000001;
+}
+.lightboxed-gallery .lightbox-gallery, .lightboxed-search .lightbox-search {
+    z-index: 100000000;
+}
+.post-block.next-previous-wrapper {
+
+	.next-previous {
+		width: 100%;
+	}
+
+	.previous, .next {
+		min-height: 120px;
+	}
+
+	.one-link-only {
+
+		.previous, .next {
+			width: 100%;
+		}
+	}
+}
+
+/* Mega menu - optional sidemenu */
+
+.menu-item.full-width {
+
+	.mega-menu.has-side-menu {
+
+		> li > ul {
+			width: 20%;
+			position: relative;
+			float: left;
+			box-shadow: none;
+			padding: 0 30px 0 0;
+
+			li {
+				box-shadow: fade(@primary-color-2, 10%) 0 1px 0 inset !important;
+				&:first-child { box-shadow: none !important; }
+			}
+
+		}
+
+		.constellation-widget {
+			float: left;
+			max-width: 80%;
+		}
+
+	}
+
+	&:hover .mega-menu.has-side-menu {
+
+		> li > ul {
+			visibility: visible;
+			opacity: 1;
+		}
+
+	}
+
+}
+
+/* Disable mega menu height due to error caused by multi line menus */
+
+.mega-menu-wrapper {
+    height: auto;
+    min-height: 75px;
+}
+
+/* Add margin for social icons */
+.dock .social-login .login {
+    margin-left: 10px;
+}
+
+/* Center menu items to better look in two rows mode */
+
+.mega-menu .nav {
+    text-align: center;
+    ul {
+        text-align: left;
+    }
+}
+
+/* Set margin-left for first mega menu item in affixed mode */
+.mega-menu-wrapper {
+
+    .affix {
+
+        .nav {
+
+            > li:first-of-type {
+                margin-left: 100px;
+            }
+
+        }
+
+    }
+
+}
+
+
+
+/* Dropdown category posts */
+
+.goodgame_dropdown_category_posts {
+
+	.post-block {
+
+		.items {
+
+			display: none;
+
+			&:first-child {
+				display: block;
+			}
+
+		}
+
+	}
+}
+
+
+/* Weather widget */
+
+.today {
+
+	i {
+		width: 18px;
+	}
+
+	.wi {
+		font-size: 12px;
+	}
+
+}
+
+.weather-ajax-container {
+	height: 24px;
+}
+
+/* Twitter feed scrollbar */
+
+.widget-footer {
+
+	.more {
+		display: none;
+	}
+
+}
+
+.twitter-feed.scrollable {
+	padding-right: 10px;
+	height: 300px;
+
+    iframe {
+        width: 100% !important;
+    }
+}
+
+
+
+/* Home sidebar - see .sidebar in main style */
+
+.wpb_widgetised_column, .sidebar {
+	.post-block { margin: 0; .post-block { margin-bottom: 0; } }
+	> .wpb_wrapper > .row { margin: 0 0 50px 0; }
+	.row > .post-block { padding: 0 15px; }
+	.row:last-child .widget-sidebar { margin-bottom: 0; }
+	.post-featured { height: 300px !important; }
+	.article-carousel .post-featured { height: 400px !important; }
+	.newsletter { margin: 0; form p { margin: 0; } }
+	> .wpb_wrapper > div:last-child { margin-bottom: 0; }
+	.banner { padding: 0; margin: 0; }
+}
+
+.sidebar {
+	& > .row { margin: 0 0 50px 0; }
+}
+
+/* Social share widget */
+
+//.social {
+//	.fa-pinterest-square { color: #c92228; }
+//	.fa-linkedin-square { color: #007bb5; }
+//}
+
+//.dock {
+//	.social {
+//		.fa-pinterest-square { color: #a1a1a1; }
+//		.fa-linkedin-square { color: #a1a1a1; }
+//	}
+//}
+
+/* Dock featured date color */
+
+.dock .legend a {
+	color: @dock-text-color !important;
+}
+
+/* Dock logged in */
+
+.dock .login
+{
+	.logout {
+		font-size: 12px;
+		font-weight: 700;
+		position: relative;
+		top: -1px;
+		color: @dock-text-color;
+        margin-left: 15px;
+
+        i {
+            padding-right: 2px;
+        }
+		&:hover, &.active { color: @accent-color-1; text-decoration: none; }
+	}
+
+	span {
+		font-size: 12px;
+		font-weight: 700;
+		position: relative;
+		top: -1px;
+		color: @dock-text-color;
+		&:before {
+			content: "\f183";
+			font-family: FontAwesome;
+			margin-left: 5px;
+			font-weight: 300;
+			font-size: 14px;
+			margin-right: 5px;
+		}
+	}
+}
+
+/* Gallery item title min height */
+
+//.galleries .gallery-block .title {
+//	min-height: 105px;
+//}
+
+.gallery-slideshow .single-photo-active {
+
+	display: none;
+
+	&:first-child {
+		display: block;
+	}
+
+}
+
+
+/* Homepage row width */
+
+/* Fix VC rows from streching body */
+
+body {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+/* Set row/column paddings and widths */
+body.page-template-page-layout {
+
+	> .vc_row {
+		width: 1170px;
+		margin: 0 auto 30px auto !important;
+	}
+
+	.wpb_column>.vc_column-inner>.wpb_wrapper>:last-child {
+		margin-bottom: 0;
+	}
+
+	.vc_column-inner {
+		padding: 0;
+	}
+
+	.wpb_columns_3_wrapper {
+		margin: 0 -15px !important;;
+		.wpb_column {
+			padding: 0 15px !important;
+		}
+	}
+
+	.wpb_column {
+		padding-left: 25px;
+		padding-right: 25px;
+
+		&:first-child {
+			padding-left: 0;
+		}
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+		> .wpb_wrapper > .vc_row > .vc_col-sm-6,
+		> .vc_column-inner > .wpb_wrapper > .vc_row > .vc_col-sm-6
+		{
+
+			padding-left: 15px;
+			padding-right: 15px;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	body.page-template-page-layout > .vc_row {
+		width: 970px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body.page-template-page-layout > .vc_row {
+		width: 750px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body.page-template-page-layout > .vc_row {
+		width: 100%;
+	}
+}
+
+/* Enable full width VC elements */
+
+body.page-template-page-layout > .vc_row.full-width {
+	width: 100% !important;
+}
+
+/* Fix added/loading to cart from catalog */
+.woocommerce ul.products li.product {
+
+	.add_to_cart_button {
+
+		&.loading {
+			padding-right: 35px;
+		}
+
+	}
+
+	.added_to_cart {
+		margin: 15px 0 0 10px;
+		padding: 0;
+		line-height: 42px;
+	}
+
+}
+
+/* Category slider tabs */
+.dynamic-slide-hidden {
+	display: none;
+}
+
+
+.dynamic-slide {
+
+	.goodgame-loader {
+		margin: 0 auto;
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+.switcher-tab-content {
+
+	display: none;
+
+	&:first-child {
+		display: block;
+	}
+
+}
+
+/* Fix pagination wrapper to support span items */
+.pagination-wrapper {
+
+	.pagination {
+
+		li {
+			/* Pielikt a tagad vienk klat , span */
+			span {
+				font-size: 14px;
+				font-weight: 800;
+				font-family: @title-font;
+				padding: 5px 14px !important;
+				background: none;
+				border: none;
+				border-radius: 0;
+				text-align: center;
+				border: 1px solid @accent-color-1;
+				color: @accent-color-1;
+				transition: @transition-slow;
+				&:hover {
+					border: @primary-color-2 1px solid !important;
+					color: @accent-text-color-1;
+				}
+				&.current {
+					border: 1px solid @primary-color-2;
+					color: @accent-text-color-1 !important;
+					background: @primary-color-2;
+				}
+			}
+
+		}
+	}
+}
+
+/* Adjust the post slider min height */
+@media only screen and (max-width: 1199px) {
+	.dynamic-slide {
+		min-height: 300px;
+	}
+}
+
+
+/* Fixing background for full width in case of image */
+body.full-width-bg {
+    &:before {
+        width: 1230px;
+        height: 100%;
+        position: fixed;
+        content: "";
+        background: @body-background-1;
+        left: 50%;
+        transform: translate(-50%, 0);
+		-webkit-transform: translate(-50%, 0);
+        z-index: -100;
+    }
+}
+
+/* Hide overlay effects on mobile touch devices */
+html.touchevents body.mobile-device {
+
+    .post-block .text-overlay {
+        display: none !important;
+    }
+
+}
+
+/* Fix IE product image text effect bug */
+div.pp_woocommerce a.pp_contract, div.pp_woocommerce a.pp_expand, div.pp_woocommerce a.pp_close {
+    text-decoration: none !important;
+}
+
+/* Fix product image overlay bug */
+div.pp_overlay {
+    z-index: 100000000;
+}
+
+div.pp_pic_holder {
+    z-index: 1000000000;
+}
+
+@media only screen and (min-width: 991px) {
+	.home-text-title {
+        display: none;
+    }
+}
+
+/****************************************************/
+/*						Tablet						*/
+/****************************************************/
+
+/* ignore affix width */
+@media only screen and (max-width: 991px) {
+	.sidebar-affix-wrap { width: auto !important; }
+}
+
+/* Featured post - ignore affix */
+@media only screen and (max-width: 991px) {
+	body.featured-post .parallax-wrapper.affix {
+		position: relative !important;
+		margin-top: 0 !important;
+	}
+}
+/* Fix home layout on tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	body.page-template-page-layout {
+
+		.focus > .vc_row {
+
+			> .vc_col-sm-4, > .vc_col-sm-8 {
+				width: 100%;
+                padding-left: 0;
+                padding-right: 0;
+				margin-bottom: 20px;
+			}
+
+		}
+
+	}
+
+}
+
+/* Fix min carousel height on tablet */
+
+@media only screen and (max-width: 991px) {
+	.dynamic-slide {
+		min-height: 270px;
+	}
+}
+
+
+/* Hide nav menu on load */
+@media only screen and (max-width: 991px) {
+
+	.mega-menu .nav {
+		display: none;
+	}
+
+}
+
+/* Fix twitter feed height on mobile and tablet */
+
+@media only screen and (max-width: 991px) {
+	.twitter-feed.scrollable {
+		height: auto !important;
+	}
+}
+
+/* Dropdown menu trigger */
+@media only screen and (max-width: 991px) {
+	.mega-menu .nav {
+
+		> li > .mobile-dropdown-trigger {
+			width: 75px;
+			height: 75px;
+		}
+
+		> li > ul .mobile-dropdown-trigger {
+			width: 75px;
+			height: 58px;
+			background: transparent !important;
+
+			&:hover {
+				background: transparent !important;
+			}
+		}
+	}
+}
+
+/* Hide homepage sideborder */
+@media only screen and (max-width: 991px) {
+	body.page-template-page-layout .side-border {
+
+		padding-right: 0 !important;
+
+		&:after {
+			display: none;
+		}
+
+		& + .wpb_column {
+			padding-left: 15 !important;
+		}
+	}
+}
+
+/****************************************************/
+/*						Mobile						*/
+/****************************************************/
+
+/* Fix reader rating bug in mobile */
+@media only screen and (max-width: 767px) {
+    body.single-post .main-content-wrapper {
+       display: block;
+    }
+}
+
+/* Adjust footer scrollbar padding */
+
+@media only screen and (max-width: 767px) {
+	.widget-footer li {
+		padding: 15px 15px 15px 0;
+	}
+}
+
+/* Fix post controls on mobile */
+@media only screen and (max-width: 767px) {
+	.post-main-wrapper .post-controls {
+		height: auto;
+		overflow: hidden;
+	}
+}
+
+/* Homepage mobile paddings/margins */
+@media only screen and (max-width: 767px) {
+
+	body.page-template-page-layout {
+
+		.wpb_column {
+			padding-left: 15px !important;
+			padding-right: 15px !important;
+
+			.wpb_column {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+
+			&.vc_col-sm-6:first-child {
+				padding-bottom: 30px;
+			}
+
+			&.vc_col-sm-8 { margin-bottom: 30px; }
+			&.vc_col-sm-4 { margin-bottom: 30px; }
+		}
+
+		.post-block.slider {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.full-width {
+
+			> .wpb_column {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+
+			.post-block.slider {
+				padding-left: 15px !important;
+				padding-right: 15px !important;
+			}
+		}
+
+		.video-slider {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.post-columns {
+			margin-bottom: 0;
+			.col-sm-6 { margin-bottom: 30px; }
+			.col-xs-12 { margin-bottom: 20px; }
+			.post .overlay-wrapper { display: none; }
+		}
+
+		.post-columns-small {
+			.row { margin-bottom: 0; }
+		}
+	}
+
+	/* Mega menu fixes */
+	.mega-menu .post-block .row {
+
+		.col-md-4, .col-md-3 {
+
+			&:last-child { margin-bottom: 0; }
+		}
+	}
+
+	.goodgame_dropdown_post_list_with_heading .col-md-4 .col-md-12 {
+		margin-bottom: 0;
+	}
+
+}
+
+.goodgame_dropdown_post_list_with_heading, .goodgame_dropdown_post_list_with_sidemenu { 
+
+	.post-featured {
+
+		min-height: 350px;
+
+		&:after {
+			width: 100%;
+			height: 100%;
+			content: "";
+			position: absolute;
+			.overlay-gradient-mask;
+			z-index: 1;
+		}
+
+		&:before {
+			width: 100%;
+			height: 100%;
+			content: "";
+			position: absolute;
+			.overlay-gradient-mask-hover;
+			opacity: 0;
+			transition: @transition-slow;
+			z-index: 10;
+		}
+
+		.overlay-wrapper {
+			transform: none;
+			opacity: 1;
+			visibility: visible;
+			top: 0 !important;
+			bottom: 0 !important;
+
+		}
+		.image {
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			transform: translateZ(0) scale(1.15,1.15);
+			position: absolute;
+			z-index: 1;
+			background-position: center center;
+			transition: @transition-slow;
+			background-repeat: no-repeat;
+		}
+		.title {
+			background: none;
+			box-shadow: none;
+			padding: 25px 25px 0 25px;
+			bottom: -32px;
+			position: absolute;
+			transition: @transition-slow;
+			.legend {
+				display: block !important;
+				a { color: @secondary-color-1 !important; }
+			}
+		}
+
+		&:hover {
+			.title { bottom: 25px; }
+			.image { transform: translateZ(0) scale(1,1); }
+			&:before { opacity: 1; }
+		}
+	}
+}
+
+.lightbox-login {
+	.goodgame-login {
+		input[type="text"], input[type="password"], input[type="submit"] {
+			border-radius: 35px;
+		}
+	}
+	.login-options { margin: 30px 0; }
+	.register-now-link { text-align: center; border-top: 1px solid @accent-color-1; padding-top: 30px;
+		a { font: 800 26px/35px @title-font, sans-serif; text-transform: uppercase; }
+	}
+}
+
+/* Fixing featured post */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body.featured-post .parallax-wrapper {
+		padding-top: 50px;
+	}
+	.page-title-post-featured .controls {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.page-title-post-featured .controls {
+		display: none !important;
+	}
+
+	body.featured-post .post-controls {
+		&:after {
+			transform: none !important;
+		}
+
+		> div {
+			&:after {
+				transform: none !important;
+			}
+		}
+	}
+}
+
+/* Fixing homepage margins */
+
+@media only screen and (max-width: 767px) {
+	body.page-template-page-layout {
+
+		.post-gallery {
+			.col-md-12 {
+				padding: 0;
+			}
+		}
+
+		.wpb_columns_3_wrapper {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		.post-exclusive {
+			.text {
+				float: none;
+				height: 100%;
+				.title {
+					bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+/* Fixing twitch user page width */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.twitch-user {
+		background-size: cover;
+		.buttons {
+			.btn {
+				float: right;
+				clear: both;
+				margin-bottom: 5px;
+				border-top-right-radius: 32px !important;
+				border-bottom-right-radius: 32px !important;
+				border-bottom-left-radius: 32px !important;
+				border-top-left-radius: 32px !important;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+
+	.twitch-user {
+		background-size: cover;
+		.user {
+
+			display: block;
+
+			.image {
+				display: block;
+				padding: 0;
+				margin-bottom: 20px;
+				width: 100%;
+			}
+
+			.text {
+				display: block;
+				width: 100%;
+				margin-bottom: 20px;
+			}
+
+			.buttons {
+				display: block;
+				width: 100%;
+
+				.btn {
+					float: none;
+					width: 100%;
+					clear: both;
+					margin-bottom: 5px;
+					border-top-right-radius: 32px !important;
+					border-bottom-right-radius: 32px !important;
+					border-bottom-left-radius: 32px !important;
+					border-top-left-radius: 32px !important;
+				}
+			}
+		}
+	}
+}
+
+
+/* Fixing twitch video feed */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.twitch-recent-streams {
+		.row .col-sm-6 {
+			&:nth-child(1), &:nth-child(2) {
+				margin-bottom: 50px;
+			}
+
+			.text {
+				min-height: 75px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.twitch-recent-streams {
+		.row {
+			margin-bottom: 0 !important;
+
+			.col-xs-12 {
+				margin-bottom: 50px;
+			}
+		}
+	}
+}
+
+/*****************************************************/
+/****** Disable Mobile hover events on scroll *****/
+/*****************************************************/
+.disable-hover {
+	pointer-events: none;
+}
+
+/* Fixing mobile featured post title */
+
+@media only screen and (max-width: 991px) {
+	.page-title-post-featured {
+		.overlay-wrapper {
+			transform: none !important;
+
+			.title {
+				padding: 20px !important;
+				width: 100% !important;
+
+				h3 {
+					padding: 0;
+				}
+
+				.intro {
+					display: none;
+				}
+			}
+
+			.overlay {
+				display: none;
+			}
+		}
+	}
+}
+
+/*****************************************************/
+/********************* bbPress forms *****************/
+/*****************************************************/
+
+.bbp-form {
+	width: 400px;
+	max-width: 100%;
+	margin: 0 auto 50px auto;
+
+	legend {
+		display: none;
+	}
+
+	button[type="submit"] {
+		background: @body-background-1;
+		color: @accent-color-1;
+		font: 800 14px/24px @title-font, sans-serif;
+		text-transform: uppercase;
+		border: none;
+		height: 36px;
+		border-radius: 32px;
+		padding: 5px 16px;
+		display: inline-block;
+		float: left;
+		width: 100%;
+		border: 1px solid @accent-color-1;
+		-webkit-appearance: none;
+		transition: @transition-slow;
+		&:hover {
+			background: @primary-color-2;
+			color: @accent-text-color-1;
+			border: 1px solid @primary-color-2;
+		}
+		&:active { box-shadow: none; }
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.bbp-form {
+		width: 100%;
+	}
+}
+
+/*****************************************************/
+/******************** Ultimate member*****************/
+/*****************************************************/
+
+.um-form {
+
+	.um-field {
+
+		overflow: hidden;
+
+		.um-field-area {
+			min-height: 38px;
+		}
+
+	}
+}
+.um-profile {
+	.um-cover {
+		background-color: #282828;
+	}
+	.um-header {
+		border-bottom: solid 2px @accent-color-1;
+	}
+	.um-profile-photo a.um-profile-photo-img {
+		background: @accent-color-1;
+	}
+}
+.um-members .um-member-cover {
+	background: @block-background-color !important;
+}
+
+.um-account {
+	.um-account-side {
+		li {
+			background: @block-background-color;
+			a {
+				color: @regular-text-color !important;
+				span {
+					color: @regular-text-color !important;
+				}
+
+				&:hover {
+					background: darken(@block-background-color, 10%);
+				}
+
+				&.current {
+					color: @accent-color-1 !important;
+					span {
+						color: @accent-color-1 !important;
+					}
+				}
+			}
+		}
+	}
+	.um-account-heading, .um-account-name > a {
+		color: @post-title-color !important;
+	}
+	p.um-notice.success {
+		background: @accent-color-1;
+	}
+}
+.um-account-side li a span.um-account-icon, .um-account-side li a.current span.um-account-icon, .um-account-side li a.current:hover span.um-account-icon {
+	border-right: 1px solid @border-color !important;
+}
+.um-field-c .um-field-checkbox {
+	top: 0 !important;
+}

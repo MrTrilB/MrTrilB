@@ -1,0 +1,1 @@
+<?php $plsh_bundled_versions = array("js_composer" => "6.6.0",); ?>

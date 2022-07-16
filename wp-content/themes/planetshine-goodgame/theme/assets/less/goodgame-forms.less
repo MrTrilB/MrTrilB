@@ -1,0 +1,142 @@
+// main: goodgame-stylesheet.less
+
+// Forms
+// --------------------------------------------------
+
+input { &:focus { outline: 0 !important; } }
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea {
+	background: @body-background-1;
+	border: 1px solid @accent-color-1;
+	padding: 9px 15px;
+	margin: 0 0 10px 0;
+	height: 36px;
+	border-radius: 32px;
+	display: inline-block;
+	font: 14px/24px @general-font, sans-serif;
+	color: @secondary-color-1;
+	transition: @transition-slow;
+	float: left;
+	width: 100%;
+    -webkit-appearance: none;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+		background: @block-background-color;
+		color: @primary-color-2;
+		border-radius: 0;
+	}
+}
+
+textarea {
+	border-radius: 0;
+}
+
+input[type="submit"], button {
+	background: @body-background-1;
+	color: @accent-color-1;
+	font: 800 14px/24px @title-font, sans-serif;
+	text-transform: uppercase;
+	border: none;
+	height: 36px;
+	border-radius: 32px;
+	padding: 5px 16px;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	border: 1px solid @accent-color-1;
+    -webkit-appearance: none;
+	transition: @transition-slow;
+	&:hover {
+		background: @primary-color-2;
+		color: @accent-text-color-1;
+		border: 1px solid @primary-color-2;
+	}
+	&:active { box-shadow: none; }
+}
+
+.input-wrapper { display: table; }
+
+select {
+	background: @primary-color-2;
+	box-shadow: fade(@primary-color-1, 20%) 0 -1px 0 inset, fade(@primary-color-1, 20%) 0 1px 0 inset, fade(@primary-color-1, 20%) 1px 0 0 inset, fade(@primary-color-1, 20%) -1px 0 0 inset, fade(@primary-color-1, 4%) 0 4px 0 inset;
+	border: none;
+	border-radius: 0;
+	padding: 9px 10px;
+	margin: 0 0 0 0;
+	height: 42px;
+	display: inline-block;
+	font: 700 14px/24px @general-font, sans-serif;
+	color: @primary-color-3;
+	transition: @transition-fast;
+	width: auto;
+	&:focus {
+		outline: none;
+		box-shadow: @accent-color-1 0 -1px 0 inset, @accent-color-1 0 1px 0 inset, @accent-color-1 1px 0 0 inset, @accent-color-1 -1px 0 0 inset, fade(@primary-color-1, 4%) 0 4px 0 inset;
+	}
+}
+
+form.goodgame-login {
+	margin: 0 auto;
+	width: 400px;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    position: relative;
+	.input-wrapper {
+		width: 100% !important;
+		input[type="text"], input[type="password"] { width: 100%; }
+		input[type="checkbox"] {
+			float: left;
+			margin: 6px 10px 0 0 !important;
+		}
+		label { margin: 0; }
+	}
+	.lost-password { float: right; }
+}
+
+label.radio {
+	overflow: hidden;
+	display: block;
+	margin: 0 0 10px 0;
+	position: relative;
+	cursor: pointer;
+}
+
+label.radio input[type="radio"] {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	margin: 0;
+	width: 14px;
+	height: 14px;
+	left: 0;
+	top: 1px;
+}
+
+label.radio span:before {
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	background: @body-background-1;
+	border: 1px solid @accent-color-1;
+	margin: 1px 10px 0 0;
+	vertical-align: middle;
+	display: block;
+	float: left;
+	content: "";
+	opacity: 1;
+	visibility: visible;
+	transition: @transition-slow;
+}
+
+input[type="radio"]:checked + span:before {
+	background: @accent-color-1;
+}
+
+
+
+
+
+

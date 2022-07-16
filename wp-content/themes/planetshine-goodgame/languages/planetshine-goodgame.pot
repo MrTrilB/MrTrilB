@@ -1,0 +1,1792 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: goodgame\n"
+"POT-Creation-Date: 2017-10-19 22:06+0300\n"
+"PO-Revision-Date: 2016-03-16 18:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: planetshine\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:6
+msgid ""
+"The page you are looking for could have been deleted, or has never existed."
+msgstr ""
+
+#: 404.php:7
+msgid "You can go back"
+msgstr ""
+
+#: 404.php:7
+msgid "Home"
+msgstr ""
+
+#: 404.php:7
+msgid "or try to search something else"
+msgstr ""
+
+#: archive-gallery.php:6 theme/templates/loop-gallery-single.php:7
+msgid "Photo galleries"
+msgstr ""
+
+#: archive-gallery.php:55 buddypress.php:23 page-layout.php:15
+#: theme/templates/blog-loop.php:104 theme/templates/loop.php:58
+msgid "no posts found!"
+msgstr ""
+
+#: comments.php:9 theme/includes/widgets/goodgame-post-tabs.php:69
+msgid "Comments"
+msgstr ""
+
+#: comments.php:19 theme/templates/post-previous-next.php:19
+#: theme/theme.php:266
+msgid "Previous"
+msgstr ""
+
+#: comments.php:20 theme/templates/post-previous-next.php:31
+#: theme/theme.php:267
+msgid "Next"
+msgstr ""
+
+#: comments.php:39
+msgid "Name"
+msgstr ""
+
+#: comments.php:44
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:49
+msgid "Website"
+msgstr ""
+
+#: comments.php:55
+msgid "Log out"
+msgstr ""
+
+#: comments.php:56
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:56
+msgid "Your email address will not be published. Required fields are marked "
+msgstr ""
+
+#: core/lib/envatoProtectedAPI.class.php:71
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: core/lib/envatoProtectedAPI.class.php:75
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: core/lib/envatoProtectedAPI.class.php:100
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: core/lib/envatoProtectedAPI.class.php:171
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:334 theme/theme.php:1841
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:335 theme/theme.php:1842
+msgid "Install Plugins"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:337 theme/theme.php:1843
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:340 theme/theme.php:1844
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:392 theme/theme.php:1855
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:393
+#: core/lib/tgmPluginActivation.class.php:912
+#: core/lib/tgmPluginActivation.class.php:2618
+#: core/lib/tgmPluginActivation.class.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:394
+#: core/lib/tgmPluginActivation.class.php:3244 theme/theme.php:1856
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:395
+#: core/lib/tgmPluginActivation.class.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:608
+msgid "Update Required"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:1019
+#: core/lib/tgmPluginActivation.class.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2358
+msgid "Required"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2380
+msgid "External Source"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2406
+msgid "Active"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2567
+msgid "unknown"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2633
+msgid "Source"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2634
+msgid "Type"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2638
+msgid "Version"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2639
+msgid "Status"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2802
+msgid "Install"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2808
+msgid "Update"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2811
+msgid "Activate"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3594
+#: core/lib/tgmPluginActivation.class.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3594
+#: core/lib/tgmPluginActivation.class.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/lib/tgmPluginActivation.class.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/panel/admin-functions.php:489
+msgid "Select file"
+msgstr ""
+
+#: core/panel/templates/ads-locations.php:52
+msgid "Check ads for this location"
+msgstr ""
+
+#: core/panel/templates/ads-locations.php:52
+msgid "If you select more than one ad, then they will be shown in a rotation"
+msgstr ""
+
+#: core/panel/templates/ads-locations.php:80
+msgid "There are no active ads for this location! "
+msgstr ""
+
+#: core/panel/templates/ads-locations.php:80
+#: theme/includes/widgets/goodgame-banner-large.php:138
+msgid "Supports: "
+msgstr ""
+
+#: core/panel/templates/backup-reset.php:2
+msgid "Backup Settings"
+msgstr ""
+
+#: core/panel/templates/backup-reset.php:16
+msgid "Import Settings"
+msgstr ""
+
+#: core/panel/templates/backup-reset.php:29
+msgid "Import"
+msgstr ""
+
+#: core/panel/templates/backup-reset.php:35
+msgid "Reset Settings"
+msgstr ""
+
+#: core/panel/templates/backup-reset.php:37
+msgid "Reset Theme"
+msgstr ""
+
+#: core/panel/templates/demo-import.php:267
+msgid ""
+"Please active the \"Planetshine GoodGame Theme Extension\" plugin to enable "
+"the demo import feature"
+msgstr ""
+
+#: core/panel/templates/google-fonts.php:17
+msgid "All Google fonts"
+msgstr ""
+
+#: core/panel/templates/google-fonts.php:33
+msgid "Selected"
+msgstr ""
+
+#: core/panel/templates/google-fonts.php:48 theme/includes/settings.php:48
+msgid "Default"
+msgstr ""
+
+#: core/panel/templates/install-pages.php:4
+msgid ""
+"Use page installer to re-create pages from GoodGame theme demo in your site."
+msgstr ""
+
+#: core/panel/templates/install-pages.php:5
+msgid "This will only set the content for the page"
+msgstr ""
+
+#: core/panel/templates/install-pages.php:5
+msgid "- color settings etc will not be affected"
+msgstr ""
+
+#: core/panel/templates/install-pages.php:115
+msgid ""
+"Please active the \"Planetshine GoodGame Theme Extension\" plugin to enable "
+"the page install"
+msgstr ""
+
+#: core/panel/templates/register-theme.php:10
+#: core/panel/templates/register-theme.php:62
+msgid "Register your theme"
+msgstr ""
+
+#: core/panel/templates/register-theme.php:13
+msgid ""
+"Registering will enable to you to update the theme automatically from wp-"
+"admin and simplify getting support."
+msgstr ""
+
+#: core/panel/templates/register-theme.php:15
+msgid "To register take the following 3 steps:"
+msgstr ""
+
+#: core/panel/templates/register-theme.php:26
+msgid "Theme has been registered successfully!"
+msgstr ""
+
+#: core/panel/templates/register-theme.php:69
+msgid "Cancel your registration"
+msgstr ""
+
+#: core/panel/templates/register-theme.php:120
+msgid "Theme Registered Successfully!"
+msgstr ""
+
+#: core/panel/templates/register-theme.php:124
+msgid "Registration Canceled!"
+msgstr ""
+
+#: core/panel/templates/sidebar-manager.php:21
+msgid "All Sidebars"
+msgstr ""
+
+#: core/panel/templates/sidebar-manager.php:36
+msgid "Create Sidebar"
+msgstr ""
+
+#: core/panel/templates/sidebar-manager.php:55
+msgid "Manage Sidebars"
+msgstr ""
+
+#: core/panel/templates/status.php:103
+msgid ""
+"Please active the \"Planetshine GoodGame Theme Extension\" plugin to enable "
+"the status page"
+msgstr ""
+
+#: core/shared-functions.php:304
+msgid ""
+"If your blog already has posts with images, please <strong>Install</strong> "
+"& <strong>Run</strong> the bundled <strong>Regenerate Thumbnails</strong> "
+"plugin! This will ensure faster page load speeds."
+msgstr ""
+
+#: core/shared-functions.php:305 core/shared-functions.php:353
+msgid "dismiss"
+msgstr ""
+
+#: core/shared-functions.php:348
+msgid "Click here to"
+msgstr ""
+
+#: core/shared-functions.php:349
+msgid "import full theme demo"
+msgstr ""
+
+#: core/shared-functions.php:350
+msgid "Or click here to"
+msgstr ""
+
+#: core/shared-functions.php:351
+msgid "import homepage and other individual pages"
+msgstr ""
+
+#: core/shared-functions.php:372
+msgid ""
+"Theme needs to update your sites database to ensure full compatibility with "
+"the latest version of theme."
+msgstr ""
+
+#: core/shared-functions.php:373
+msgid "Click here to update"
+msgstr ""
+
+#: core/shared-functions.php:388
+msgid "The pages have been installed successfully!"
+msgstr ""
+
+#: core/shared-functions.php:986
+msgid "Failed to put file"
+msgstr ""
+
+#: core/template-functions.php:271
+msgid "Page"
+msgstr ""
+
+#: core/template-functions.php:585
+msgid "Search results for"
+msgstr ""
+
+#: search.php:7
+msgid "Search results"
+msgstr ""
+
+#: search.php:19
+msgid "Searched for:"
+msgstr ""
+
+#: search.php:21
+msgid "results found"
+msgstr ""
+
+#: searchform.php:2 theme/templates/search-lightbox.php:6
+msgid "Search"
+msgstr ""
+
+#: theme/includes/google-fonts.php:11 theme/includes/google-fonts.php:17
+#: theme/includes/google-fonts.php:23 theme/includes/google-fonts.php:29
+#: theme/includes/google-fonts.php:35 theme/includes/google-fonts.php:41
+#: theme/includes/google-fonts.php:47 theme/includes/google-fonts.php:53
+#: theme/includes/google-fonts.php:59 theme/includes/google-fonts.php:65
+#: theme/includes/google-fonts.php:71 theme/includes/google-fonts.php:77
+#: theme/includes/google-fonts.php:83 theme/includes/google-fonts.php:89
+#: theme/includes/google-fonts.php:95 theme/includes/google-fonts.php:101
+#: theme/includes/google-fonts.php:107 theme/includes/google-fonts.php:113
+#: theme/includes/google-fonts.php:119 theme/includes/google-fonts.php:125
+#: theme/includes/google-fonts.php:131 theme/includes/google-fonts.php:137
+#: theme/includes/google-fonts.php:143 theme/includes/google-fonts.php:149
+#: theme/includes/google-fonts.php:155 theme/includes/google-fonts.php:161
+#: theme/includes/google-fonts.php:167 theme/includes/google-fonts.php:173
+#: theme/includes/google-fonts.php:179 theme/includes/google-fonts.php:185
+msgid "on"
+msgstr ""
+
+#: theme/includes/settings.php:50
+msgid "Default Sidebar"
+msgstr ""
+
+#: theme/includes/settings.php:58
+msgid "Footer"
+msgstr ""
+
+#: theme/includes/settings.php:60
+msgid "Footer Sidebar"
+msgstr ""
+
+#: theme/includes/settings.php:68
+msgid "Search Lightbox"
+msgstr ""
+
+#: theme/includes/settings.php:70
+msgid "Search Lightbox Widgets"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner300.php:24
+msgid "Banner 300x300"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner300.php:27
+#: theme/includes/vc-blocks/banner728.php:27
+#: theme/includes/vc-blocks/banner970.php:27
+msgid "GoodGame Banners"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner300.php:33
+#: theme/includes/vc-blocks/banner728.php:33
+#: theme/includes/vc-blocks/banner970.php:33
+msgid "Banner"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner300.php:36
+msgid ""
+"Display 300x300px banners.  Check more than one to have multiple banners in "
+"rotation"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner728.php:24
+msgid "Banner 728x90"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner728.php:36
+msgid ""
+"Display 728x90 banners. Check more than one to have multiple banners in "
+"rotation"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner970.php:24
+msgid "Banner 970x90"
+msgstr ""
+
+#: theme/includes/vc-blocks/banner970.php:36
+msgid ""
+"Display 970x90 banners. Check more than one to have multiple banners in "
+"rotation"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:35
+msgid "Compact post columns"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:36
+msgid "Columns with post titles and small thumbnails "
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:40
+#: theme/includes/vc-blocks/exclusive-post.php:21
+#: theme/includes/vc-blocks/home-slider-item.php:22
+#: theme/includes/vc-blocks/home-slider.php:24
+#: theme/includes/vc-blocks/photo-galleries.php:21
+#: theme/includes/vc-blocks/post-category-slider.php:33
+#: theme/includes/vc-blocks/post-list-compact-items.php:40
+#: theme/includes/vc-blocks/post-list-large-items.php:40
+#: theme/includes/vc-blocks/post-list-with-heading.php:40
+#: theme/includes/vc-blocks/post-platform-slider.php:32
+#: theme/includes/vc-blocks/post-slider-large.php:40
+#: theme/includes/vc-blocks/title-block.php:19
+msgid "GoodGame"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:46
+#: theme/includes/vc-blocks/photo-galleries.php:27
+#: theme/includes/vc-blocks/post-list-compact-items.php:46
+#: theme/includes/vc-blocks/post-list-large-items.php:46
+#: theme/includes/vc-blocks/post-list-with-heading.php:46
+#: theme/includes/vc-blocks/post-slider-large.php:46
+#: theme/includes/vc-blocks/title-block.php:25
+#: theme/includes/vc-blocks/twitch-videos.php:27
+msgid "Title"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:48
+#: theme/includes/vc-blocks/compact-post-columns.php:100
+#: theme/includes/vc-blocks/photo-galleries.php:29
+#: theme/includes/vc-blocks/post-list-compact-items.php:48
+#: theme/includes/vc-blocks/post-list-compact-items.php:91
+#: theme/includes/vc-blocks/post-list-large-items.php:48
+#: theme/includes/vc-blocks/post-list-large-items.php:91
+#: theme/includes/vc-blocks/post-list-with-heading.php:48
+#: theme/includes/vc-blocks/post-list-with-heading.php:92
+#: theme/includes/vc-blocks/post-slider-large.php:48
+#: theme/includes/vc-blocks/post-slider-large.php:91
+#: theme/includes/vc-blocks/title-block.php:27
+msgid "Latest news"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:49
+#: theme/includes/vc-blocks/post-list-compact-items.php:49
+#: theme/includes/vc-blocks/post-list-large-items.php:49
+#: theme/includes/vc-blocks/post-list-with-heading.php:49
+#: theme/includes/vc-blocks/post-slider-large.php:49
+msgid "The title for post block"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:55
+#: theme/includes/vc-blocks/photo-galleries.php:36
+#: theme/includes/vc-blocks/post-category-slider.php:57
+#: theme/includes/vc-blocks/post-list-compact-items.php:55
+#: theme/includes/vc-blocks/post-list-large-items.php:55
+#: theme/includes/vc-blocks/post-list-with-heading.php:55
+#: theme/includes/vc-blocks/post-platform-slider.php:56
+#: theme/includes/vc-blocks/post-slider-large.php:55
+#: theme/includes/vc-blocks/twitch-videos.php:45
+msgid "Count"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:58
+#: theme/includes/vc-blocks/post-list-compact-items.php:58
+#: theme/includes/vc-blocks/post-list-large-items.php:58
+#: theme/includes/vc-blocks/post-list-with-heading.php:58
+#: theme/includes/vc-blocks/post-slider-large.php:58
+msgid "How many posts should be shown"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:64
+#: theme/includes/vc-blocks/photo-galleries.php:45
+msgid "Columns"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:67
+#: theme/includes/vc-blocks/photo-galleries.php:48
+msgid "How many columns per row"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:73
+#: theme/includes/vc-blocks/post-list-compact-items.php:64
+#: theme/includes/vc-blocks/post-list-large-items.php:64
+#: theme/includes/vc-blocks/post-list-with-heading.php:64
+#: theme/includes/vc-blocks/post-slider-large.php:64
+msgid "Post platform"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:76
+#: theme/includes/vc-blocks/post-list-compact-items.php:67
+#: theme/includes/vc-blocks/post-list-large-items.php:67
+#: theme/includes/vc-blocks/post-list-with-heading.php:67
+#: theme/includes/vc-blocks/post-slider-large.php:67
+msgid "List posts from specific platform"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:82
+#: theme/includes/vc-blocks/post-list-compact-items.php:73
+#: theme/includes/vc-blocks/post-list-large-items.php:73
+#: theme/includes/vc-blocks/post-list-with-heading.php:73
+#: theme/includes/vc-blocks/post-slider-large.php:73
+msgid "Post category"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:85
+#: theme/includes/vc-blocks/post-list-compact-items.php:76
+#: theme/includes/vc-blocks/post-list-large-items.php:76
+#: theme/includes/vc-blocks/post-list-with-heading.php:76
+#: theme/includes/vc-blocks/post-slider-large.php:76
+msgid "List posts from specific category"
+msgstr ""
+
+#: theme/includes/vc-blocks/compact-post-columns.php:158
+#: theme/includes/vc-blocks/photo-galleries.php:90
+#: theme/includes/vc-blocks/post-list-compact-items.php:137
+#: theme/includes/vc-blocks/post-list-large-items.php:137
+#: theme/includes/vc-blocks/post-slider-large.php:141
+#: theme/includes/widgets/goodgame-dropdown-category-posts.php:142
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:114
+#: theme/includes/widgets/goodgame-recent-post-list.php:88
+msgid "View all"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:16
+msgid "Exclusive post"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:17
+msgid "Embed a specially styled singe post block"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:28
+#: theme/includes/vc-blocks/home-slider-item.php:29 theme/theme.php:992
+msgid "Post ID"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:31
+msgid "The ID of the post you wish to display"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:37
+msgid "Image position"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:40
+msgid "Which side should the image be on"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:71
+msgid "Exclusives"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:89
+#: theme/templates/post-list-item-compact.php:29
+#: theme/templates/post-list-item-large.php:18
+#: theme/templates/post-list-item-medium-without-tags.php:16
+#: theme/templates/post-list-item-medium.php:18
+#: theme/templates/post-list-item-small.php:32
+msgid "Hot"
+msgstr ""
+
+#: theme/includes/vc-blocks/exclusive-post.php:109
+#: theme/includes/vc-blocks/home-slider-item.php:96
+#: theme/templates/featured-large-post-no-excerpt.php:14
+#: theme/templates/featured-large-post.php:18
+#: theme/templates/featured-medium-post.php:20
+#: theme/templates/loop-default-list-item.php:50
+#: theme/templates/loop-default-search-item.php:36
+#: theme/templates/loop-gallery-search-item.php:47
+#: theme/templates/post-list-item-compact.php:50
+#: theme/templates/post-list-item-large.php:39
+#: theme/templates/post-list-item-small.php:9
+#: theme/templates/post-previous-next-item.php:42
+msgid "Read more"
+msgstr ""
+
+#: theme/includes/vc-blocks/gallery-embed.php:25
+msgid "Gallery embed"
+msgstr ""
+
+#: theme/includes/vc-blocks/gallery-embed.php:28
+#: theme/includes/vc-blocks/review-summary.php:19
+#: theme/includes/vc-blocks/twitch-stream.php:21
+#: theme/includes/vc-blocks/twitch-videos.php:21
+msgid "GoodGame Post Blocks"
+msgstr ""
+
+#: theme/includes/vc-blocks/gallery-embed.php:34
+msgid "Gallery"
+msgstr ""
+
+#: theme/includes/vc-blocks/gallery-embed.php:37
+msgid "Select which gallery to embed in the post"
+msgstr ""
+
+#: theme/includes/vc-blocks/gallery-embed.php:81
+msgid "View all photos"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider-item.php:16
+msgid "Home slider item"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider-item.php:17
+msgid "Item for home slider"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider-item.php:32
+msgid "The ID of the post you wish to display in this slide"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider-item.php:38
+msgid "Slider image"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider-item.php:41
+msgid "Recommended size - 500x650px"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider.php:16
+msgid "Home slider"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider.php:17
+msgid "Display large home slider for posts"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider.php:30
+#: theme/includes/vc-blocks/post-category-slider.php:66
+#: theme/includes/vc-blocks/post-platform-slider.php:65
+msgid "Interval"
+msgstr ""
+
+#: theme/includes/vc-blocks/home-slider.php:33
+msgid ""
+"The amount of miliseconds (1000ms = 1sec) to delay between advancing the "
+"slider. Entering 0 will disable auto advance."
+msgstr ""
+
+#: theme/includes/vc-blocks/photo-galleries.php:16
+msgid "Latest photo galleries"
+msgstr ""
+
+#: theme/includes/vc-blocks/photo-galleries.php:17
+msgid "List of photo galleries"
+msgstr ""
+
+#: theme/includes/vc-blocks/photo-galleries.php:30
+msgid "The title for gallery block"
+msgstr ""
+
+#: theme/includes/vc-blocks/photo-galleries.php:39
+msgid "How many galleries should be shown"
+msgstr ""
+
+#: theme/includes/vc-blocks/photo-galleries.php:63
+msgid "Latest Photo Galleries"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:28
+msgid "Post category slider"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:29
+msgid "Display post slider with category tabs"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:39
+msgid "Post categories"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:42
+msgid "Check which categories to show in tabs"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:48
+#: theme/includes/vc-blocks/post-platform-slider.php:47
+msgid "Show first"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:51
+msgid "Select which categories to show first. Must be checked in above."
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:60
+msgid "How many posts should be shown per category"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-category-slider.php:69
+#: theme/includes/vc-blocks/post-platform-slider.php:68
+msgid ""
+"The amount of miliseconds to delay between advancing the slider. Entering 0 "
+"will disable auto advance."
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-compact-items.php:35
+msgid "Post list with large items (text on side)"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-compact-items.php:36
+msgid ""
+"Blog like post list with large items that have text on side. 1/3 to 2/3 "
+"width recommended"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-large-items.php:35
+msgid "Post list with large items (text below image)"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-large-items.php:36
+msgid ""
+"Blog like post list with large items that have text below image. 1/3 to 2/3 "
+"width recommended"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-with-heading.php:35
+msgid "Post list with Heading"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-with-heading.php:36
+msgid "Large featured post followed by list of smaller posts"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-list-with-heading.php:196
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:103
+#: theme/theme.php:895
+msgid "View more games"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-platform-slider.php:27
+msgid "Post platform slider"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-platform-slider.php:28
+msgid "Display post slider with platform tabs"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-platform-slider.php:38
+msgid "Post platforms"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-platform-slider.php:41
+msgid "Check which platforms to show in tabs"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-platform-slider.php:50
+msgid "Select which platforms to show first. Must be checked in above."
+msgstr ""
+
+#: theme/includes/vc-blocks/post-platform-slider.php:59
+msgid "How many posts should be shown per platform"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-slider-large.php:35
+msgid "Simple post slider"
+msgstr ""
+
+#: theme/includes/vc-blocks/post-slider-large.php:36
+msgid "Slider block with 4 columns"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:16
+msgid "Review Summary"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:25
+msgid "Label for Post rating"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:27
+#: theme/includes/vc-blocks/review-summary.php:85
+msgid "Author's rating"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:33
+msgid "Rating"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:36
+msgid ""
+"List of Ratings. Enter them in format like this: [rating title=\"Graphics\" "
+"value=\"8.5\"] This will result in \"Graphics\" being rated with 8.5 out of "
+"10"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:42
+msgid "Heading for positive feature list"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:44
+msgid "What's good"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:50
+msgid "Positives"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:53
+msgid "List of positives. Enter each item in new row."
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:59
+msgid "Negative for positive feature list"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:61
+msgid "What's bad"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:67
+msgid "Negatives"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:70
+msgid "List of negatives. Enter each item in new row."
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:86
+msgid "The good"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:87
+msgid "The bad"
+msgstr ""
+
+#: theme/includes/vc-blocks/review-summary.php:100
+msgid "Overall rating"
+msgstr ""
+
+#: theme/includes/vc-blocks/title-block.php:16
+msgid "Title block"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-stream.php:16
+msgid "Twitch live stream"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-stream.php:17
+msgid "Display Twitch live stream"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-stream.php:27
+#: theme/includes/vc-blocks/twitch-videos.php:36
+#: theme/templates/login-lightbox.php:7
+msgid "Username"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-stream.php:30
+#: theme/includes/vc-blocks/twitch-videos.php:39
+msgid "Streamer's username"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:16
+msgid "Twitch recent videos"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:17
+msgid "Display up to 100 recent videos"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:29
+msgid "Recent videos"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:30
+msgid "The title for videos block"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:48
+msgid "How many videos should be shown (maximum value is 100)"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:82
+msgid "View more"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:115
+msgid " ago"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:140
+msgid "No recent videos were found!"
+msgstr ""
+
+#: theme/includes/vc-blocks/twitch-videos.php:148 theme/theme.php:773
+#: theme/theme.php:860
+msgid ""
+"Something went wrong. Make sure \"Planetshine GoodGame Theme Extension\" "
+"plugin is installed. Check your Twitch client ID and streamer's username."
+msgstr ""
+
+#: theme/includes/widgets/goodgame-about.php:13
+msgid "Display your site name, description and social links"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-about.php:15
+msgid "GoodGame About"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-about.php:62
+msgid "About us"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-about.php:113
+#: theme/includes/widgets/goodgame-newsletter-social.php:106
+msgid "Description:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-about.php:118
+msgid "Show social icons?"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-banner-large.php:13
+msgid "300x300px banner"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-banner-large.php:15
+msgid "GoodGame Sidebar Banner"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-banner-large.php:124
+msgid "Banners:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-banner-large.php:137
+msgid "There are no active ads for this location. "
+msgstr ""
+
+#: theme/includes/widgets/goodgame-banner-large.php:139
+msgid "Create a new Ad!"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-category-posts.php:13
+msgid "Display dynamically switchabe post categories"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-category-posts.php:15
+msgid "GoodGame Dropdown Post Categories"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-category-posts.php:56
+msgid "All recent articles"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-category-posts.php:187
+msgid "Categories:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:13
+msgid "Row of large featured posts"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:15
+msgid "GoodGame Dropdown Featured Post List"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:48
+msgid "Featured Posts"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:181
+#: theme/includes/widgets/goodgame-dropdown-latest-videos.php:121
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-heading.php:197
+#: theme/includes/widgets/goodgame-newsletter-social.php:101
+#: theme/includes/widgets/goodgame-post-categories.php:113
+#: theme/includes/widgets/goodgame-recent-post-list.php:158
+#: theme/includes/widgets/goodgame-social-share.php:138
+#: theme/includes/widgets/goodgame-tag-cloud.php:109
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:151
+#: theme/includes/widgets/goodgame-twitch-stream.php:97
+msgid "Title:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:186
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-heading.php:201
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-sidemenu.php:211
+#: theme/includes/widgets/goodgame-recent-post-list.php:168
+msgid "Category:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:195
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-heading.php:209
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-sidemenu.php:219
+msgid "Platform:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-featured-post-list.php:205
+msgid "Display only featured posts"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-latest-videos.php:13
+msgid "Row of latest videos"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-latest-videos.php:15
+msgid "GoodGame Dropdown Latest Videos"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-latest-videos.php:48
+msgid "Latest videos"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-heading.php:13
+msgid "Post list with one large featured post"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-heading.php:15
+msgid "GoodGame Dropdown Post List With Featured Item"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-heading.php:50
+#: theme/includes/widgets/goodgame-recent-post-list.php:48
+msgid "Recent Posts"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-sidemenu.php:13
+msgid "Post list with sidemenu and a large featured post"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-sidemenu.php:15
+msgid "GoodGame Dropdown Post List With Sidemenu"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-dropdown-post-list-with-sidemenu.php:227
+msgid "Menu:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-newsletter-social.php:13
+msgid "Display a newsletter signup form"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-newsletter-social.php:15
+msgid "GoodGame Newsletter"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-newsletter-social.php:47
+msgid "Follow us"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-newsletter-social.php:58
+msgid "E-mail address"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-newsletter-social.php:58
+msgid "Subscribe"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-categories.php:13
+msgid "GoodGame list of post categories"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-categories.php:15
+#: theme/includes/widgets/goodgame-post-categories.php:46
+msgid "GoodGame Post Categories"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-categories.php:117
+#: theme/includes/widgets/goodgame-tag-cloud.php:113
+msgid "Max count:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-tabs.php:13
+msgid "Post tabs - latest, popular and recently commented posts "
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-tabs.php:15
+msgid "GoodGame Post Tabs"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-tabs.php:61
+msgid "Popular"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-tabs.php:65
+msgid "Recent"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-tabs.php:202
+#: theme/includes/widgets/goodgame-recent-post-list.php:163
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:156
+msgid "Post count:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-post-tabs.php:207
+msgid "Date range for popular items:"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-recent-post-list.php:13
+msgid "List of recent posts"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-recent-post-list.php:15
+msgid "GoodGame Recent Post List"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-social-share.php:13
+msgid "Share icons for single posts, pages and galleries"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-social-share.php:15
+msgid "GoodGame Social Share"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-social-share.php:48
+msgid "Social share"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-social-share.php:96
+msgid "Pin it"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-social-share.php:97
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-social-share.php:141
+msgid "Social share settings can be setup in theme settings"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-tag-cloud.php:13
+msgid "Custom tag cloud for GoodGame"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-tag-cloud.php:15
+#: theme/includes/widgets/goodgame-tag-cloud.php:46
+msgid "GoodGame Tag Cloud"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:13
+msgid "Top 5 posts filtered by platform and period of time"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:15
+msgid "GoodGame Top Reviews By Platforms"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:49
+msgid "Top 5 rated games"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:69
+msgid "All platforms"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:77
+msgid "All time"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:78
+msgid "Last year"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:79
+msgid "Last 6 months"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:80
+msgid "Last 3 months"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:81
+msgid "Last month"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:82
+msgid "Last week"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-top-reviews-by-platforms.php:107
+#: theme/theme.php:898
+msgid "No posts were found!"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-twitch-stream.php:13
+msgid "Twitch.tv Live Stream and streamer's details"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-twitch-stream.php:15
+msgid "GoodGame Twitch Live Stream"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-twitch-stream.php:46
+msgid "Twitch"
+msgstr ""
+
+#: theme/includes/widgets/goodgame-twitch-stream.php:102
+msgid "Streamer username:"
+msgstr ""
+
+#: theme/templates/header.php:49
+msgid "Sign out"
+msgstr ""
+
+#: theme/templates/header.php:51
+msgid "Account"
+msgstr ""
+
+#: theme/templates/link-pages.php:9
+msgid "Next page"
+msgstr ""
+
+#: theme/templates/link-pages.php:10
+msgid "Previous page"
+msgstr ""
+
+#: theme/templates/login-lightbox.php:10
+msgid "Password"
+msgstr ""
+
+#: theme/templates/login-lightbox.php:13
+msgid "Login"
+msgstr ""
+
+#: theme/templates/login-lightbox.php:16
+msgid "Remember me"
+msgstr ""
+
+#: theme/templates/login-lightbox.php:17
+msgid "Lost your password?"
+msgstr ""
+
+#: theme/templates/login-lightbox.php:31
+msgid "Register now"
+msgstr ""
+
+#: theme/templates/loop-gallery-single.php:9
+msgid "Back to gallery list"
+msgstr ""
+
+#: theme/templates/menu.php:4
+msgid "Main menu"
+msgstr ""
+
+#: theme/templates/post-author.php:11
+msgid "About author"
+msgstr ""
+
+#: theme/templates/post-controls.php:27
+msgid "views"
+msgstr ""
+
+#: theme/templates/post-controls.php:48
+msgid "Share"
+msgstr ""
+
+#: theme/templates/post-controls.php:55
+msgid "Like"
+msgstr ""
+
+#: theme/templates/post-controls.php:58
+msgid "Dislike"
+msgstr ""
+
+#: theme/templates/post-full-width-previous-next.php:13
+msgid "Previous post"
+msgstr ""
+
+#: theme/templates/post-full-width-previous-next.php:17
+msgid "Next post"
+msgstr ""
+
+#: theme/templates/post-list-item.php:18
+msgid "Continue reading"
+msgstr ""
+
+#: theme/templates/search-lightbox.php:6
+msgid "Search here"
+msgstr ""
+
+#: theme/theme.php:131
+msgid "Primary Menu"
+msgstr ""
+
+#: theme/theme.php:457
+msgid "Post settings"
+msgstr ""
+
+#: theme/theme.php:479
+msgid "Page settings"
+msgstr ""
+
+#: theme/theme.php:745
+msgid "Stream"
+msgstr ""
+
+#: theme/theme.php:750
+msgid "now playing"
+msgstr ""
+
+#: theme/theme.php:750
+msgid "is currently"
+msgstr ""
+
+#: theme/theme.php:750 theme/theme.php:823
+msgid "offline"
+msgstr ""
+
+#: theme/theme.php:815 theme/theme.php:819
+msgid "Streaming"
+msgstr ""
+
+#: theme/theme.php:823
+msgid "Currently"
+msgstr ""
+
+#: theme/theme.php:830
+msgid "Videos"
+msgstr ""
+
+#: theme/theme.php:831
+msgid "Followers"
+msgstr ""
+
+#: theme/theme.php:832
+msgid "Following"
+msgstr ""
+
+#: theme/theme.php:839
+msgid "Now streaming"
+msgstr ""
+
+#: theme/theme.php:920
+msgid "This post is featured"
+msgstr ""
+
+#: theme/theme.php:927
+msgid "Post style:"
+msgstr ""
+
+#: theme/theme.php:930 theme/theme.php:942 theme/theme.php:1024
+msgid "Global theme setting"
+msgstr ""
+
+#: theme/theme.php:931
+msgid "With sidebar"
+msgstr ""
+
+#: theme/theme.php:932
+msgid "Full width"
+msgstr ""
+
+#: theme/theme.php:939
+msgid "Image mode:"
+msgstr ""
+
+#: theme/theme.php:943
+msgid "As wide as text"
+msgstr ""
+
+#: theme/theme.php:944
+msgid "Site container width (requires sidebar)"
+msgstr ""
+
+#: theme/theme.php:945
+msgid "Full screen (featured) "
+msgstr ""
+
+#: theme/theme.php:946
+msgid "No image"
+msgstr ""
+
+#: theme/theme.php:947
+msgid "Video"
+msgstr ""
+
+#: theme/theme.php:948
+msgid "Video with autoplay"
+msgstr ""
+
+#: theme/theme.php:956
+msgid "Video url (Optional. Used when image mode - video is set):"
+msgstr ""
+
+#: theme/theme.php:964
+msgid "Rating (for reviews):"
+msgstr ""
+
+#: theme/theme.php:1009
+msgid "Show share icons"
+msgstr ""
+
+#: theme/theme.php:1020
+msgid "Custom sidebar (for pages that have a sidebar):"
+msgstr ""
+
+#: theme/theme.php:1044
+msgid "Additional user information"
+msgstr ""
+
+#: theme/theme.php:1049
+msgid "Position"
+msgstr ""
+
+#: theme/theme.php:1052
+msgid ""
+"Users position in this magazine. For example \"Editor in chief\" or \"Food "
+"critic\""
+msgstr ""
+
+#: theme/theme.php:1057
+msgid "Twitter account"
+msgstr ""
+
+#: theme/theme.php:1060
+msgid "Twitter account URL"
+msgstr ""
+
+#: theme/theme.php:1065
+msgid "Facebook account"
+msgstr ""
+
+#: theme/theme.php:1068
+msgid "Facebook account URL"
+msgstr ""
+
+#: theme/theme.php:1073
+msgid "Youtube account"
+msgstr ""
+
+#: theme/theme.php:1076
+msgid "Youtube account URL"
+msgstr ""
+
+#: theme/theme.php:1081
+msgid "Google+ account"
+msgstr ""
+
+#: theme/theme.php:1084
+msgid "Google+ account URL"
+msgstr ""
+
+#: theme/theme.php:1089
+msgid "Pinterest account"
+msgstr ""
+
+#: theme/theme.php:1092
+msgid "Pinterest account URL"
+msgstr ""
+
+#: theme/theme.php:1097
+msgid "Instagram account"
+msgstr ""
+
+#: theme/theme.php:1100
+msgid "Instagram account URL"
+msgstr ""
+
+#: theme/theme.php:1105
+msgid "Steam account"
+msgstr ""
+
+#: theme/theme.php:1108
+msgid "Steam account URL"
+msgstr ""
+
+#: theme/theme.php:1249
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: theme/theme.php:1547
+msgid "Latest posts with videos"
+msgstr ""
+
+#: theme/theme.php:1808
+msgid "GoodGame Avatar"
+msgstr ""
+
+#: theme/theme.php:1857
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""

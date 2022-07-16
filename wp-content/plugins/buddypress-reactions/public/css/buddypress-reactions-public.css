@@ -1,0 +1,690 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+# Activity Page
+# Reaction Popup
+# Single Post
+    # Layout 1
+# Sidebar Widgets
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+
+/*--------------------------------------------------------------
+# Activity Page
+--------------------------------------------------------------*/
+
+.bp-activity-react-button-wrapper {
+    position: relative;
+}
+
+#buddypress .generic-button .bp-activity-react-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bp-activity-reactions {
+    position: absolute;
+    z-index: 99;
+    bottom: 54px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0px, 20px);
+    transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;
+}
+
+.bp-activity-react-button-wrapper:hover .bp-activity-reactions {
+    opacity: 1;
+    visibility: visible;
+}
+
+.emoji-picker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 54px;
+    padding: 0 10px;
+    border-radius: 100px !important;
+    background-color: #fff;
+    box-shadow: rgba(94, 92, 154, 0.12) 0px 0px 40px 0px;
+}
+
+.emoji-picker .emoji-pick {
+    cursor: pointer;
+}
+
+.emoji-picker .emoji-pick:hover {
+    -webkit-transform: scale(1.15) translate(0, -4px) translateZ(0);
+    transform: scale(1.15) translate(0, -4px) translateZ(0);
+    transition: transform 200ms;
+}
+
+.emoji-picker .emoji-pick .emoji-lottie-holder {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji-picker .emoji-pick .emoji-svg-holder {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 38px;
+    height: 38px;
+    margin: 6px;
+    padding: 0;
+}
+
+@media screen and (max-width: 543px) {
+    .emoji-picker {
+        height: 34px;
+        padding: 0 8px;
+    }
+    .emoji-picker .emoji-pick .emoji-lottie-holder {
+        width: 33px;
+        height: 33px;
+    }
+    .emoji-picker .emoji-pick .emoji-svg-holder {
+        width: 25px;
+        height: 25px;
+        margin: 4px;
+    }
+}
+
+.icon-thumbs-up i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.bp-post-react-icon img {
+    width: 24px !important;
+    margin-right: 5px;
+}
+
+.content-actions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 52px;
+}
+
+.content-actions .content-action {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.meta-line {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.meta-line .meta-line-text {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.meta-line .meta-line-text.meta-line-text-trigger {
+    cursor: pointer;
+}
+
+.meta-line .meta-line-list+.meta-line-text {
+    margin-left: 10px;
+}
+
+.reaction-item-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.reaction-item-list .reaction-item-wrap {
+    margin-left: -6px;
+}
+
+.reaction-item-list .reaction-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50% !important;
+    background-color: rgba(0, 0, 0, 0.02);
+    margin-left: -6px;
+}
+
+.reaction-item-list .reaction-item-wrap:last-child,
+.reaction-item-list .reaction-item:last-child {
+    margin-left: 0;
+}
+
+.reaction-image {
+    width: 20px;
+    height: 20px;
+}
+
+.reaction-item-list .reaction-item>.reaction-image {
+    cursor: pointer;
+}
+
+.simple-dropdown {
+    width: 140px;
+    padding: 12px 16px 16px;
+    border-radius: 12px !important;
+    background-color: #fff;
+    box-shadow: rgba(94, 92, 154, 0.12) 0px 0px 40px 0px;
+}
+
+.reaction-list-dropdown {
+    position: absolute;
+    z-index: 9999;
+    bottom: 38px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0px, 20px);
+    transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;
+}
+
+.reaction-item:hover .reaction-list-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px);
+}
+
+.simple-dropdown .simple-dropdown-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.reaction-item-list .reaction-item .simple-dropdown .simple-dropdown-text:first-child {
+    margin-bottom: 10px;
+}
+
+.simple-dropdown-text .reaction {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    position: relative;
+    top: -2px;
+}
+
+.simple-dropdown-text .reaction:first-child {
+    margin-left: 0;
+}
+
+.simple-dropdown .simple-dropdown-text .reaction {
+    margin-right: 4px;
+}
+
+.simple-dropdown .simple-dropdown-text .bold {
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+    overflow: hidden
+}
+
+.simple-dropdown .simple-dropdown-text+.simple-dropdown-text {
+    margin-top: 4px;
+}
+
+.simple-dropdown ul.reacted-users {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.simple-dropdown ul.reacted-users li {
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.simple-dropdown ul.reacted-users li:last-child {
+    margin: 0;
+}
+
+
+/* Comments Reaction */
+
+.activity-comments .generic-button {
+    order: 2;
+}
+
+.bp-react-activity-comment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    margin-right: 4px;
+}
+
+.bp-react-activity-comment .emoji-picker {
+    height: 34px;
+    padding: 0 8px;
+}
+
+.bp-react-activity-comment .emoji-picker .emoji-pick .emoji-lottie-holder {
+    width: 33px;
+    height: 33px;
+}
+
+.bp-react-activity-comment .emoji-picker .emoji-pick .emoji-svg-holder {
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+}
+
+.bp-react-activity-comment .content-actions {
+    height: auto;
+    margin-right: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Reaction Popup
+--------------------------------------------------------------*/
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translate(0, -20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+.bp-reachtions-overlay {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 21, 31, 0.96);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    overflow: hidden auto;
+}
+
+
+/* .bp-reaction-popup.bp-reaction-popup-users {
+    display: block;
+} */
+
+.bp-reaction-pop-container {
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+}
+
+.animate-slide-down {
+    opacity: 0;
+    -webkit-transform: translate(0, -20px);
+    transform: translate(0, -20px);
+    -webkit-animation: slideDown .4s ease-in-out forwards;
+    animation: slideDown .4s ease-in-out forwards;
+    transition: opacity .4s ease-in-out, -webkit-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+.bp-reaction-pop-container {
+    max-width: 484px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.reaction-box {
+    border-radius: 12px !important;
+    background-color: #fff;
+    box-shadow: rgba(94, 92, 154, 0.06) 0px 0px 40px 0px;
+}
+
+.reaction-popup-close-button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(221, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 2;
+    transition: background-color .2s ease-in-out;
+}
+
+.reaction-box .reaction-box-options {
+    display: -ms-flexbox;
+    display: flex;
+    height: 52px;
+    padding: 0 28px;
+    border-bottom: 1px solid rgb(234, 234, 245);
+}
+
+.reaction-box .reaction-box-options ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.reaction-box .reaction-box-options ul .reaction-box-option {
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 12px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    height: 100%;
+}
+
+.reaction-box .reaction-box-options ul .reaction-box-option.active {
+    border-bottom-color: #111;
+}
+
+.reaction-box .reaction-box-options ul .reaction-box-option p {
+    margin: 0;
+    padding: 0;
+}
+
+.reaction-box .reaction-box-options ul .reaction-box-option img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    position: relative;
+    top: -1px;
+}
+
+.reaction-box .reaction-box-content .reaction-box-item {
+    height: 406px;
+    padding: 32px 28px;
+    overflow-y: auto;
+}
+
+.reaction-box .user-status {
+    min-height: 44px;
+    padding: 2px 0 0 60px;
+    position: relative;
+}
+
+.reaction-box .user-status-list .user-status {
+    margin-bottom: 22px;
+}
+
+.reaction-box .user-status.request-small {
+    padding-right: 48px;
+}
+
+.reaction-box .user-avatar-circle img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+}
+
+.reaction-box .user-status .user-status-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.reaction-box .user-avatar-circle.no-border.no-stats.small {
+    width: 44px;
+    height: 44px;
+}
+
+.reaction-box .user-status.request .user-status-title,
+.reaction-box .user-status.request-small .user-status-title {
+    margin-top: 2px;
+    line-height: 1.1428571429em;
+}
+
+.reaction-box .user-status .user-status-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4285714286em;
+    word-break: break-word;
+}
+
+.reaction-box .user-status .action-request-list {
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.reaction-box .action-request-list {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.reaction-box .user-status .user-status-reaction-image {
+    width: 20px;
+    height: auto;
+}
+
+
+/*--------------------------------------------------------------
+## Layout 1 (Single Post)
+--------------------------------------------------------------*/
+
+.post-footer-content-actiions {
+    margin: 1rem 0 0;
+}
+
+.bp-reactions-layout-1 {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+}
+
+.bp-reactions-layout-1 .emoji-picker {
+    display: inline-flex;
+}
+
+.bp-reactions-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.bp-reactions-wrap.bp-reactions-left {
+    justify-content: flex-start;
+}
+
+.bp-reactions-wrap.bp-reactions-center {
+    justify-content: center;
+}
+
+.bp-reactions-wrap.bp-reactions-right {
+    justify-content: flex-end;
+}
+
+.bp-reactions-center .bp-reactions-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bp-reaction-call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #111;
+    line-height: 1.2;
+    max-width: 100%;
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+
+.bp-reactions-layout-1 .emoji-pick {
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+}
+
+.bp-reactions-layout-1 .emoji-pick:hover,
+.bp-reactions-layout-1 .emoji-pick.active {
+    -webkit-transform: scale(1.15) translate(0, -4px) translateZ(0);
+    transform: scale(1.15) translate(0, -4px) translateZ(0);
+    transition: transform 200ms;
+}
+
+.bp-emoji-arrow-badge {
+    text-align: center;
+    min-width: 27px;
+    height: 16px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 300;
+    padding: 2px 4px;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.bp-reactions-layout-1 .bp-emoji-arrow-badge {
+    top: -20px;
+}
+
+.bp-reactions-layout-1 .emoji-pick.active .bp-emoji-arrow-badge {
+    top: -16px;
+}
+
+
+/*--------------------------------------------------------------
+# Sidebar Widgets
+--------------------------------------------------------------*/
+
+.widget_bp_reactions_list_widget ul.wp-reactions-lists {
+    margin: -10px;
+    padding: 0;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.widget_bp_reactions_list_widget ul.wp-reactions-lists li {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.widget_bp_reactions_list_widget ul.wp-reactions-lists li .reaction-image {
+    width: 40px;
+    height: 40px;
+}
+
+.widget_bp_reactions_list_widget ul.wp-reactions-lists li span.count {
+    margin-top: 10px;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.widget_bp_reactions_list_widget ul.wp-reactions-lists li span.wp-emoji-name {
+    margin-top: 8px;
+    color: #a6a8c6;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: none;
+}

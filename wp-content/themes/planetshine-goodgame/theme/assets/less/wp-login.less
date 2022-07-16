@@ -1,0 +1,157 @@
+@primary-color-1: #000000;
+@primary-color-2: #ffffff;
+@primary-color-3: #252525;
+@primary-color-4: #252525;
+
+@secondary-color-1: #aaaaaa;
+
+@border-color: #0a0a0a;
+
+// Motion
+// --------------------------------------------------
+
+@transition-fast: 100ms ease;
+@transition-slow: 400ms ease;
+@transition-very-slow: 500ms ease;
+@transition-mask: right 0.4s ease;
+@transition-bg-fast: background-color 100ms ease;
+@transition-scale-fast: scale 100ms ease;
+
+body {
+    background: @body-background-1;
+    font: 300 14px/26px @general-font, sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"], textarea, select {
+    background: @body-background-1 !important;
+    border: 1px solid @accent-color-1;
+    padding: 9px 15px;
+    margin: 0 0 10px 0;
+    height: 36px;
+    border-radius: 32px;
+    display: inline-block;
+    font: 14px/24px @general-font, sans-serif;
+    color: @secondary-color-1;
+    transition: @transition-slow;
+    float: left;
+    width: 100%;
+    -webkit-appearance: none;
+    outline: none;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        background: @block-background-color;
+        color: @primary-color-2;
+        border-radius: 0;
+    }
+}
+
+input[type="submit"] {
+    background: @body-background-1 !important;
+    color: @accent-color-1 !important;
+    border: 1px solid @accent-color-1 !important;
+    font: 900 14px/24px @general-font, sans-serif !important;
+    text-transform: uppercase !important;
+    height: 42px !important;
+    border-radius: 32px !important;
+    padding: 9px 20px !important;
+    display: inline-block !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    &:hover {
+        background: @accent-color-1 !important;
+        color: @body-background-1 !important;
+    }
+    &:active, &:focus { box-shadow: none !important; padding: 10px 15px 8px 15px; margin: 0 !important; padding: 9px 20px !important; transform: none !important; }
+
+}
+
+#login {
+    padding: 0 !important;
+    width: 552px;
+    max-width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+    overflow: hidden;
+    #nav, #backtoblog {
+        margin: 0;
+        padding: 0 35px;
+        float: left;
+        font-size: 14px;
+        a {
+            color: @accent-color-1; text-decoration: underline;
+            &:hover { color: @accent-color-1; }
+        }
+    }
+    #backtoblog {
+        float: right;
+    }
+
+}
+
+body.interim-login {
+    #login {
+        top: auto !important;
+        transform: none !important;
+    }
+}
+
+form#loginform, form#registerform {
+    margin-top: 45px;
+    margin-bottom: 35px;
+//    border: 1px solid @border-color;
+    box-shadow: none;
+    padding: 35px !important;
+    background: rgba(255,255,255,0.07);
+    p { margin-bottom: 10px; overflow: hidden; }
+    p.forgetmenot { width: 180px; padding-top: 9px; }
+    p.submit {
+        input { float: none; }
+
+    }
+}
+
+label {
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+    float: none;
+    display: inline-block;
+    width: 480px;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: @regular-text-color !important;
+    br { display: none; }
+}
+
+#reg_passmail, .ywsl-label {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: @regular-text-color;
+}
+
+.wc-social-login {
+
+    overflow: hidden;
+
+    .ywsl-label {
+        float: left;
+        display: inline-block;
+        width: 180px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+    .socials-list {
+        float: left;
+    }
+}
+
+.input-text {
+    width: 300px;
+}
+
+#login .message {
+    border-left: 4px solid @accent-color-1;
+}

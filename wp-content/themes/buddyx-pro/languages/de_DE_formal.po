@@ -1,0 +1,2573 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: BuddyX Pro v2.3.0\n"
+"POT-Creation-Date: 2021-01-29 17:52+0100\n"
+"PO-Revision-Date: 2021-01-29 19:09+0100\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: amp/footer.php:21 footer.php:21
+msgid "Footer"
+msgstr "Footer"
+
+#: amp/header.php:29 header.php:29
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#. translators: %s = last activity timestamp (e.g. "active 1 hour ago")
+#: buddypress/groups/groups-loop.php:64
+#: buddypress/groups/single/cover-image-header.php:59
+#, php-format
+msgid "active %s"
+msgstr "aktiv %s"
+
+#: buddypress/groups/single/cover-image-header.php:76
+msgid "Group Types"
+msgstr "Gruppentypen"
+
+#: buddypress/groups/single/cover-image-header.php:77
+msgid "Group Type"
+msgstr "Gruppentyp"
+
+#: buddypress/members/single/groups/invites.php:10
+msgid "Group Invites"
+msgstr "Gruppeneinladungen"
+
+#: buddypress/members/single/groups/invites.php:42
+#, php-format
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] "%s Mitglieder"
+msgstr[1] "%s Mitglieder"
+
+#. translators: 1: title.
+#: comments.php:38
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Eine Antwort auf &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Kommentar zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Kommentare zu &ldquo;%2$s&rdquo;"
+
+#: comments.php:60
+msgid "Comments are disabled."
+msgstr "Kommentare sind deaktiviert."
+
+#: external/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Die benötigten Plugins installieren"
+
+#: external/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#. translators: %s: plugin name.
+#: external/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#. translators: %s: plugin name.
+#: external/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aktualisiere Plugin: %s"
+
+#: external/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Mit der Plugin API ist etwas schiefgelaufen."
+
+#. translators: 1: plugin name(s).
+#: external/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dieses Theme erfordert das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme erfordert die folgenden Plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: external/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dieses Theme empfiehlt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme empfiehlt die folgenden Plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: external/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Das folgende Plugin muss auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme sicher zu stellen: %1$s."
+msgstr[1] ""
+"Die folgenden Plugins müssen auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme sicher zu stellen: %1$s."
+
+#. translators: 1: plugin name(s).
+#: external/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Es ist ein Update verfügbar für: %1$s."
+msgstr[1] "Es sind Updates verfügbar für: %1$s."
+
+#. translators: 1: plugin name(s).
+#: external/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende erforderliche Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen Plugins sind derzeit inaktiv: %1$s."
+
+#. translators: 1: plugin name(s).
+#: external/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende empfohlene Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit inaktiv: %1$s."
+
+#: external/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Beginne das Plugin zu installieren"
+msgstr[1] "Beginne die Plugins zu installieren"
+
+#: external/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Beginne mit der Aktualisierung des Plugins"
+msgstr[1] "Beginne mit der Aktualisierung der Plugins"
+
+#: external/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Plugin wird aktiviert"
+msgstr[1] "Plugins werden aktiviert"
+
+#: external/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation der benötigten Plugins"
+
+#: external/class-tgm-plugin-activation.php:386
+#: external/class-tgm-plugin-activation.php:827
+#: external/class-tgm-plugin-activation.php:2533
+#: external/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: external/class-tgm-plugin-activation.php:387
+#: external/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Das Plugin wurde erfolgreich aktiviert."
+
+#: external/class-tgm-plugin-activation.php:388
+#: external/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
+
+#. translators: 1: plugin name.
+#: external/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Maßnahmen ergriffen. Plugin %1$s war bereits aktiv."
+
+#. translators: 1: plugin name.
+#: external/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin wurde nicht aktiviert. Eine neuere Version des %s ist für dieses "
+"Theme erforderlich. Bitte aktualisieren Sie das Plugin."
+
+#. translators: 1: dashboard link.
+#: external/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
+
+#: external/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+#: external/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Es existieren ein oder mehrere benötigte oder empfohlene Plugins, die "
+"installiert, aktualisiert oder aktiviert werden müssen."
+
+#: external/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktieren Sie den Administrator dieser Website für Hilfe."
+
+#: external/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Dieses Plugin muss aktualisiert werden, um mit Ihrem Theme kompatibel zu "
+"sein."
+
+#: external/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Aktualisierung notwendig"
+
+#: external/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Das Remote-Plugin-Paket enthält keinen Ordner mit dem gewünschten Kürzel und "
+"eine Umbenennung hat nicht funktioniert."
+
+#: external/class-tgm-plugin-activation.php:934
+#: external/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Bitte kontaktieren Sie den Plugin-Anbieter und bitten Sie ihn, seine Plugins "
+"nach den Wordpress-Richtlinien zu komprimieren."
+
+#: external/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Das Remote-Plugin-Paket besteht aus mehreren Dateien, aber die Dateien sind "
+"nicht in einem Ordner gepackt."
+
+#: external/class-tgm-plugin-activation.php:1121
+#: external/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#. translators: %s: version number
+#: external/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: external/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Erforderlich"
+
+#: external/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: external/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: external/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: external/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: external/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: external/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+#: external/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktiv"
+
+#: external/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Erforderliche Aktualisierung nicht verfügbar"
+
+#: external/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Update erforderlich"
+
+#: external/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#. translators: 1: install status, 2: update status
+#: external/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: external/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: external/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Zum Installieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zum Installieren <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: external/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: external/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Zum Aktivieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zum Aktivieren <span class=\"count\">(%s)</span>"
+
+#: external/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: external/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: external/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimal erforderliche Version:"
+
+#: external/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: external/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zum installieren, aktualisieren oder aktivieren."
+
+#: external/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: external/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Quelle"
+
+#: external/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Typ"
+
+#: external/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Version"
+
+#: external/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: external/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "Installiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: external/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: external/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktiviere %2$s"
+
+#: external/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: external/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installieren"
+
+#: external/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Update"
+
+#: external/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: external/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Installation ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: external/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktualisierung ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: external/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Derzeit stehen keine Plugins zur Installation zur Verfügung."
+
+#: external/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Derzeit stehen keine Plugins zur Aktualisierung zur Verfügung."
+
+#: external/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktivierung ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: external/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Derzeit stehen keine Plugins zur Aktivierung zur Verfügung."
+
+#: external/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Die Plugin Aktivierung ist fehlgeschlagen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: external/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: external/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Während der Installation von %1$s: <strong>%2$s</strong> ist ein Fehler "
+"aufgetreten."
+
+#. translators: 1: plugin name.
+#: external/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: external/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsprozess wurde gestartet. Dies kann eine "
+"Weile dauern, haben Sie etwas Geduld."
+
+#. translators: 1: plugin name.
+#: external/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: external/class-tgm-plugin-activation.php:3509
+#: external/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Zeige Details"
+
+#: external/class-tgm-plugin-activation.php:3509
+#: external/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: external/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: external/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#: external/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsprozess wird gestartet. Dieser Prozess kann auf manchen "
+"Servern etwas Zeit in Anspruch nehmen. Bitte haben Sie Geduld."
+
+#. translators: 1: plugin name.
+#: external/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+#: external/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Alle Installationen wurden abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: external/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#: external/include-kirki.php:54
+msgid ""
+"A plugin is required to take advantage of this theme's features in the "
+"customizer."
+msgstr ""
+"Ein Plugin ist erforderlich, um diese Theme-Funktionen im Customizer zu "
+"nutzen."
+
+#: external/include-kirki.php:55
+msgid "Install Kirki Toolkit now"
+msgstr "Installieren Sie Kirki Toolkit jetzt"
+
+#: external/include-kirki.php:56
+msgid "Install Now"
+msgstr "Jetzt installieren"
+
+#: external/include-kirki.php:59
+msgid ""
+"You have installed Kirki. Activate it to take advantage of this theme's "
+"features in the customizer."
+msgstr ""
+"Du hast Kirki installiert. Aktiviere es, um die Funktionen dieses Themes im "
+"Customizer zu nutzen."
+
+#: external/include-kirki.php:60
+msgid "Activate Kirki Toolkit now"
+msgstr "Aktive Kirki Toolkit"
+
+#: external/include-kirki.php:61
+msgid "Activate Now"
+msgstr "Jetzt aktivieren"
+
+#: inc/Accessibility/Component.php:73
+msgid "Expand child menu"
+msgstr "Untermenü öffnen"
+
+#: inc/Accessibility/Component.php:74
+msgid "Collapse child menu"
+msgstr "Untermenü schließen"
+
+#: inc/Comments/Component.php:132
+msgid "New comment(s)"
+msgstr "Neuer Kommentar"
+
+#: inc/Customizer/Component.php:79
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: inc/Editor/Component.php:65 inc/Nav_Menus/Component.php:69
+msgid "Primary"
+msgstr "Primär"
+
+#: inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr "Sekundär"
+
+#: inc/Editor/Component.php:75
+msgid "Red"
+msgstr "Rot"
+
+#: inc/Editor/Component.php:80
+msgid "Green"
+msgstr "Grün"
+
+#: inc/Editor/Component.php:85
+msgid "Blue"
+msgstr "Blau"
+
+#: inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr "Gelb"
+
+#: inc/Editor/Component.php:95
+msgid "Black"
+msgstr "Schwarz"
+
+#: inc/Editor/Component.php:100
+msgid "Grey"
+msgstr "Grau"
+
+#: inc/Editor/Component.php:105
+msgid "White"
+msgstr "Weiß"
+
+#: inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr "Tageslicht staubig"
+
+#: inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr "Sonne staubig"
+
+#: inc/Editor/Component.php:132
+msgid "Small"
+msgstr "Klein"
+
+#: inc/Editor/Component.php:133
+msgid "S"
+msgstr "S"
+
+#: inc/Editor/Component.php:138
+msgid "Medium"
+msgstr "Mittel"
+
+#: inc/Editor/Component.php:139
+msgid "M"
+msgstr "M"
+
+#: inc/Editor/Component.php:144
+msgid "Large"
+msgstr "Groß"
+
+#: inc/Editor/Component.php:145
+msgid "L"
+msgstr "L"
+
+#: inc/Editor/Component.php:150
+msgid "Larger"
+msgstr "Größer"
+
+#: inc/Editor/Component.php:151
+msgid "XL"
+msgstr "XL"
+
+#: inc/Kirki_Option/Component.php:148
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/Kirki_Option/Component.php:157 inc/Kirki_Option/Component.php:422
+msgid "Site Layout"
+msgstr "Seitenlayout"
+
+#: inc/Kirki_Option/Component.php:168
+msgid "Site Loader"
+msgstr "Site Loader"
+
+#: inc/Kirki_Option/Component.php:179
+msgid "Page Mapping"
+msgstr "Seitenzuordnung"
+
+#: inc/Kirki_Option/Component.php:190
+msgid "Typography"
+msgstr "Typografie"
+
+#: inc/Kirki_Option/Component.php:199
+msgid "Site Title"
+msgstr "Seitentitel"
+
+#: inc/Kirki_Option/Component.php:209
+msgid "Headings"
+msgstr "Überschriften"
+
+#: inc/Kirki_Option/Component.php:219 template-parts/header/navigation.php:52
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/Kirki_Option/Component.php:229
+msgid "Body"
+msgstr "Body"
+
+#: inc/Kirki_Option/Component.php:240
+msgid "Site Top Bar"
+msgstr "Top-Leiste der Website"
+
+#: inc/Kirki_Option/Component.php:250
+msgid "Site Header"
+msgstr "Seiten-Header"
+
+#: inc/Kirki_Option/Component.php:260
+msgid "Site Sub Header"
+msgstr "Untere Kopfzeile der Website"
+
+#: inc/Kirki_Option/Component.php:270
+msgid "Site Skin"
+msgstr "Website Skin"
+
+#: inc/Kirki_Option/Component.php:280
+msgid "Site Blog"
+msgstr "Website-Blog"
+
+#: inc/Kirki_Option/Component.php:290
+msgid "Site Sidebar"
+msgstr "Seitenleiste der Website"
+
+#: inc/Kirki_Option/Component.php:301
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: inc/Kirki_Option/Component.php:310
+msgid "BuddyPress Activity"
+msgstr "BuddyPress-Aktivität"
+
+#: inc/Kirki_Option/Component.php:320
+msgid "BuddyPress Members"
+msgstr "(BuddyPress) Mitglieder"
+
+#: inc/Kirki_Option/Component.php:330
+msgid "BuddyPress Groups"
+msgstr "BuddyPress Gruppen"
+
+#: inc/Kirki_Option/Component.php:340
+msgid "BuddyPress Single Member"
+msgstr "BuddyPress Einzelmitglied"
+
+#: inc/Kirki_Option/Component.php:350
+msgid "BuddyPress Single Group"
+msgstr "BuddyPress Einzelgruppe"
+
+#: inc/Kirki_Option/Component.php:363
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: inc/Kirki_Option/Component.php:375
+msgid "WooCommerce Product"
+msgstr "WooCommerce Produkt"
+
+#: inc/Kirki_Option/Component.php:386
+msgid "Site Footer"
+msgstr "Site Footer"
+
+#: inc/Kirki_Option/Component.php:395
+msgid "Footer Section"
+msgstr "Footer Bereich"
+
+#: inc/Kirki_Option/Component.php:406
+msgid "Copyright Section"
+msgstr "Copyright-Abschnitt"
+
+#: inc/Kirki_Option/Component.php:438
+msgid "Max Content Layout Width"
+msgstr "Max. Layout-Breite für den Inhalt"
+
+#: inc/Kirki_Option/Component.php:439
+msgid "Select the maximum content width for your website (px)"
+msgstr "Wähle die maximale Breite der Inhalte für Ihre Website (px)"
+
+#: inc/Kirki_Option/Component.php:459
+msgid "Site Loader ?"
+msgstr "Website-Loader ?"
+
+#: inc/Kirki_Option/Component.php:463 inc/Kirki_Option/Component.php:834
+#: inc/Kirki_Option/Component.php:846 inc/Kirki_Option/Component.php:993
+#: inc/Kirki_Option/Component.php:1064 inc/Kirki_Option/Component.php:1077
+#: inc/Kirki_Option/Component.php:1093 inc/Kirki_Option/Component.php:1108
+#: inc/Kirki_Option/Component.php:1166 inc/Kirki_Option/Component.php:1597
+#: inc/Kirki_Option/Component.php:1625 inc/Kirki_Option/Component.php:1664
+#: inc/Kirki_Option/Component.php:1748 inc/Kirki_Option/Component.php:1760
+#: inc/Kirki_Option/Component.php:1794 inc/learnpress-functions.php:69
+#: inc/widgets/ld-featured-course-widget.php:89
+#: inc/widgets/ld-featured-course-widget.php:108 single-sfwd-courses.php:90
+#: single-sfwd-courses.php:114
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/Kirki_Option/Component.php:464 inc/Kirki_Option/Component.php:835
+#: inc/Kirki_Option/Component.php:847 inc/Kirki_Option/Component.php:994
+#: inc/Kirki_Option/Component.php:1065 inc/Kirki_Option/Component.php:1078
+#: inc/Kirki_Option/Component.php:1094 inc/Kirki_Option/Component.php:1109
+#: inc/Kirki_Option/Component.php:1167 inc/Kirki_Option/Component.php:1598
+#: inc/Kirki_Option/Component.php:1626 inc/Kirki_Option/Component.php:1665
+#: inc/Kirki_Option/Component.php:1749 inc/Kirki_Option/Component.php:1761
+#: inc/Kirki_Option/Component.php:1795
+#: inc/widgets/ld-featured-course-widget.php:91
+#: inc/widgets/ld-featured-course-widget.php:103 single-sfwd-courses.php:92
+#: single-sfwd-courses.php:109
+msgid "No"
+msgstr "Nein"
+
+#: inc/Kirki_Option/Component.php:471
+msgid "Site Loader Background"
+msgstr "Hintergrund des Website-Loaders"
+
+#: inc/Kirki_Option/Component.php:492
+msgid "Login Page"
+msgstr "Anmeldeseite"
+
+#: inc/Kirki_Option/Component.php:493
+msgid "You can redirect user to custom login page."
+msgstr ""
+"Sie können den Benutzer auf eine benutzerdefinierte Anmeldeseite umleiten."
+
+#: inc/Kirki_Option/Component.php:503
+msgid "Registration Page"
+msgstr "Registrierungsseite"
+
+#: inc/Kirki_Option/Component.php:504
+msgid "You can redirect user to custom registration page."
+msgstr ""
+"Sie können den Benutzer auf eine benutzerdefinierte Registrierungsseite "
+"umleiten."
+
+#: inc/Kirki_Option/Component.php:514
+msgid "404"
+msgstr "404"
+
+#: inc/Kirki_Option/Component.php:515
+msgid "You can redirect user to custom 404 page."
+msgstr ""
+"Sie können den Benutzer auf eine benutzerdefinierte 404-Seite umleiten."
+
+#: inc/Kirki_Option/Component.php:528
+msgid "Site Title Settings"
+msgstr "Einstellungen für den Website-Titel"
+
+#: inc/Kirki_Option/Component.php:551
+msgid "Site Title Hover Color"
+msgstr "Seitentitel-Textfarbe bei Mauskontakt"
+
+#: inc/Kirki_Option/Component.php:567
+msgid "Site Tagline Settings"
+msgstr "Einstellungen für die Website-Tagline"
+
+#: inc/Kirki_Option/Component.php:593
+msgid "H1 Tag Settings"
+msgstr "H1-Tag-Einstellungen"
+
+#: inc/Kirki_Option/Component.php:616
+msgid "H2 Tag Settings"
+msgstr "H2-Tag-Einstellungen"
+
+#: inc/Kirki_Option/Component.php:639
+msgid "H3 Tag Settings"
+msgstr "H3-Tag-Einstellungen"
+
+#: inc/Kirki_Option/Component.php:662
+msgid "H4 Tag Settings"
+msgstr "H4-Tag-Einstellungen"
+
+#: inc/Kirki_Option/Component.php:685
+msgid "H5 Tag Settings"
+msgstr "H5-Tag-Einstellungen"
+
+#: inc/Kirki_Option/Component.php:708
+msgid "H6 Tag Settings"
+msgstr "H6-Tag-Einstellungen"
+
+#: inc/Kirki_Option/Component.php:734
+msgid "Menu Settings"
+msgstr "Menüeinstellungen"
+
+#: inc/Kirki_Option/Component.php:761
+msgid "Menu Hover Color"
+msgstr "Menü Hover-Farbe"
+
+#: inc/Kirki_Option/Component.php:785
+msgid "Menu Active Color"
+msgstr "Menü Aktiv Farbe"
+
+#: inc/Kirki_Option/Component.php:804
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/Kirki_Option/Component.php:830
+msgid "Enable Top Bar ?"
+msgstr "Obere Leiste aktivieren ?"
+
+#: inc/Kirki_Option/Component.php:842
+msgid "Edit Left Content ?"
+msgstr "Linken Inhalt bearbeiten ?"
+
+#: inc/Kirki_Option/Component.php:857
+msgid "Left Content Area"
+msgstr "Linker Inhaltsbereich"
+
+#: inc/Kirki_Option/Component.php:870
+msgid "Top Bar Background Color"
+msgstr "Top Bar Hintergrundfarbe"
+
+#: inc/Kirki_Option/Component.php:889
+msgid "Top Bar Content Color"
+msgstr "Obere Leiste - Farbe des Inhalts"
+
+#: inc/Kirki_Option/Component.php:908
+msgid "Top Bar Link Color"
+msgstr "Link-Farb der Leiste oben"
+
+#: inc/Kirki_Option/Component.php:927
+msgid "Top Bar Link Hover"
+msgstr "Obere Leiste - Link Hover"
+
+#: inc/Kirki_Option/Component.php:946
+msgid "Social Links"
+msgstr "Social Links"
+
+#: inc/Kirki_Option/Component.php:947
+msgid ""
+"Fontawesome classes are used to set icons. Check <a href=\"https://"
+"fontawesome.com/icons\" target=\"_blank\">https://fontawesome.com/</a> for "
+"further assistance."
+msgstr ""
+"Fontawesome-Klassen werden zum Setzen von Symbolen verwendet. Prüfen Sie <a "
+"href=\"https://fontawesome.com/icons\" target=\"_blank\">https://fontawesome."
+"com/</a> für weitere Unterstützung."
+
+#: inc/Kirki_Option/Component.php:952
+msgid "Social Link"
+msgstr "Social-Media Link"
+
+#: inc/Kirki_Option/Component.php:955
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: inc/Kirki_Option/Component.php:961
+#: inc/widgets/class-vendor-profile-widget.php:29
+msgid "Title"
+msgstr "Titel"
+
+#: inc/Kirki_Option/Component.php:967 inc/learndash-functions.php:207
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/Kirki_Option/Component.php:973
+msgid "Link"
+msgstr "Link"
+
+#: inc/Kirki_Option/Component.php:989
+msgid "Enable Sticky Header ?"
+msgstr "Fixierte Kopfzeile aktivieren ?"
+
+#: inc/Kirki_Option/Component.php:1001
+msgid "Header Layout"
+msgstr "Header Layout"
+
+#: inc/Kirki_Option/Component.php:1015
+msgid "Header Menu Effects"
+msgstr "Kopfzeilenmenü-Effekte"
+
+#: inc/Kirki_Option/Component.php:1019
+msgid "No Effect"
+msgstr "Kein Effekt"
+
+#: inc/Kirki_Option/Component.php:1020
+msgid "Effect 1"
+msgstr "Effekt 1"
+
+#: inc/Kirki_Option/Component.php:1021
+msgid "Effect 2"
+msgstr "Effekt 2"
+
+#: inc/Kirki_Option/Component.php:1022
+msgid "Effect 3"
+msgstr "Effekt 3"
+
+#: inc/Kirki_Option/Component.php:1029
+msgid "Header Background Color"
+msgstr "Header Hintergrundfarbe"
+
+#: inc/Kirki_Option/Component.php:1060
+msgid "Site Search ?"
+msgstr "Website-Suche ?"
+
+#: inc/Kirki_Option/Component.php:1073
+msgid "Site Cart ?"
+msgstr "Website Warenkorb ?"
+
+#: inc/Kirki_Option/Component.php:1089
+msgid "Site Login Button ?"
+msgstr "Website Anmeldeschaltfläche ?"
+
+#: inc/Kirki_Option/Component.php:1104 inc/Kirki_Option/Component.php:1790
+msgid "Customize Background ?"
+msgstr "Hintergrund anpassen ?"
+
+#: inc/Kirki_Option/Component.php:1116 inc/Kirki_Option/Component.php:1802
+msgid "Background Control"
+msgstr "Hintergrund-Steuerelement"
+
+#: inc/Kirki_Option/Component.php:1140
+msgid "Content Typography"
+msgstr "Inhalt Typografie"
+
+#: inc/Kirki_Option/Component.php:1162
+msgid "Site Breadcrumbs?"
+msgstr "Website-Brotkrumen?"
+
+#: inc/Kirki_Option/Component.php:1177
+msgid "Body Background Color"
+msgstr "Body Hintergrundfarbe"
+
+#: inc/Kirki_Option/Component.php:1193
+msgid "Theme Color"
+msgstr "Theme Farbe"
+
+#: inc/Kirki_Option/Component.php:1259 inc/Kirki_Option/Component.php:1858
+#: inc/Kirki_Option/Component.php:1951
+msgid "Link Color"
+msgstr "Link Farbe"
+
+#: inc/Kirki_Option/Component.php:1275 inc/Kirki_Option/Component.php:1874
+msgid "Link Hover"
+msgstr "Link :hover"
+
+#: inc/Kirki_Option/Component.php:1300
+msgid "Button Background Color"
+msgstr "Button Hintergrundfarbe"
+
+#: inc/Kirki_Option/Component.php:1332
+msgid "Button Background Hover Color"
+msgstr "Hintergrundfarbe Hover Schaltfläche"
+
+#: inc/Kirki_Option/Component.php:1359
+msgid "Button Text Color"
+msgstr "Button Text Farbe"
+
+#: inc/Kirki_Option/Component.php:1380
+msgid "Button Text Hover Color"
+msgstr "Button Text Hover Farbe"
+
+#: inc/Kirki_Option/Component.php:1402
+msgid "Button Border Color"
+msgstr "Schaltflächenrahmenfarbe"
+
+#: inc/Kirki_Option/Component.php:1422
+msgid "Button Border Hover Color"
+msgstr "Button-Rahmenfarbe Hover"
+
+#: inc/Kirki_Option/Component.php:1445
+msgid "Blog Layout"
+msgstr "Blog-Layout"
+
+#: inc/Kirki_Option/Component.php:1459
+msgid "Blog Layout Style"
+msgstr "Blog Layout Stil"
+
+#: inc/Kirki_Option/Component.php:1464
+msgid "Default Style"
+msgstr "Standard-Stil"
+
+#: inc/Kirki_Option/Component.php:1465
+msgid "Box Style"
+msgstr "Box-Stil"
+
+#: inc/Kirki_Option/Component.php:1472
+msgid "Post Per Row"
+msgstr "Beitrag pro Zeile"
+
+#: inc/Kirki_Option/Component.php:1477
+msgid "Column 1"
+msgstr "Spalte 1"
+
+#: inc/Kirki_Option/Component.php:1478
+msgid "Column 2"
+msgstr "Spalte 2"
+
+#: inc/Kirki_Option/Component.php:1479
+msgid "Column 3"
+msgstr "Spalte 3"
+
+#: inc/Kirki_Option/Component.php:1480
+msgid "Column 4"
+msgstr "Spalte 4"
+
+#: inc/Kirki_Option/Component.php:1493
+msgid "Sidebar Layout"
+msgstr "Layout der Seitenleiste"
+
+#: inc/Kirki_Option/Component.php:1509
+msgid "BuddyPress Sidebar Layout"
+msgstr "BuddyPress Seitenleisten-Layout"
+
+#: inc/Kirki_Option/Component.php:1526
+msgid "bbPress Sidebar Layout"
+msgstr "bbPress Seitenleisten-Layout"
+
+#: inc/Kirki_Option/Component.php:1543
+msgid "WooCommerce Sidebar Layout"
+msgstr "WooCommerce Seitenleisten-Layout"
+
+#: inc/Kirki_Option/Component.php:1560
+msgid "LearnDash Sidebar Layout"
+msgstr "LearnDash Seitenleisten-Layout"
+
+#: inc/Kirki_Option/Component.php:1577
+msgid "LearnPress Sidebar Layout"
+msgstr "LearnPress Seitenleisten-Layout"
+
+#: inc/Kirki_Option/Component.php:1593
+msgid "Sticky Sidebar ?"
+msgstr "Seitenleiste fixieren?"
+
+#: inc/Kirki_Option/Component.php:1609
+msgid "Members Directory View"
+msgstr "Mitgliederverzeichnisansicht"
+
+#: inc/Kirki_Option/Component.php:1613 inc/Kirki_Option/Component.php:1652
+#: inc/Kirki_Option/Component.php:1706 inc/Kirki_Option/Component.php:1733
+#: inc/Kirki_Option/Component.php:1777
+msgid "Default"
+msgstr "Standard"
+
+#: inc/Kirki_Option/Component.php:1614 inc/Kirki_Option/Component.php:1653
+msgid "Card"
+msgstr "Karte"
+
+#: inc/Kirki_Option/Component.php:1621
+msgid "Customize Members Cover Background ?"
+msgstr "Hintergrund des Mitglieder-Covers anpassen ?"
+
+#: inc/Kirki_Option/Component.php:1636 inc/Kirki_Option/Component.php:1675
+msgid "Set Default Cover Image"
+msgstr "Standard-Coverbild festlegen"
+
+#: inc/Kirki_Option/Component.php:1637
+msgid "Set members directory custom cover image"
+msgstr "Benutzerdefiniertes Titelbild für Mitgliederverzeichnis festlegen"
+
+#: inc/Kirki_Option/Component.php:1648
+msgid "Groups Directory View"
+msgstr "Gruppenverzeichnisansicht"
+
+#: inc/Kirki_Option/Component.php:1660
+msgid "Customize Groups Cover Background ?"
+msgstr "Hintergrund des Gruppen-Covers anpassen ?"
+
+#: inc/Kirki_Option/Component.php:1676
+msgid "Set groups directory custom cover image"
+msgstr "Benutzerdefiniertes Titelbild für Gruppenverzeichnis festlegen"
+
+#: inc/Kirki_Option/Component.php:1687
+msgid "Single Member Cover Image Layout"
+msgstr "Titelbild-Layout für Einzelmitglieder"
+
+#: inc/Kirki_Option/Component.php:1691 inc/Kirki_Option/Component.php:1718
+msgid "Default View"
+msgstr "Standardansicht"
+
+#: inc/Kirki_Option/Component.php:1692 inc/Kirki_Option/Component.php:1719
+msgid "Center View"
+msgstr "Zentrale Ansicht"
+
+#: inc/Kirki_Option/Component.php:1693 inc/Kirki_Option/Component.php:1720
+msgid "Compact View"
+msgstr "Kompakte Ansicht"
+
+#: inc/Kirki_Option/Component.php:1694 inc/Kirki_Option/Component.php:1721
+msgid "Center + Compact View"
+msgstr "Mitte + Kompaktansicht"
+
+#: inc/Kirki_Option/Component.php:1695 inc/Kirki_Option/Component.php:1722
+msgid "Full Width View"
+msgstr "Ansicht in voller Breite"
+
+#: inc/Kirki_Option/Component.php:1702
+msgid "Single Member Navigation Style"
+msgstr "Navigationsstil für Einzelmitglieder"
+
+#: inc/Kirki_Option/Component.php:1707 inc/Kirki_Option/Component.php:1734
+msgid "Icon + Label"
+msgstr "Symbol + Beschriftung"
+
+#: inc/Kirki_Option/Component.php:1714
+msgid "Single Group Cover Image Layout"
+msgstr "Titelbild-Layout für Einzelgruppen"
+
+#: inc/Kirki_Option/Component.php:1729
+msgid "Single Group Navigation Style"
+msgstr "Navigationsstil für Einzelgruppen"
+
+#: inc/Kirki_Option/Component.php:1744
+msgid "Categories Filter"
+msgstr "Kategorienfilter"
+
+#: inc/Kirki_Option/Component.php:1756
+msgid "Instructors Filter"
+msgstr "Kursleiterfilter"
+
+#: inc/Kirki_Option/Component.php:1773
+msgid "Product Listing Style"
+msgstr "Produktlistenstil"
+
+#: inc/Kirki_Option/Component.php:1778
+msgid "Style 1"
+msgstr "Stil 1"
+
+#: inc/Kirki_Option/Component.php:1779
+msgid "Style 2"
+msgstr "Stil 2"
+
+#: inc/Kirki_Option/Component.php:1826
+msgid "Title Color"
+msgstr "Titelfarbe"
+
+#: inc/Kirki_Option/Component.php:1842 inc/Kirki_Option/Component.php:1935
+msgid "Content Color"
+msgstr "Inhaltsfarbe"
+
+#: inc/Kirki_Option/Component.php:1893
+msgid "Add Content"
+msgstr "Inhalt hinzufügen"
+
+#: inc/Kirki_Option/Component.php:1894
+msgid ""
+"You can use [current_year], [site_title], [theme_author] shortcode if you "
+"want."
+msgstr ""
+"Sie können bei Bedarf die Shortcodes [current_year], [site_title], "
+"[theme_author] verwenden."
+
+#: inc/Kirki_Option/Component.php:1896
+msgid ""
+"Copyright © [current_year]. All rights reserved by [site_title] | Powered by "
+"[theme_author]"
+msgstr ""
+"Copyright © [aktuelles_Jahr]. Alle Rechte vorbehalten durch [site_title] | "
+"Powered by [theme_author]"
+
+#: inc/Kirki_Option/Component.php:1903
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: inc/Kirki_Option/Component.php:1919
+msgid "Border Color"
+msgstr "Randfarbe"
+
+#: inc/Kirki_Option/Component.php:1967
+msgid "Link Hover Color"
+msgstr "Linkfarbe bei Hover"
+
+#: inc/Lazyload/Component.php:89
+msgid "Lazy-load on"
+msgstr "Lazy-Load an"
+
+#: inc/Lazyload/Component.php:90
+msgid "Lazy-load off (default)"
+msgstr "Lazy-Load aus (Voreinstellung)"
+
+#: inc/Lazyload/Component.php:111
+msgid "Lazy-load images"
+msgstr "Lazy-Load-Bilder"
+
+#: inc/Lazyload/Component.php:114
+msgid ""
+"Lazy-loading images means images are loaded only when they are in view. "
+"Improves performance, but can result in content jumping around on slower "
+"connections."
+msgstr ""
+"Lazy-Loading-Bilder bedeuten, dass Bilder nur geladen werden, wenn sie in "
+"der Ansicht sind. Verbessert die Leistung, kann aber bei langsameren "
+"Verbindungen dazu führen, dass der Inhalt herumspringt."
+
+#: inc/Nav_Menus/Component.php:75
+msgid "User Menu"
+msgstr "Benutzermenü"
+
+#: inc/Sidebars/Component.php:107
+msgid "Right Sidebar"
+msgstr "Rechte Seitenleiste"
+
+#: inc/Sidebars/Component.php:109 inc/Sidebars/Component.php:121
+#: inc/Sidebars/Component.php:134 inc/Sidebars/Component.php:146
+#: inc/Sidebars/Component.php:160 inc/Sidebars/Component.php:172
+#: inc/Sidebars/Component.php:186 inc/Sidebars/Component.php:198
+#: inc/Sidebars/Component.php:212 inc/Sidebars/Component.php:224
+#: inc/Sidebars/Component.php:238 inc/Sidebars/Component.php:250
+#: inc/Sidebars/Component.php:263 inc/Sidebars/Component.php:275
+#: inc/Sidebars/Component.php:287 inc/Sidebars/Component.php:299
+msgid "Add widgets here."
+msgstr "Widgets hier hinzufügen."
+
+#: inc/Sidebars/Component.php:119
+msgid "Left Sidebar"
+msgstr "Linke Seitenleiste"
+
+#: inc/Sidebars/Component.php:132
+msgid "BuddyPress Left Sidebar"
+msgstr "BuddyPress Linke Seitenleiste"
+
+#: inc/Sidebars/Component.php:144
+msgid "BuddyPress Right Sidebar"
+msgstr "BuddyPress Rechte Seitenleiste"
+
+#: inc/Sidebars/Component.php:158
+msgid "bbPress Left Sidebar"
+msgstr "bbPress Linke Seitenleiste"
+
+#: inc/Sidebars/Component.php:170
+msgid "bbPress Right Sidebar"
+msgstr "bbPress Rechte Seitenleiste"
+
+#: inc/Sidebars/Component.php:184
+msgid "WooCommerce Left Sidebar"
+msgstr "WooCommerce Linke Sidebar"
+
+#: inc/Sidebars/Component.php:196
+msgid "WooCommerce Right Sidebar"
+msgstr "WooCommerce rechte Sidebar"
+
+#: inc/Sidebars/Component.php:210
+msgid "LearnDash Left Sidebar"
+msgstr "LearnDash Linke Seitenleiste"
+
+#: inc/Sidebars/Component.php:222
+msgid "LearnDash Right Sidebar"
+msgstr "LearnDash Rechte Seitenleiste"
+
+#: inc/Sidebars/Component.php:236
+msgid "LearnPress Left Sidebar"
+msgstr "LearnPress Linke Seitenleiste"
+
+#: inc/Sidebars/Component.php:248
+msgid "LearnPress Right Sidebar"
+msgstr "LearnPress Rechte Seitenleiste"
+
+#: inc/Sidebars/Component.php:261
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: inc/Sidebars/Component.php:273
+msgid "Footer 2"
+msgstr "Fußzeile 2"
+
+#: inc/Sidebars/Component.php:285
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: inc/Sidebars/Component.php:297
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#. translators: %s: stylesheet handle
+#: inc/Styles/Component.php:290
+#, php-format
+msgid "Invalid theme stylesheet handle: %s"
+msgstr "Ungültiges Theme-Stylesheet-Handle: %s"
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: inc/Template_Tags.php:54
+#, php-format
+msgid ""
+"The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+"Die Theme-Templating-Komponente %1$s implementiert nicht die Schnittstelle "
+"%2$s."
+
+#. translators: %s: template tag name
+#: inc/Template_Tags.php:81
+#, php-format
+msgid "The template tag %s does not exist."
+msgstr "Das Template-Tag %s existiert nicht."
+
+#. translators: 1: template tag method name, 2: component class name
+#: inc/Template_Tags.php:110
+#, php-format
+msgid ""
+"The template tag method %1$s registered by theme component %2$s must either "
+"be a callable or an array."
+msgstr ""
+"Die von der Theme-Komponente %2$s registrierte Template-Tag-Methode %1$s "
+"muss entweder ein Callable oder ein Array sein."
+
+#. translators: 1: template tag method name, 2: component class name
+#: inc/Template_Tags.php:121
+#, php-format
+msgid ""
+"The template tag method %1$s registered by theme component %2$s conflicts "
+"with an already registered template tag of the same name."
+msgstr ""
+"Die Template-Tag-Methode %1$s, die von der Theme-Komponente %2$s registriert "
+"wurde, steht im Konflikt mit einem bereits registrierten Template-Tag "
+"desselben Namens."
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: inc/Theme.php:57
+#, php-format
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr "Die Theme-Komponente %1$s implementiert nicht die Schnittstelle %2$s."
+
+#. translators: %s: slug
+#: inc/Theme.php:120
+#, php-format
+msgid "No theme component with the slug %s exists."
+msgstr "Es existiert keine Theme-Komponente mit dem Slug %s."
+
+#: inc/Welcome/Component.php:44 inc/Welcome/Component.php:45
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: inc/Welcome/Component.php:54
+msgid "Getting started with BuddyX Pro"
+msgstr "Erste Schritte mit BuddyX Pro"
+
+#: inc/Welcome/Component.php:60
+msgid "Programming Languages"
+msgstr "Programmiersprachen"
+
+#: inc/Welcome/Component.php:61 inc/extra.php:254
+msgid "Home"
+msgstr "Home"
+
+#: inc/Welcome/Component.php:62 inc/Welcome/Component.php:159
+msgid "Premium add-ons"
+msgstr "Premium Add-Ons"
+
+#: inc/Welcome/Component.php:64
+msgid "tab1"
+msgstr "tab1"
+
+#: inc/Welcome/Component.php:66
+msgid "Thank You"
+msgstr "Vielen Dank"
+
+#: inc/Welcome/Component.php:74 inc/Welcome/Component.php:80
+msgid "Knowledge Base"
+msgstr "Wissensdatenbank"
+
+#: inc/Welcome/Component.php:75
+msgid ""
+"We have created full-proof documentation for you. It will help you to "
+"understand how our plugin works."
+msgstr ""
+"Wir haben eine ausführliche Dokumentation für Sie erstellt. Sie wird Ihnen "
+"helfen zu verstehen, wie unser Plugin funktioniert."
+
+#: inc/Welcome/Component.php:76
+msgid "Take Me to The Knowledge Page"
+msgstr "Bringen Sie mich auf die Wissensseite"
+
+#: inc/Welcome/Component.php:89
+msgid "Video Tutorial"
+msgstr "Videoanleitung"
+
+#: inc/Welcome/Component.php:90
+msgid "How to use Floating Effects and manage CSS Transform?"
+msgstr "Wie verwendet man Floating-Effekte und verwaltet CSS Transform?"
+
+#: inc/Welcome/Component.php:97 inc/Welcome/Component.php:98
+msgid "BuddyX Demo installation"
+msgstr "BuddyX Demo-Installation"
+
+#: inc/Welcome/Component.php:103 inc/Welcome/Component.php:104
+msgid "BuddyX Customizer Option"
+msgstr "BuddyX Anpassungsoption"
+
+#: inc/Welcome/Component.php:110
+msgid "View More Videos"
+msgstr "Weitere Videos anzeigen"
+
+#: inc/Welcome/Component.php:118
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/Welcome/Component.php:119
+msgid "Frequently Asked Questions"
+msgstr "Häufig gestellte Fragen"
+
+#: inc/Welcome/Component.php:125
+msgid "Can I use these addons in my client project?"
+msgstr "Kann ich diese Add-ons in meinem Kundenprojekt verwenden?"
+
+#: inc/Welcome/Component.php:126
+msgid ""
+"Yes, absolutely, no holds barred. Use it to bring colorful moments to your "
+"customers. And don’t forget to check out our premium features."
+msgstr ""
+"Ja, absolut, ohne Einschränkung. Nutzen Sie es, um Ihren Kunden "
+"unvergessliche Momente zu bescheren. Und vergessen Sie nicht, unsere Premium-"
+"Funktionen auszuprobieren."
+
+#: inc/Welcome/Component.php:129
+msgid "Is there any support policy available for the free users?"
+msgstr "Gibt es eine Support-Richtlinie für die kostenlosen Version?"
+
+#: inc/Welcome/Component.php:130
+msgid ""
+"Free or pro version, both comes with excellent support from us. However, pro "
+"users will get priority support."
+msgstr ""
+"Ob kostenlose oder Pro-Version, für beide gibt es hervorragenden Support von "
+"uns. Pro-Benutzer erhalten jedoch vorrangigen Support."
+
+#: inc/Welcome/Component.php:139
+msgid "Support"
+msgstr "Support"
+
+#: inc/Welcome/Component.php:140
+msgid ""
+"Submit your tickets to get solutions from our WordPress experts within the "
+"next 24 hours."
+msgstr ""
+"Reichen Sie Ihre Tickets ein, um innerhalb der nächsten 24 Stunden Lösungen "
+"von unseren WordPress-Experten zu erhalten."
+
+#: inc/Welcome/Component.php:141
+msgid "Create Ticket"
+msgstr "Ticket erstellen"
+
+#: inc/Welcome/Component.php:146
+msgid "Help Desk Hours"
+msgstr "HelpDesk-Zeiten"
+
+#: inc/Welcome/Component.php:147
+msgid "Days: Monday-Friday"
+msgstr "Tage: Montag-Freitag"
+
+#: inc/Welcome/Component.php:148
+msgid "Time: 10AM – 7PM GMT"
+msgstr "Zeit: 10 - 19 Uhr GMT"
+
+#: inc/Welcome/Component.php:149
+msgid ""
+"Inquiries received after the working hours or on weekends will be addressed "
+"on the next working day."
+msgstr ""
+"Anfragen, die außerhalb der Geschäftszeiten oder an Wochenenden eingehen, "
+"werden am nächsten Werktag bearbeitet."
+
+#: inc/Welcome/Component.php:150
+msgid "Start Chat"
+msgstr "Chat starten"
+
+#: inc/Welcome/Component.php:160
+msgid ""
+"Extend your social community website with our premium add-ons for BuddyPress."
+msgstr ""
+"Erweitern Sie Ihre Social-Community-Website mit unseren Premium-Add-ons für "
+"BuddyPress."
+
+#: inc/Welcome/Component.php:168 inc/Welcome/Component.php:171
+msgid "BuddyPress Polls"
+msgstr "BuddyPress Umfragen"
+
+#: inc/Welcome/Component.php:179 inc/Welcome/Component.php:182
+msgid "BuddyPress Moderation Pro"
+msgstr "BuddyPress Moderation Pro"
+
+#: inc/Welcome/Component.php:190 inc/Welcome/Component.php:193
+msgid "BuddyPress Profanity"
+msgstr "BuddyPress Profanity"
+
+#: inc/Welcome/Component.php:202 inc/Welcome/Component.php:205
+msgid "BuddyPress Quotes"
+msgstr "BuddyPress Zitate"
+
+#: inc/Welcome/Component.php:214 inc/Welcome/Component.php:217
+msgid "BuddyPress Status"
+msgstr "BuddyPress Status"
+
+#: inc/Welcome/Component.php:225 inc/Welcome/Component.php:228
+msgid "BuddyPress Hashtags"
+msgstr "BuddyPress Hashtags"
+
+#: inc/Welcome/Component.php:237 inc/Welcome/Component.php:240
+msgid "BuddyPress Newsfeed"
+msgstr "BuddyPress Newsfeed"
+
+#: inc/Welcome/Component.php:248 inc/Welcome/Component.php:251
+msgid "BuddyPress Profile Pro"
+msgstr "BuddyPress Profile Pro"
+
+#: inc/Welcome/Component.php:260 inc/Welcome/Component.php:263
+msgid "BuddyPress Sticky Post"
+msgstr "BuddyPress Sticky Post"
+
+#: inc/Welcome/Component.php:271 inc/Welcome/Component.php:274
+msgid "BuddyPress Private Community Pro"
+msgstr "BuddyPress Private Community Pro"
+
+#: inc/Welcome/Component.php:282 inc/Welcome/Component.php:285
+msgid "BuddyPress Auto Friends"
+msgstr "BuddyPress Auto-Freunde"
+
+#: inc/Welcome/Component.php:293 inc/Welcome/Component.php:296
+msgid "BuddyPress Resume Manager"
+msgstr "BuddyPress Lebenslauf-Manager"
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: inc/back-compat.php:25
+#, php-format
+msgid ""
+"BuddyxPro requires at least WordPress version %1$s and PHP version %2$s. You "
+"are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+"BuddyX Pro benötigt mindestens WordPress Version %1$s und PHP Version %2$s. "
+"Sie verwenden die Versionen %3$s bzw. %3$s. Bitte aktualisieren Sie und "
+"versuchen Sie es erneut."
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: inc/back-compat.php:30
+#, php-format
+msgid ""
+"BuddyxPro requires at least WordPress version %1$s. You are running version "
+"%2$s. Please update and try again."
+msgstr ""
+"BuddyX Pro benötigt mindestens die WordPress-Version %1$s. Sie verwenden "
+"Version %2$s. Bitte aktualisieren Sie und versuchen Sie es erneut."
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: inc/back-compat.php:35
+#, php-format
+msgid ""
+"BuddyxPro requires at least PHP version %1$s. You are running version %2$s. "
+"Please update and try again."
+msgstr ""
+"BuddyX Pro benötigt mindestens die PHP-Version %1$s. Sie verwenden die "
+"Version %2$s. Bitte aktualisieren Sie und versuchen Sie es erneut."
+
+#: inc/back-compat.php:39
+msgid ""
+"BuddyxPro requires the BuddyPress Template Pack \"BP Nouveau\" to be active. "
+"Please activate this Template Pack from the BuddyPress Options."
+msgstr ""
+"BuddyX Pro benötigt das BuddyPress Template Pack „BP Nouveau“, um zu "
+"funktionieren. Bitte aktivieren Sie dieses Template Pack in den BuddyPress-"
+"Optionen."
+
+#: inc/buddyx_wc_vendors_core_functions.php:237
+msgid "Twitter Username"
+msgstr "Twitter Benutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:238
+msgid "YourTwitterUserHere"
+msgstr "IhrTwitterBenutzernameHier"
+
+#: inc/buddyx_wc_vendors_core_functions.php:240
+msgid ""
+"Your <a href=\"https://twitter.com/\">Twitter</a> username without the url."
+msgstr ""
+"Ihr <a href=„https://twitter.com/„>Twitter</a> Benutzername ohne die Url."
+
+#: inc/buddyx_wc_vendors_core_functions.php:247
+msgid "Instagram Username"
+msgstr "Instagram Benutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:248
+msgid "YourInstagramUsername"
+msgstr "IhrInstagramBenutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:250
+msgid ""
+"Your <a href=\"https://instagram.com/\">Instagram</a> username without the "
+"url."
+msgstr ""
+"Ihr <a href=\"https://instagram.com/\">Instagram</a>-Benutzername ohne die "
+"Url."
+
+#: inc/buddyx_wc_vendors_core_functions.php:257
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/buddyx_wc_vendors_core_functions.php:258
+msgid "http://yourfacebookurl/here"
+msgstr "http://yourfacebookurl/hier"
+
+#: inc/buddyx_wc_vendors_core_functions.php:260
+msgid "Your <a href=\"https://facebook.com/\">Facebook</a> url."
+msgstr "Ihre <a href=\"https://facebook.com/\">Facebook</a>-URL."
+
+#: inc/buddyx_wc_vendors_core_functions.php:267
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: inc/buddyx_wc_vendors_core_functions.php:268
+msgid "http://linkedinurl.com/here"
+msgstr "http://linkedinurl.com/hier"
+
+#: inc/buddyx_wc_vendors_core_functions.php:270
+msgid "Your <a href=\"https://linkedin.com/\">LinkedIn</a> url."
+msgstr "Ihre <a href=\"https://linkedin.com/\">LinkedIn</a> URL."
+
+#: inc/buddyx_wc_vendors_core_functions.php:277
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: inc/buddyx_wc_vendors_core_functions.php:278
+msgid "http://youtube.com/here"
+msgstr "https://youtube.com/hier"
+
+#: inc/buddyx_wc_vendors_core_functions.php:280
+msgid "Your <a href=\"https://youtube.com/\">Youtube</a> url."
+msgstr "Ihre <a href=\"https://youtube.com/\">Youtube</a> URL."
+
+#: inc/buddyx_wc_vendors_core_functions.php:287
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: inc/buddyx_wc_vendors_core_functions.php:288
+msgid "https://www.pinterest.com/username/"
+msgstr "https://www.pinterest.com/benutzername/"
+
+#: inc/buddyx_wc_vendors_core_functions.php:290
+msgid "Your <a href=\"https://www.pinterest.com/\">Pinterest</a> url."
+msgstr "Deine <a href=\"https://www.pinterest.com/\">Pinterest</a> URL."
+
+#: inc/buddyx_wc_vendors_core_functions.php:297
+msgid "Snapchat Username"
+msgstr "Snapchat Benutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:298
+msgid "snapchatUsername"
+msgstr "Snapchat Benutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:300
+msgid "Your snapchat username."
+msgstr "Dein Snapchat Benutzername."
+
+#: inc/buddyx_wc_vendors_core_functions.php:307
+msgid "Telegram Username"
+msgstr "Telegram-Benutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:308
+msgid "TelegramUsername"
+msgstr "TelegramBenutzername"
+
+#: inc/buddyx_wc_vendors_core_functions.php:310
+msgid "Your telegram username."
+msgstr "Ihr Telegram-Benutzername."
+
+#: inc/extra.php:138
+msgid "View Shopping Cart"
+msgstr "Warenkorb ansehen"
+
+#: inc/extra.php:261 inc/extra.php:263 inc/extra.php:265
+#: inc/widgets/ld-featured-course-widget.php:218
+#: inc/widgets/ld-featured-course-widget.php:222
+#: inc/widgets/ld-featured-course-widget.php:226
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/extra.php:263
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/extra.php:265
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/extra.php:267
+msgid "Author"
+msgstr "Autor"
+
+#: inc/extra.php:269
+msgid "Courses"
+msgstr "Kurse"
+
+#: inc/extra.php:271
+msgid "Shop"
+msgstr "Shop"
+
+#: inc/extra.php:273
+msgid "Forums Archives"
+msgstr "Foren-Archiv"
+
+#: inc/extra.php:275
+msgid "Blog Archives"
+msgstr "Blog Archiv"
+
+#: inc/extra.php:364
+msgid "View your shopping cart"
+msgstr "Warenkorb ansehen"
+
+#: inc/extra.php:409
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d Artikel"
+msgstr[1] "%d Artikel"
+
+#: inc/extra.php:454 inc/learndash-functions.php:1254
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/extra.php:459 inc/learndash-functions.php:1246
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/extra.php:464
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/extra.php:469
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/extra.php:474
+msgid "Github"
+msgstr "Github"
+
+#: inc/extra.php:641
+msgid "Recently earned badge"
+msgid_plural "Recently earned badges"
+msgstr[0] "Kürzlich erhaltenes Abzeichen"
+msgstr[1] "Kürzlich erhaltene Abzeichen"
+
+#: inc/extra.php:774
+msgid ", "
+msgstr ", "
+
+#: inc/extra.php:793
+msgid "Sticky"
+msgstr "Anpinnen"
+
+#: inc/extra.php:804
+msgid "Leave a comment"
+msgstr "Hinterlassen Sie einen Kommentar"
+
+#: inc/extra.php:804
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/extra.php:804
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: inc/extra.php:809
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/learndash-functions.php:103
+msgid "students"
+msgstr "Teilnehmer"
+
+#: inc/learndash-functions.php:103
+msgid "student"
+msgstr "Teilnehmer"
+
+#: inc/learndash-functions.php:145
+#, php-format
+msgid "Last updated %s"
+msgstr "Zuletzt aktualisiert %s"
+
+#: inc/learndash-functions.php:176
+msgid "Custom Course Features"
+msgstr "Benutzerdefinierte Kursfunktionen"
+
+#: inc/learndash-functions.php:192
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: inc/learndash-functions.php:208
+msgid "Feature"
+msgstr "Merkmal"
+
+#: inc/learndash-functions.php:258
+msgid "Add Feature"
+msgstr "Merkmal hinzufügen"
+
+#: inc/learndash-functions.php:1229
+msgid "Email"
+msgstr "E-Mail"
+
+#: inc/learndash-functions.php:1237
+msgid "Website"
+msgstr "Website"
+
+#. translators: placeholder Category label
+#: inc/learndash-functions.php:1390
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#. translators: placeholder Category label
+#: inc/learndash-functions.php:1414
+msgid "All Instructors"
+msgstr "Alle Dozenten"
+
+#: inc/learndash-functions.php:1446 inc/learndash-functions.php:1463
+msgctxt "label"
+msgid "Search for:"
+msgstr "Such nach:"
+
+#: inc/learndash-functions.php:1447
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Suche &hellip;"
+
+#: inc/learndash-functions.php:1450 inc/learndash-functions.php:1466
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suchen"
+
+#: inc/learnpress-functions.php:44
+msgid "Course Features"
+msgstr "Kursmerkmale"
+
+#: inc/learnpress-functions.php:48
+msgid "Lectures"
+msgstr "Vorlesungen"
+
+#: inc/learnpress-functions.php:54
+msgid "Quizzes"
+msgstr "Quiz"
+
+#: inc/learnpress-functions.php:60
+#: inc/widgets/ld-featured-course-widget.php:140 single-sfwd-courses.php:199
+msgid "Students"
+msgstr "Teilnehmer"
+
+#: inc/learnpress-functions.php:67
+msgid "Assessments"
+msgstr "Beurteilungen"
+
+#: inc/learnpress-functions.php:69
+msgid "Self"
+msgstr "Selbst"
+
+#: inc/learnpress-functions.php:102
+msgid "Review"
+msgstr "Überprüfung"
+
+#: inc/learnpress-functions.php:105
+#, php-format
+msgid "(%1$s review)"
+msgid_plural "(%1$s reviews)"
+msgstr[0] "(%1$s Bewertung)"
+msgstr[1] "(%1$s Bewertungen)"
+
+#: inc/widgets/bp-profile-completion-widget.php:20
+msgid "Show Logged in user Profile Completion Progress."
+msgstr ""
+"Fortschritt der Fertigstellung des angemeldeten Benutzerprofils anzeigen."
+
+#: inc/widgets/bp-profile-completion-widget.php:26
+msgid "(BuddyPress) Profile Completion"
+msgstr "(BuddyPress) Profilvervollständigung"
+
+#: inc/widgets/bp-profile-completion-widget.php:66
+#, php-format
+msgid "%s Complete"
+msgstr "%s Abgeschlossen"
+
+#: inc/widgets/bp-profile-completion-widget.php:88
+msgid "Complete"
+msgstr "Abgeschlossen"
+
+#: inc/widgets/bp-profile-completion-widget.php:187
+#: inc/widgets/bp-profile-completion-widget.php:429
+msgid "Profile Photo"
+msgstr "Profilbild"
+
+#: inc/widgets/bp-profile-completion-widget.php:207
+#: inc/widgets/bp-profile-completion-widget.php:432
+msgid "Cover Photo"
+msgstr "Titelbild"
+
+#: inc/widgets/bp-profile-completion-widget.php:289
+msgid "Profile Fields"
+msgstr "Profilfelder"
+
+#: inc/widgets/bp-profile-completion-widget.php:404
+msgid "Complete Your Profile"
+msgstr "Vervollständige dein Profil"
+
+#: inc/widgets/bp-profile-completion-widget.php:438
+#: inc/widgets/ld-featured-course-widget.php:213
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets/bp-profile-completion-widget.php:441
+msgid "Profile field sets:"
+msgstr "Profil-Feldsätze:"
+
+#: inc/widgets/bp-profile-completion-widget.php:466
+msgid "Profile photos:"
+msgstr "Profilbilder:"
+
+#: inc/widgets/bp-profile-completion-widget.php:485
+msgid "Hide widget once progress hits 100%"
+msgstr "Widget ausblenden, sobald der Fortschritt 100% erreicht hat"
+
+#: inc/widgets/bp-profile-completion-widget.php:491
+msgid "Note: This widget is only displayed if a member is logged in."
+msgstr ""
+"Hinweis: Dieses Widget wird nur angezeigt, wenn ein User angemeldet ist und "
+"wenn der angemeldete User einigen User folgt."
+
+#: inc/widgets/class-vendor-profile-widget.php:22
+msgid "Shows the vendor image and other shop related details."
+msgstr "Zeigt das Anbieterbild und andere shopbezogene Details an."
+
+#: inc/widgets/class-vendor-profile-widget.php:24
+msgid "BUDDYX Vendor's Profile"
+msgstr "BUDDYX Anbieterprofil"
+
+#: inc/widgets/class-vendor-profile-widget.php:28
+msgid "Shop Owner"
+msgstr "Verkäufer"
+
+#: inc/widgets/class-vendor-profile-widget.php:34
+msgid "Show Store Address"
+msgstr "Adresse des Geschäfts anzeigen"
+
+#: inc/widgets/class-vendor-profile-widget.php:43
+msgid "Show Shope Icon"
+msgstr "Shop-Symbol anzeigen"
+
+#: inc/widgets/class-vendor-profile-widget.php:48
+msgid "Show vendor registration"
+msgstr "Anbieterregistrierung anzeigen"
+
+#: inc/widgets/class-vendor-profile-widget.php:53
+msgid "Show Opening Hours"
+msgstr "Öffnungszeiten anzeigen"
+
+#: inc/widgets/class-vendor-profile-widget.php:58
+msgid "Show Phone Number"
+msgstr "Telefonnummer anzeigen"
+
+#: inc/widgets/class-vendor-profile-widget.php:63
+msgid "Show Store Total Sales"
+msgstr "Shop Gesamtverkäufe anzeigen"
+
+#: inc/widgets/class-vendor-profile-widget.php:153
+#: inc/widgets/class-vendor-profile-widget.php:157
+msgid "Opening Hours"
+msgstr "Öffnungszeiten"
+
+#: inc/widgets/class-vendor-profile-widget.php:156
+msgid "Day"
+msgstr "Tag"
+
+#: inc/widgets/class-vendor-profile-widget.php:162
+#, php-format
+msgid "%1$s to %2$s"
+msgstr "%1$s bis %2$s"
+
+#: inc/widgets/class-vendor-profile-widget.php:174
+msgid "We are open."
+msgstr "Wir haben geöffnet."
+
+#: inc/widgets/class-vendor-profile-widget.php:201
+msgid "Phone Number:"
+msgstr "Telefonnummer:"
+
+#: inc/widgets/class-vendor-profile-widget.php:205
+msgid "Total sales:"
+msgstr "Gesamtumsatz:"
+
+#: inc/widgets/class-vendor-profile-widget.php:210
+msgid "Registraion:"
+msgstr "Registrierung:"
+
+#: inc/widgets/class-vendor-profile-widget.php:215
+msgid "Store Address:"
+msgstr "Geschäftsadresse:"
+
+#: inc/widgets/ld-featured-course-widget.php:21
+#, php-format
+msgid "Display an associated items of %s "
+msgstr "Anzeige eines zugehörigen Elements von %s "
+
+#: inc/widgets/ld-featured-course-widget.php:28
+#: inc/widgets/ld-featured-course-widget.php:201
+#, php-format
+msgid "%s Features"
+msgstr "%s Eigenschaften"
+
+#: inc/widgets/ld-featured-course-widget.php:148
+#: inc/widgets/ld-featured-course-widget.php:234 single-sfwd-courses.php:205
+msgid "Certificate"
+msgstr "Zertifikat"
+
+#: inc/widgets/ld-featured-course-widget.php:156
+#: inc/widgets/ld-featured-course-widget.php:238 single-sfwd-courses.php:211
+msgid "Assignment"
+msgstr "Aufgabe"
+
+#: inc/widgets/ld-featured-course-widget.php:230
+msgid "Student"
+msgstr "Teilnehmer"
+
+#: learnpress/single-course/categories.php:21
+msgid "Categories"
+msgstr "Kategorien"
+
+#: learnpress/single-course/instructor.php:23
+msgid "Teacher"
+msgstr "Dozent"
+
+#: rtmedia/main.php:74 rtmedia/main.php:144
+msgid "Notifications menu"
+msgstr "Benachrichtigungsmenü"
+
+#: searchform.php:9
+msgid "Enter Keyword"
+msgstr "Suchbegriff"
+
+#: searchform.php:13
+msgid "Go"
+msgstr "Los"
+
+#: single-sfwd-courses.php:149
+msgid "enrolled"
+msgstr "Eingeschrieben"
+
+#: single-sfwd-courses.php:172
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#: single-sfwd-courses.php:174
+#, php-format
+msgctxt "Course Features  Label"
+msgid "%s Features"
+msgstr "%s Eigenschaften"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-bbpress.php:18
+#: template-parts/content-buddypress.php:18
+#: template-parts/content/entry-full-width.php:18
+#: template-parts/content/entry_content.php:19
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Weiterlesen<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-bbpress.php:31
+#: template-parts/content-buddypress.php:31
+#: template-parts/content/entry-full-width.php:31
+#: template-parts/content/entry-page.php:36
+#: template-parts/content/entry_content.php:36
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: template-parts/content/entry-attachment.php:33
+#: template-parts/content/entry.php:32
+msgid "Previous:"
+msgstr "Zurück:"
+
+#: template-parts/content/entry-attachment.php:43
+#: template-parts/content/entry.php:33
+msgid "Next:"
+msgstr "Weiter:"
+
+#: template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
+#. translators: %s: post title
+#: template-parts/content/entry_actions.php:21
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Hinterlasse einen Kommentar <span class=\"screen-reader-text\"> zu %s</span>"
+
+#. translators: %s: post title
+#: template-parts/content/entry_actions.php:40
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Bearbeiten <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content/entry_meta.php:65
+#: template-parts/content/entry_meta.php:68
+#: template-parts/content/entry_meta.php:73
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "von %s"
+
+#. translators: %s: post parent title
+#: template-parts/content/entry_meta.php:92
+#, php-format
+msgctxt "post parent"
+msgid "In %s"
+msgstr "In %s"
+
+#. translators: %s: post parent title
+#: template-parts/content/entry_meta.php:95
+#, php-format
+msgctxt "post parent"
+msgid "in %s"
+msgstr "in %s"
+
+#. translators: %s: post date
+#: template-parts/content/entry_meta.php:112
+#, php-format
+msgctxt "post date"
+msgid ": %s"
+msgstr ": %s"
+
+#. translators: separator between taxonomy terms
+#: template-parts/content/entry_taxonomies.php:24
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: %s: list of taxonomy terms
+#: template-parts/content/entry_taxonomies.php:31
+#, php-format
+msgid "Posted in %s"
+msgstr "Veröffentlicht in %s"
+
+#. translators: %s: list of taxonomy terms
+#: template-parts/content/entry_taxonomies.php:37
+#, php-format
+msgid "Tagged %s"
+msgstr "Getaggt mit %s"
+
+#. translators: %s: taxonomy name
+#: template-parts/content/entry_taxonomies.php:44
+#, php-format
+msgid "%s:"
+msgstr "%s:"
+
+#: template-parts/content/error-404.php:16
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Es sieht so aus, als wäre hier nichts. Vielleicht einen der folgenden Links "
+"oder eine Suche probieren?"
+
+#: template-parts/content/error-404.php:27
+msgid "Most Used Categories"
+msgstr "Meistgenutzte Kategorien"
+
+#. translators: %1$s: smiley
+#: template-parts/content/error-404.php:45
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Versuchen Sie es mal im monatlichen Archiv. %1$s"
+
+#: template-parts/content/error-500.php:14
+msgid "Oops! Something went wrong."
+msgstr "Leider ist etwas schief gegangen."
+
+#: template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr "Oops! Es sieht so aus, als ob Sie offline sind."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/error.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Sind Sie bereit Ihren ersten Beitrag zu veröffentlichen?  <a href=\"%1$s"
+"\">Starten Sie hier</a>."
+
+#: template-parts/content/error.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid. Ihre Suche ergab keinen Treffer. Bitte versuchen Sie es mit "
+"einem anderen Begriff."
+
+#: template-parts/content/error.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint, dass wir nicht finden können, was du suchst. Vielleicht kann die "
+"Suche helfen."
+
+#: template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oje! Die Seite wurde nicht gefunden."
+
+#: template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#. translators: %s: search query
+#: template-parts/content/page_header.php:41
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: template-parts/content/pagination.php:13
+msgctxt "previous set of search results"
+msgid "Previous"
+msgstr "Zurück"
+
+#: template-parts/content/pagination.php:14
+msgctxt "next set of search results"
+msgid "Next"
+msgstr "Nächste"
+
+#: template-parts/content/pagination.php:15
+msgid "Page navigation"
+msgstr "Seitennavigation"
+
+#: template-parts/header/buddypress-profile.php:46
+msgid "View all notifications"
+msgstr "Alle Meldungen sehen"
+
+#: template-parts/header/buddypress-profile.php:51
+msgid "No new notifications"
+msgstr "Keine neuen Benachrichtigungen"
+
+#: template-parts/header/buddypress-profile.php:87
+msgid "Login"
+msgstr "Anmelden"
+
+#: template-parts/header/buddypress-profile.php:87
+msgid "Log in"
+msgstr "Anmelden"
+
+#: template-parts/header/buddypress-profile.php:94
+msgid "Register"
+msgstr "Registrieren"
+
+#: template-parts/header/navigation.php:14
+msgid "Main menu"
+msgstr "Hauptmenü"
+
+#: template-parts/header/navigation.php:37
+msgid "Open menu"
+msgstr "Menü öffnen"
+
+#: template-parts/header/navigation.php:56
+msgid "Close"
+msgstr "Schließen"
+
+#: updater/theme-updater-admin.php:276 updater/theme-updater-admin.php:330
+#: updater/theme-updater-admin.php:383
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte nochmals versuchen."
+
+#: updater/theme-updater-admin.php:296
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Der Lizenzschlüssel ist am %s abgelaufen."
+
+#: updater/theme-updater-admin.php:304
+msgid "Your license key has been disabled."
+msgstr "Der Lizenzschlüssel wurde deaktiviert."
+
+#: updater/theme-updater-admin.php:309
+msgid "Invalid license."
+msgstr "Ungültige Lizenz."
+
+#: updater/theme-updater-admin.php:315
+msgid "Your license is not active for this URL."
+msgstr "Die Lizenz ist für diese URL nicht aktiviert."
+
+#: updater/theme-updater-admin.php:320
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Das scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#: updater/theme-updater-admin.php:325
+msgid "Your license key has reached its activation limit."
+msgstr "Der Lizenzschlüssel hat das Limit an Aktivierungen erreicht."
+
+#: updater/theme-updater.php:31
+msgid "BuddyX Pro Theme License"
+msgstr "BuddyX Pro Theme Lizenz"
+
+#: updater/theme-updater.php:32
+msgid "Enter your theme license key."
+msgstr "Lizenzschlüssel deines Themes eingeben."
+
+#: updater/theme-updater.php:33
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: updater/theme-updater.php:34
+msgid "License Action"
+msgstr "Lizenz-Aktion"
+
+#: updater/theme-updater.php:35
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: updater/theme-updater.php:36
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: updater/theme-updater.php:37 updater/theme-updater.php:50
+msgid "License status is unknown."
+msgstr "Status der Lizenz ist unbekannt."
+
+#: updater/theme-updater.php:38
+msgid "Renew?"
+msgstr "Erneuern?"
+
+#: updater/theme-updater.php:39
+msgid "unlimited"
+msgstr "unbegrenzt"
+
+#: updater/theme-updater.php:40
+msgid "License key is active."
+msgstr "Lizenzschlüssel ist aktiviert."
+
+#: updater/theme-updater.php:41
+#, php-format
+msgid "Expires %s."
+msgstr "Läuft am %s ab."
+
+#: updater/theme-updater.php:42
+msgid "Lifetime License."
+msgstr "Lebenslange Lizenz."
+
+#: updater/theme-updater.php:43
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Du hast %1$s von maximal %2$s Seiten aktiviert."
+
+#: updater/theme-updater.php:44
+#, php-format
+msgid "License key expired %s."
+msgstr "Lizenzschlüssel abgelaufen %s."
+
+#: updater/theme-updater.php:45
+msgid "License key has expired."
+msgstr "Lizenzschlüssel ist abgelaufen."
+
+#: updater/theme-updater.php:46
+msgid "License keys do not match."
+msgstr "Lizenzschlüssel passen nicht."
+
+#: updater/theme-updater.php:47
+msgid "License is inactive."
+msgstr "Lizenz ist inaktiv."
+
+#: updater/theme-updater.php:48
+msgid "License key is disabled."
+msgstr "Lizenzschlüssel deaktiviert."
+
+#: updater/theme-updater.php:49
+msgid "Site is inactive."
+msgstr "Webseite ist inaktiv."
+
+#: updater/theme-updater.php:51
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"Durch das Aktualisieren dieses Themas gehen alle von Ihnen vorgenommenen "
+"Anpassungen verloren. 'Abbrechen' zum Stoppen, 'OK' zum Aktualisieren."
+
+#: updater/theme-updater.php:52
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> steht zur Verfügung. <a href=\"%3$s\" class="
+"\"thickbox\" title=\"% 4s\">Erfahren Sie, was neu ist</a> oder <a href=\"%5$s"
+"\"%6$s>Jetzt aktualisieren</a>."
+
+#: wc-vendors/store/store-header.php:59
+msgid "Verified"
+msgstr "Verifiziert"
+
+#: wc-vendors/store/store-header.php:76
+msgid "Rating"
+msgstr "Bewertung"
+
+#: wc-vendors/store/store-header.php:87
+msgid "Phone"
+msgstr "Telefon"
+
+#: wc-vendors/store/store-header.php:98
+msgid "Address"
+msgstr "Adresse"
+
+#: wc-vendors/store/store-header.php:112
+msgid "Social"
+msgstr "Social"
+
+#: wc-vendors/store/store-header.php:122
+msgid "Total Sales"
+msgstr "Gesamtumsatz"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:79
+msgid "Product"
+msgstr "Produkt"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:99
+msgid "Price"
+msgstr "Preis"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:105
+msgid "Quantity"
+msgstr "Menge"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:127
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: woocommerce/cart/cart.php:58
+msgid "Remove this item"
+msgstr "Diesen Artikel entfernen"
+
+#: woocommerce/cart/cart.php:94
+msgid "Available on backorder"
+msgstr "Verfügbar auf Nachbestellung"
+
+#: woocommerce/cart/cart.php:145
+msgid "Coupon:"
+msgstr "Gutschein:"
+
+#: woocommerce/cart/cart.php:147
+msgid "Apply coupon"
+msgstr "Gutschein anwenden"
+
+#: woocommerce/cart/cart.php:152
+msgid "Update cart"
+msgstr "Warenkorb aktualisieren"
+
+#. Theme Name of the plugin/theme
+msgid "BuddyxPro"
+msgstr "BuddyX Pro"
+
+#. Theme URI of the plugin/theme
+msgid "https://wbcomdesigns.com/downloads/buddyx"
+msgstr "https://wbcomdesigns.com/downloads/buddyx"
+
+#. Description of the plugin/theme
+msgid "Pro theme for your community with BuddyPress."
+msgstr "Pro-Theme für Ihre Community mit BuddyPress."
+
+#. Author of the plugin/theme
+msgid "wbcomdesigns"
+msgstr "wbcomdesigns"
+
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com"
+msgstr "https://wbcomdesigns.com/"
+
+#. Template Name of the plugin/theme
+msgid "Page-Without-Sidebar"
+msgstr "Seite ohne Seitenleiste"
+
+#. Template Name of the plugin/theme
+msgid "Full-Width-No-Title"
+msgstr "Volle Breite ohne Titel"

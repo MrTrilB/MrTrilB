@@ -1,0 +1,801 @@
+# Copyright (C) 2022
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-17 06:41:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Varun Dubey\n"
+"Language-Team: Wbcom Designs\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/class-buddypress-reactions-admin.php:113
+msgid "Are you sure you want to permanently delete this Shortcode?"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:127
+msgid "WB Plugins"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:129
+msgid "General"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:131
+#: admin/class-buddypress-reactions-admin.php:161
+msgid "Buddypress Reactions"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:147
+msgid "Welcome"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:148
+msgid "Emojis"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:150
+msgid "My Shortcodes"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:151
+#: admin/inc/buddypress-reaction-bp-integration.php:16
+msgid "BuddyPress Integration"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:250
+msgid "Shortcode deleted successfully"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:253
+msgid "Could not delete shortcode"
+msgstr ""
+
+#: admin/class-buddypress-reactions-admin.php:274
+msgid "Emoji name updated successfully"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-bp-integration.php:27
+msgid "Activate BP reactions on activity feed"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-bp-integration.php:35
+#: admin/inc/buddypress-reaction-bp-integration.php:57
+msgid "Choose your shortcode"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-bp-integration.php:49
+msgid "Activate BP reactions on activity comment"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:21
+msgid "What’s your Reaction?"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:72
+msgid "You have reached maximum allowed emojis for the layout"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:97
+msgid "Drag & Drop to Arrange"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:106
+msgid "Select emojis above to make your own set of reactions"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:125
+msgid "Name your shortcode"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:151
+msgid "Bind to post type"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:153
+msgid "Select post type"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:160
+msgid "Automatically render shortcode for the bound post type"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:161
+msgid ""
+"If you have bound shortcode to any post type above and decided to paste it "
+"manually into your post, then you must uncheck this option. Otherwise let "
+"plugin to handle it automatically."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:166
+msgid "Emoji Animation"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:170
+msgid "Animated"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:176
+msgid "Animate single emoji on hover"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:182
+msgid "Animate all on hover"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:188
+msgid "Static"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:211
+msgid "What's your Reaction?"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:260
+msgid "None"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:261
+msgid "Dotted"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:262
+msgid "Dashed"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:263
+msgid "Solid"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:264
+msgid "Double"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:265
+msgid "Groove"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-create-shortcode.php:266
+msgid "Ridge"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-emoji-page.php:18
+msgid "Emoji Lists"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-emoji-page.php:19
+msgid ""
+"Click to edit icon to update emoji name. After change the name then you "
+"have to hit the enter key to update emoji name."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-emoji-page.php:23
+msgid "Icon"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-emoji-page.php:24
+#: admin/inc/buddypress-reaction-my-shortcodes.php:22
+msgid "Name"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-emoji-page.php:25
+#: admin/wbcom/templates/wbcom-license-page.php:14
+#: admin/wbcom/templates/wbcom-license-page.php:26
+msgid "Action"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-emoji-page.php:46
+msgid "You have no any Emoji."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-my-shortcodes.php:17
+msgid "Shortcodes Lists"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-my-shortcodes.php:21
+msgid "ID"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-my-shortcodes.php:23
+msgid "Post Type"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-my-shortcodes.php:24
+msgid "Shortcode"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-my-shortcodes.php:25
+msgid "Actions"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-my-shortcodes.php:53
+msgid "You have no any shortcode. Go to Shortcode Generator and make!"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:15
+msgid "Welcome to BuddyPress Reactions"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:16
+msgid ""
+"BuddyPress Reactions helps you to post the reactions in the BuddyPress "
+"activities and the comments. It allows generating the custom set of "
+"reactions using shortcodes. BuddyPress reaction plugin makes the shortcode "
+"generation very easy. You just drag and drop the reactions, set the "
+"animation type, name the shortcode and here you go! These shortcodes can "
+"also be bound to the post types."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:22
+msgid "Help &amp; Support Resources"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:23
+msgid ""
+"Here are all the resources you may need to get help from us. Documentation "
+"is usually the best place to start. Should you require help anytime, our "
+"customer care team is available to assist you at the support center. "
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:29
+msgid "Documentation"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:30
+msgid ""
+"We have prepared an extensive guide on BuddyPress Google ClassRoom to learn "
+"all aspects of the plugin. You will find most of your answers here."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:31
+msgid "Read Documentation"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:35
+msgid "Support Center"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:36
+msgid ""
+"We strive to offer the best customer care via our support center. Once your "
+"theme is activated, you can ask us for help anytime."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:37
+msgid "Get Support"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:41
+msgid "Got Feedback?"
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:42
+msgid ""
+"We want to hear about your experience with the plugin. We would also love "
+"to hear any suggestions you may for future updates."
+msgstr ""
+
+#: admin/inc/buddypress-reaction-welcome-page.php:43
+msgid "Send Feedback"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:5
+msgid "Plugin License Settings"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:10
+#: admin/wbcom/templates/wbcom-license-page.php:22
+msgid "Product"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:11
+#: admin/wbcom/templates/wbcom-license-page.php:23
+msgid "Version"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:12
+#: admin/wbcom/templates/wbcom-license-page.php:24
+msgid "Key"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:13
+#: admin/wbcom/templates/wbcom-license-page.php:25
+msgid "Status"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:10
+msgid "Paid Addons"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:28
+#: admin/wbcom/templates/wbcom-themes-page.php:118
+#: admin/wbcom/templates/wbcom-themes-page.php:139
+msgid "View"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:37
+msgid "Free Addons"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:43
+msgid "Install"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:47
+#: admin/wbcom/wbcom-admin-settings.php:362
+msgid "Activate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:51
+#: admin/wbcom/wbcom-admin-settings.php:363
+msgid "Deactivate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:5
+#: admin/wbcom/wbcom-admin-settings.php:390
+#: admin/wbcom/wbcom-admin-settings.php:475
+msgid "Support"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:7
+msgid "Having any question or issue ?"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:9
+msgid ""
+"Our team is here to help you out at anytime. If you have any idea about how "
+"we could improve. You can share access to your site on our helpdesk if it "
+"can help getting faster. There are two ways to in touch with us :"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:21
+msgid "Tickets Support"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:22
+msgid ""
+"Open a ticket on our helpdesk, we don't guarantee a fast response but "
+"within a week. Except if you've purchased one of our product we'll reply "
+"within 24 hours."
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:26
+msgid "Open a ticket"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:41
+#: admin/wbcom/templates/wbcom-support-page.php:46
+msgid "Contact Us"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:42
+msgid ""
+"Create a new thread on our plugin page, participation is open to anyone "
+"from all around the world. We'll be there to help as well but can't "
+"guarantee any delay."
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:13
+msgid "Reign Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:15
+msgid "Multiple Member Directory Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:16
+msgid "Multiple Member Header Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:17
+msgid "Multiple Group Directory Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:18
+msgid "Multiple Group Header Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:19
+msgid "BuddyPress Customization Options"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:20
+msgid "BuddyPress Extra Widgets"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:21
+msgid "Inbuilt Social Profile Module"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:24
+#: admin/wbcom/templates/wbcom-themes-page.php:49
+#: admin/wbcom/templates/wbcom-themes-page.php:72
+#: admin/wbcom/templates/wbcom-themes-page.php:94
+msgid "Purchase"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:25
+#: admin/wbcom/templates/wbcom-themes-page.php:50
+#: admin/wbcom/templates/wbcom-themes-page.php:73
+#: admin/wbcom/templates/wbcom-themes-page.php:95
+msgid "Preview"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:38
+msgid "LearnMate Solution"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:40
+msgid "Add Review to your course"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:41
+msgid "Course Coming Soon"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:42
+#: admin/wbcom/templates/wbcom-themes-page.php:68
+msgid "Grid And List Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:43
+msgid "Learndash/LifterLMS Extra Widgets"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:44
+msgid "Unparalleled Course Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:45
+msgid "Awesome Learndash/LifterLMS Pages"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:46
+msgid "Distraction Free Reading"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:63
+msgid "StoreMate Solution"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:65
+msgid "Dokan Extra Widgets"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:66
+msgid "Unique Single Product Page Customization"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:67
+msgid "Awesome WooCommerce Pages"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:69
+msgid "Automated Mega Menu Support"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:86
+msgid "Jobmate Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:88
+msgid "Simple live searching and filtering"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:89
+msgid "Unique Job listing Page"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:90
+msgid "Awesome Resume list Page"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:91
+msgid "Outstanding all job maanger pagesLayout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:108
+msgid "BuddyX Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:110
+msgid "Responsive BuddyPress Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:111
+#: admin/wbcom/templates/wbcom-themes-page.php:134
+msgid "Site Ready In One-Click"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:112
+msgid "Members and Groups Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:113
+msgid "WooCommerce Ready"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:114
+msgid "Supported Muitiple Plugins"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:115
+#: admin/wbcom/templates/wbcom-themes-page.php:136
+msgid "Suitable for All Devices"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:131
+msgid "KnowX Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:133
+msgid "Free WordPress Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:135
+msgid "Create Knowledge base"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:179
+msgid "Custom Font Uploader"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:181
+msgid ""
+"It also allows you to upload your own custom font to your site and use them "
+"using custom css."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:187
+msgid "BuddyPress Create Group Type"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:189
+msgid "It will help to create group type for BuddyPress Groups."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:195
+msgid "BuddyPress Member Reviews"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:197
+msgid ""
+"This plugin allows only site members to add reviews to the buddypress "
+"members on the site and even rate the member’s profile out of 5 points with "
+"multiple review criteria."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:203
+msgid "BuddyPress Group Reviews"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:205
+msgid ""
+"This plugin allows the BuddyPress Members to give reviews to the BuddyPress "
+"groups on the site. The review form allows the users to give text review, "
+"even rate the group on the basis of multiple criterias."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:223
+msgid "BuddyPress Moderation Pro"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:224
+msgid ""
+"BuddyPress Community Moderation offers a solution for site owners to keep "
+"their communities straight. With community policing strategy, members of "
+"the community have an option for moderation sitewide by attaching flags to "
+"content created within the various components."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:229
+msgid "BuddyPress Polls"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:230
+msgid ""
+"Use BuddyPress Polls plugin to create polls inside the activity, let your "
+"user response to your polls. Members can create pools like activities, "
+"easily votes on them."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:235
+msgid "BuddyPress Hashtags"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:236
+msgid ""
+"Allows members to use hashtags in BuddyPress activities and bbPress topics "
+"and ready with widgets."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:241
+msgid "BuddyPress Profanity"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:242
+msgid ""
+"Use BuddyPress Profanity plugin to censor content in your community! Easily "
+"Censor all the unwanted words in activities, private messages contents by "
+"specifying a list of keywords to be filtered."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:247
+msgid "BuddyPress Private Community Pro"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:248
+msgid ""
+"This plugin offers a lockdown for BuddyPress Component and will ask users "
+"to log in go further to check profile or any other protected details."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:253
+msgid "BuddyPress Profile Pro"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:254
+msgid ""
+"This plugin gives you the power to extend BuddyPress Profiles with repeater "
+"fields and groups. You can easily add multiple field groups and display "
+"them at member’s profile."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:259
+msgid "BuddyPress Sticky Post"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:260
+msgid ""
+"This will make it easier for the site administrator to make the pinned "
+"activity item recognized first by the community whenever they visit the "
+"site."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:265
+msgid "BuddyPress Auto Friends"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:266
+msgid ""
+"Allow the site admin to select global friends for all his members with "
+"BuddyPress Auto friends plugin."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:271
+msgid "BuddyPress Quotes"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:272
+msgid ""
+"BuddyPress quotes plugin comes with the feature to let users post their "
+"activity updates with interactive backgrounds selection such as colors and "
+"images set by the site administrator, so they can tell a more expressive "
+"story."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:384
+#: admin/wbcom/wbcom-admin-settings.php:463
+msgid "Our Plugins"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:387
+#: admin/wbcom/wbcom-admin-settings.php:469
+msgid "Our Themes"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:457
+msgid "Settings"
+msgstr ""
+
+#: admin/wbcom/wbcom-paid-plugin-settings.php:29
+#: admin/wbcom/wbcom-paid-plugin-settings.php:43
+msgid "License"
+msgstr ""
+
+#: buddypress-reactions-stats-widget.php:28
+msgid "A Reactions last 3 Months Stats widget"
+msgstr ""
+
+#: buddypress-reactions-stats-widget.php:95
+msgid "Reactions Statistics"
+msgstr ""
+
+#: buddypress-reactions-stats-widget.php:103
+#: buddypress-reactions-widget.php:140
+msgid "Title:"
+msgstr ""
+
+#: buddypress-reactions-widget.php:28
+msgid "A Reactions list widget"
+msgstr ""
+
+#: buddypress-reactions-widget.php:123
+msgid "Reactions List"
+msgstr ""
+
+#: buddypress-reactions-widget.php:143
+msgid "Statistic"
+msgstr ""
+
+#: buddypress-reactions-widget.php:145
+msgid "Forever"
+msgstr ""
+
+#: buddypress-reactions-widget.php:146
+msgid "Last Month"
+msgstr ""
+
+#: buddypress-reactions-widget.php:147
+msgid "Last Week"
+msgstr ""
+
+#: buddypress-reactions-widget.php:154
+msgid "Reaction Shotcode"
+msgstr ""
+
+#: buddypress-reactions-widget.php:164
+msgid "Max reactions show:"
+msgstr ""
+
+#: buddypress-reactions.php:119 buddypress-reactions.php:151
+msgid " BuddyPress Reactions"
+msgstr ""
+
+#: buddypress-reactions.php:120
+msgid "BuddyPress"
+msgstr ""
+
+#: buddypress-reactions.php:122
+msgid "%1$s is ineffective now as it requires %2$s to be installed and active."
+msgstr ""
+
+#: buddypress-reactions.php:152
+msgid "Youzify"
+msgstr ""
+
+#: buddypress-reactions.php:154
+msgid "%1$s plugin can not be use with %2$s plugin."
+msgstr ""
+
+#: public/class-buddypress-reactions-public.php:114
+msgid "Reactions Count"
+msgstr ""
+
+#: public/class-buddypress-reactions-public.php:156
+#: public/class-buddypress-reactions-public.php:204
+msgid "React!"
+msgstr ""
+
+#: public/class-buddypress-reactions-public.php:415
+msgid "All: %s"
+msgstr ""
+
+#: public/class-buddypress-reactions-public.php:447
+msgid "Profile picture of %s"
+msgstr ""
+
+#: buddypress-reactions-stats-widget.php:32
+msgctxt "widget name"
+msgid "(BuddyPress) Reactions Last 3 Months"
+msgstr ""
+
+#: buddypress-reactions-widget.php:32
+msgctxt "widget name"
+msgid "(BuddyPress) Reactions List"
+msgstr ""

@@ -1,0 +1,15 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_buddyx-pro">
+			<key name="site_loader_text" />
+			<key name="site_topbar_left_area" />
+			<key name="topbar_social_links" />
+			<key name="buddyx_login_description" />
+			<key name="buddyx_sign_form_shortcode" />
+			<key name="buddyx_login_redirect_url" />
+			<key name="buddyx_register_redirect_url" />
+			<key name="buddyx_woo_off_canvas_filter_text" />
+			<key name="site_copyright_text" />
+		</key>
+	</admin-texts>
+</wpml-config>
